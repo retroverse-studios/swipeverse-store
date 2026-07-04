@@ -21,8 +21,13 @@ const errors = [];
 const fail = (msg) => errors.push(msg);
 
 function checkNoUrl(value, where) {
-    if (typeof value === "string" && /^(https?:)?\/\//i.test(value)) {
+    if (typeof value !== "string") return;
+    if (/^(https?:)?\/\//i.test(value)) {
         fail(`${where}: external URLs are not allowed in decks ("${value.slice(0, 60)}...")`);
+    }
+    // Embedded images bypass URL rules and can't be text-moderated — reject.
+    if (/^(data|blob|javascript):/i.test(value.trim())) {
+        fail(`${where}: data:/blob: URIs are not allowed — use bundled archetype art or the store asset palette`);
     }
 }
 

@@ -41,9 +41,10 @@ Automated checks (CI will reject):
 
 - Stat effects must be integers within ±50 (aim for ±35; the game clamps).
 - `nextCardIndex` jumps must land inside the deck.
-- **No external URLs** in decks (`imageUrl`, `soundUrl`) — cards use each
-  reality's image set. Reality `imageSet` URLs must be from allowlisted hosts
-  (currently `images.unsplash.com`).
+- **No external URLs** in decks (`imageUrl`, `soundUrl`) — and no embedded
+  `data:`/`blob:` URIs. Card art comes from the archetype defaults or bundled
+  scene paths (`/cards/...`). Reality `imageSet` URLs must be from allowlisted
+  hosts (currently `images.unsplash.com`).
 - Size limits: decks ≤ 50 cards, prompts ≤ 500 chars, catalog entries ≤ 100 KB.
 
 Human review (maintainer judgment, no appeals process — this is a curated
