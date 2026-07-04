@@ -10,6 +10,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const STAT_NAMES = ["Power", "Wealth", "People", "Knowledge"];
+const ARCHETYPES = ["petitioner", "crisis", "opportunity", "faction", "advisor", "chain", "judgement", "gamble", "terminal"];
 const MAX_EFFECT = 50;
 const MAX_CARDS = 50;
 const MAX_PROMPT_CHARS = 500;
@@ -66,6 +67,9 @@ function checkDeck(deck, where) {
         const cw = `${where}.cards[${i}]`;
         if (typeof card.prompt !== "string" || !card.prompt.trim()) fail(`${cw}: prompt is required`);
         else if (card.prompt.length > MAX_PROMPT_CHARS) fail(`${cw}: prompt exceeds ${MAX_PROMPT_CHARS} chars`);
+        if (card.archetype !== undefined && !ARCHETYPES.includes(card.archetype)) {
+            fail(`${cw}: unknown archetype "${card.archetype}" (allowed: ${ARCHETYPES.join(", ")})`);
+        }
         checkNoUrl(card.imageUrl, `${cw}.imageUrl`);
         checkChoice(card.leftChoice, deck.cards.length, `${cw}.leftChoice`);
         checkChoice(card.rightChoice, deck.cards.length, `${cw}.rightChoice`);
