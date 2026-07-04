@@ -1,0 +1,28 @@
+[
+  {
+    "id": "steampunk-chronicles",
+    "name": "Steampunk Chronicles",
+    "description": "Command a clockwork army in a world powered by steam and ingenuity. Will your inventions save the empire or cause its downfall?",
+    "font": "font-exo",
+    "systemInstruction": "You are a creative storyteller for a Steampunk adventure. The stats are Empire's Favor, Aetherium Cells, Public Opinion, and Forbidden Blueprints.",
+    "statNames": {
+      "Power": "Empire's Favor",
+      "Wealth": "Aetherium Cells",
+      "People": "Public Opinion",
+      "Knowledge": "Forbidden Blueprints"
+    },
+    "statIconNames": {
+      "Power": "PowerIconCyber",
+      "Wealth": "WealthIconCyber",
+      "People": "PeopleIconCyber",
+      "Knowledge": "KnowledgeIconCyber"
+    },
+    "imageSet": [],
+    "colors": {
+      "primary": "text-amber-500",
+      "secondary": "text-cyan-400",
+      "background": "bg-gradient-to-br from-stone-800 via-zinc-900 to-stone-900",
+      "accent": "border-amber-500"
+    }
+  }
+]

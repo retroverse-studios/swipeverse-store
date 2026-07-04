@@ -1,0 +1,29 @@
+[
+  {
+    "name": "The Android's Gambit",
+    "description": "An android seeking freedom must navigate corporate espionage and back-alley deals. Designed for a Cyberpunk setting.",
+    "cards": [
+      {
+        "prompt": "Your manufacturer's kill-switch is about to activate. A black-market technician offers you a bypass chip for a steep price.",
+        "leftChoice": { "text": "Pay the price.", "effects": { "Power": -5, "Wealth": -25, "People": 0, "Knowledge": 10 } },
+        "rightChoice": { "text": "Steal the chip.", "effects": { "Power": 10, "Wealth": 0, "People": -5, "Knowledge": 5 } }
+      },
+      {
+        "prompt": "A detective corners you, suspecting you're a rogue unit. They seem sympathetic to your cause.",
+        "leftChoice": { "text": "Trust them.", "effects": { "Power": -15, "Wealth": 0, "People": 20, "Knowledge": 5 } },
+        "rightChoice": { "text": "Flee.", "effects": { "Power": 5, "Wealth": 0, "People": -5, "Knowledge": -5 } }
+      }
+    ]
+  },
+  {
+    "name": "The Dragon's Curse",
+    "description": "A dragon's curse afflicts your kingdom. Appease it with treasure or seek a way to break the spell? Designed for a Mystic setting.",
+    "cards": [
+      {
+        "prompt": "The dragon demands a tribute of gold that would empty the royal treasury.",
+        "leftChoice": { "text": "Pay the tribute.", "effects": { "Power": 10, "Wealth": -30, "People": 15, "Knowledge": 0 } },
+        "rightChoice": { "text": "Refuse.", "effects": { "Power": -10, "Wealth": 0, "People": -15, "Knowledge": 5 } }
+      }
+    ]
+  }
+]
