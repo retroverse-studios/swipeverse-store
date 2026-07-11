@@ -76,6 +76,10 @@ function checkDeck(deck, where) {
     if (typeof deck.name !== "string" || !deck.name.trim()) fail(`${where}: name is required`);
     if (typeof deck.description !== "string" || !deck.description.trim()) fail(`${where}: description is required`);
     if (deck.source !== undefined) fail(`${where}: remove the "source" field (reserved for the app)`);
+    if (deck.series !== undefined) {
+        if (typeof deck.series?.name !== "string" || !deck.series.name.trim()) fail(`${where}: series.name must be a non-empty string`);
+        if (!Number.isInteger(deck.series?.part) || deck.series.part < 1) fail(`${where}: series.part must be an integer >= 1`);
+    }
     if (!Array.isArray(deck.cards) || deck.cards.length === 0) return fail(`${where}: cards array is required`);
     if (deck.cards.length > MAX_CARDS) fail(`${where}: ${deck.cards.length} cards exceeds the ${MAX_CARDS}-card limit`);
     deck.cards.forEach((card, i) => {
