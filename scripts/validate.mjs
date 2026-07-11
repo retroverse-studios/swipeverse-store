@@ -11,6 +11,12 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const STAT_NAMES = ["Power", "Wealth", "People", "Knowledge"];
 const ARCHETYPES = ["petitioner", "crisis", "opportunity", "faction", "advisor", "chain", "judgement", "gamble", "terminal"];
+const CATEGORIES = ["game", "education"];
+
+function checkCategory(entry, where) {
+    if (entry.category === undefined) fail(`${where}: category is required ("game" or "education")`);
+    else if (!CATEGORIES.includes(entry.category)) fail(`${where}: unknown category "${entry.category}"`);
+}
 const MAX_EFFECT = 50;
 const MAX_CARDS = 50;
 const MAX_PROMPT_CHARS = 500;
@@ -110,12 +116,18 @@ function loadArray(file) {
 }
 
 const decks = loadArray("catalog/decks.json");
-decks.forEach((deck, i) => checkDeck(deck, `decks.json[${i}] "${deck?.name ?? "?"}"`));
+decks.forEach((deck, i) => {
+    checkDeck(deck, `decks.json[${i}] "${deck?.name ?? "?"}"`);
+    checkCategory(deck, `decks.json[${i}] "${deck?.name ?? "?"}"`);
+});
 const deckNames = decks.map(d => d?.name?.toLowerCase());
 new Set(deckNames.filter((n, i) => deckNames.indexOf(n) !== i)).forEach(n => fail(`decks.json: duplicate deck name "${n}"`));
 
 const realities = loadArray("catalog/realities.json");
-realities.forEach((reality, i) => checkReality(reality, `realities.json[${i}] "${reality?.id ?? "?"}"`));
+realities.forEach((reality, i) => {
+    checkReality(reality, `realities.json[${i}] "${reality?.id ?? "?"}"`);
+    checkCategory(reality, `realities.json[${i}] "${reality?.id ?? "?"}"`);
+});
 const realityIds = realities.map(r => r?.id);
 new Set(realityIds.filter((id, i) => realityIds.indexOf(id) !== i)).forEach(id => fail(`realities.json: duplicate reality id "${id}"`));
 

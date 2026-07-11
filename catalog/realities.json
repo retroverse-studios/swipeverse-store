@@ -23,6 +23,7 @@
       "secondary": "text-cyan-400",
       "background": "bg-gradient-to-br from-stone-800 via-zinc-900 to-stone-900",
       "accent": "border-amber-500"
-    }
+    },
+    "category": "game"
   }
 ]

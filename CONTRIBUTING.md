@@ -35,6 +35,10 @@ Shapes match the app's `types.ts`:
 }
 ```
 
+Every catalog entry needs a `category`: `"game"` (default expectation —
+built for fun first) or `"education"` (built to teach; listed in the store's
+Education section so players know what they're picking up).
+
 ## Content policy
 
 Automated checks (CI will reject):
