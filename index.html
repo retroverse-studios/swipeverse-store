@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwipeVerse Store — community realities & stories</title>
+  <meta name="description" content="The community content catalog for SwipeVerse: curated realities and story decks, free art palette for creators, and the Creator Guide.">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmNTJlMSI+PHBhdGggZD0iTTEyIDJMMy41IDEyIDEyIDIyIDIwLjUgMTIgMTIgMloiLz48L3N2Zz4=">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --gold:#c9962e; --gold-bright:#f6e4a8; --paper:#e9dfc8; --muted:#9a8db4; --velvet:#0d0718; --velvet2:#120a22; --border:rgba(201,150,46,.35); }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Exo 2',system-ui,sans-serif; color:var(--paper); line-height:1.6;
+      background: radial-gradient(120% 100% at 50% 0%, #1c1030 0%, #0d0718 55%, #060310 100%); background-attachment: fixed; }
+    .container { max-width: 880px; margin:0 auto; padding: 0 1.25rem; }
+    h1,h2 { font-family:'Cinzel',serif; }
+    .hero { padding: 5rem 0 2.5rem; text-align:center; }
+    .hero h1 { font-size: clamp(1.8rem,5vw,2.8rem); font-weight:800;
+      background: linear-gradient(180deg, var(--gold-bright), var(--gold) 60%, #8a6a1c);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+      filter: drop-shadow(0 0 20px rgba(201,150,46,.3)); }
+    .hero p { color: var(--muted); max-width: 56ch; margin: 1rem auto 0; }
+    .cta { display:inline-block; margin: 1.6rem .4rem 0; padding:.8rem 1.5rem; border-radius:10px; font-weight:700; text-decoration:none; }
+    .cta-gold { background: linear-gradient(180deg,var(--gold-bright),var(--gold)); color:#241503; box-shadow:0 0 24px rgba(201,150,46,.35); }
+    .cta-ghost { border:1px solid var(--border); color:var(--paper); }
+    .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; padding: 2.5rem 0; }
+    @media (max-width:680px){ .grid{ grid-template-columns:1fr; } }
+    .tile { background:var(--velvet2); border:1px solid var(--border); border-radius:14px; padding:1.4rem; text-decoration:none; color:var(--paper); display:block; transition:border-color .2s; }
+    .tile:hover { border-color: var(--gold-bright); }
+    .tile h2 { color:var(--gold-bright); font-size:1.05rem; margin-bottom:.5rem; }
+    .tile p { color:var(--muted); font-size:.92rem; }
+    .tile code { color:var(--paper); background:rgba(255,255,255,.06); padding:.1rem .35rem; border-radius:4px; font-size:.82rem; }
+    footer { border-top:1px solid var(--border); margin-top:2rem; padding:1.5rem 0 2.5rem; text-align:center; color:var(--muted); font-size:.9rem; }
+    footer a { color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>SWIPEVERSE STORE</h1>
+      <p>The community catalog for <strong>SwipeVerse</strong> — curated realities and story decks,
+        reviewed before publish. Free, no accounts; everything you add plays offline in your browser.</p>
+      <a class="cta cta-gold" href="https://swipeverse.app/app/">▶ Play SwipeVerse</a>
+      <a class="cta cta-ghost" href="guide/">Creator Guide</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <a class="tile" href="https://swipeverse.app/app/">
+        <h2>Browse in the app</h2>
+        <p>The store lives inside SwipeVerse — open the game and tap <strong>Store</strong> to browse,
+          add realities and stories to your collection, and manage your library.</p>
+      </a>
+      <a class="tile" href="guide/">
+        <h2>Create &amp; submit</h2>
+        <p>Build decks in the in-game editor, check them with the Analyze tool, and submit via pull
+          request. Educators: direct <code>?play=</code> links for your class, no installs.</p>
+      </a>
+      <a class="tile" href="catalog/decks.json">
+        <h2>The catalog (raw)</h2>
+        <p>Plain JSON, PR-curated, served as static files: <code>catalog/decks.json</code> and
+          <code>catalog/realities.json</code>. What the app fetches is exactly what you see.</p>
+      </a>
+      <a class="tile" href="art/index.json">
+        <h2>Art palette</h2>
+        <p>20 themed pixel-art sets (9 archetype scenes, card back, stat badges each) free for
+          community decks — browsable from the deck builder, indexed at <code>art/index.json</code>.</p>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <a href="https://retroverse.studio">RetroVerse Studios</a> · MIT ·
+      <a href="https://github.com/retroverse-studios/swipeverse-store">Source &amp; submissions on GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>

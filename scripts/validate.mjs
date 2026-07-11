@@ -26,10 +26,14 @@ const ALLOWED_IMAGE_HOSTS = ["images.unsplash.com"];
 const errors = [];
 const fail = (msg) => errors.push(msg);
 
+// The store's own art palette is the one allowed external host for deck media
+const ALLOWED_MEDIA_PREFIXES = ["https://store.swipeverse.app/art/"];
+
 function checkNoUrl(value, where) {
     if (typeof value !== "string") return;
+    if (ALLOWED_MEDIA_PREFIXES.some(p => value.startsWith(p))) return;
     if (/^(https?:)?\/\//i.test(value)) {
-        fail(`${where}: external URLs are not allowed in decks ("${value.slice(0, 60)}...")`);
+        fail(`${where}: external URLs are not allowed in decks ("${value.slice(0, 60)}...") — use the store art palette (${ALLOWED_MEDIA_PREFIXES[0]}...)`);
     }
     // Embedded images bypass URL rules and can't be text-moderated — reject.
     if (/^(data|blob|javascript):/i.test(value.trim())) {

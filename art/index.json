@@ -1,0 +1,47 @@
+{
+  "base": "https://store.swipeverse.app/art",
+  "archetypes": [
+    "petitioner",
+    "crisis",
+    "opportunity",
+    "faction",
+    "advisor",
+    "chain",
+    "judgement",
+    "gamble",
+    "terminal"
+  ],
+  "badgeSlots": [
+    "power",
+    "wealth",
+    "people",
+    "knowledge"
+  ],
+  "sets": [
+    "aviation",
+    "business",
+    "egypt",
+    "gothic",
+    "kingdom",
+    "medical",
+    "military",
+    "mythology",
+    "nautical",
+    "pirate",
+    "postapoc",
+    "prehistoric",
+    "samurai",
+    "science",
+    "sport",
+    "steampunk",
+    "underwater",
+    "university",
+    "viking",
+    "western"
+  ],
+  "paths": {
+    "scene": "art/<set>/<archetype>.webp",
+    "back": "art/<set>/back.webp",
+    "badge": "art/<set>/badges/<slot>.webp"
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwipeVerse Creator Guide</title>
+  <meta name="description" content="How to create, validate and share SwipeVerse decks and realities — including classroom play links for educators.">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmNTJlMSI+PHBhdGggZD0iTTEyIDJMMy41IDEyIDEyIDIyIDIwLjUgMTIgMTIgMloiLz48L3N2Zz4=">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --gold:#c9962e; --gold-bright:#f6e4a8; --paper:#e9dfc8; --muted:#9a8db4; --velvet2:#120a22; --border:rgba(201,150,46,.35); }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Exo 2',system-ui,sans-serif; color:var(--paper); line-height:1.7;
+      background: radial-gradient(120% 100% at 50% 0%, #1c1030 0%, #0d0718 55%, #060310 100%); background-attachment: fixed; }
+    .container { max-width: 760px; margin:0 auto; padding: 0 1.25rem 4rem; }
+    h1,h2 { font-family:'Cinzel',serif; color:var(--gold-bright); }
+    h1 { font-size: clamp(1.6rem,4.5vw,2.4rem); padding-top: 4rem; margin-bottom:.5rem;
+      background: linear-gradient(180deg, var(--gold-bright), var(--gold) 60%, #8a6a1c);
+      -webkit-background-clip:text; background-clip:text; color:transparent; }
+    h2 { font-size: 1.15rem; margin: 2.4rem 0 .8rem; }
+    p, li { color: var(--paper); opacity:.92; }
+    .lead { color: var(--muted); }
+    ol, ul { padding-left: 1.4rem; margin: .6rem 0; }
+    li { margin-bottom: .45rem; }
+    code { color:var(--gold-bright); background:rgba(255,255,255,.06); padding:.1rem .4rem; border-radius:4px; font-size:.88em; }
+    pre { background:var(--velvet2); border:1px solid var(--border); border-radius:10px; padding:1rem; overflow-x:auto; margin:.8rem 0; }
+    pre code { background:none; padding:0; }
+    a { color: var(--gold-bright); }
+    .note { background:var(--velvet2); border:1px solid var(--border); border-left-width:4px; border-radius:10px; padding: .9rem 1.1rem; margin: 1rem 0; font-size:.95rem; }
+    .crumb { padding-top:1.5rem; font-size:.85rem; }
+    .crumb a { color:var(--muted); text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="crumb"><a href="../">← SwipeVerse Store</a></p>
+    <h1>CREATOR GUIDE</h1>
+    <p class="lead">Everything you need to build a SwipeVerse reality or story deck, prove it's playable, and put it in front of players — or a classroom.</p>
+
+    <h2>1 · Build in the editor</h2>
+    <ol>
+      <li>Open <a href="https://swipeverse.app/app/">SwipeVerse</a> → <strong>Creator Hub</strong> (from the main menu).</li>
+      <li>Create a reality: name your world, rename the four stats to fit it (they're always Power/Wealth/People/Knowledge underneath), pick colors and a font.</li>
+      <li>Build the deck: add cards by hand, or describe your story to the <strong>AI Story Director</strong> and edit its draft. Every card has a dilemma, two choices, stat effects, an archetype (drives the default art), and optional branch jumps — the <strong>visual graph editor</strong> lets you wire branching by dragging connections.</li>
+      <li>Pick art per card, or leave it on AUTO and the archetype art handles it. Community decks can use any of the <a href="../art/index.json">20 free themed art sets</a> straight from the picker.</li>
+    </ol>
+
+    <h2>2 · Prove it plays</h2>
+    <p>Hit <strong>⚖ Analyze</strong> in the deck editor. It runs an exact solver over the game's rules and tells you, per difficulty: is the deck <em>winnable</em> (some route survives to the ending), is it <em>losable</em> (the pressure is real), what fraction of random play survives, and an example winning line. If something's broken it tells you whether it's wiring (a card that can never reach the ending) or balance (which effects to soften).</p>
+    <div class="note">Decks that are unwinnable or unlosable at any difficulty will be rejected from the store — Analyze first.</div>
+
+    <h2>3 · Export</h2>
+    <p>Use the deck editor's <strong>Export</strong> button (a single deck) or export the whole reality from the Creator Hub. You get a plain JSON file — that file <em>is</em> your creation; it's portable, diffable, and remixable.</p>
+
+    <h2>4 · Share it</h2>
+    <p><strong>To the store</strong> (curated, appears in everyone's app): open a pull request adding your JSON to the catalog — format, content policy and the <code>category</code> tag (<code>game</code> or <code>education</code>) are documented in <a href="https://github.com/retroverse-studios/swipeverse-store/blob/main/CONTRIBUTING.md">CONTRIBUTING</a>. CI validates automatically; a human reviews; merged means published — no app update needed.</p>
+    <p><strong>Directly</strong> (no review, instant): host your JSON anywhere CORS-friendly (a GitHub repo works) and share a play link:</p>
+    <pre><code>https://swipeverse.app/app/?play=&lt;your-json-url&gt;&amp;difficulty=standard</code></pre>
+
+    <h2>For educators</h2>
+    <ul>
+      <li>The swipe format is interactive fiction: every card a dilemma, every choice a trade-off. Rename the stats to your discipline's real tensions (e.g. a forensics deck: Evidence / Reputation / Trust / Leads) and let consequences teach.</li>
+      <li>Host your exported scenario in a repo, paste one <code>?play=</code> link into the LMS. Students click and play — <strong>no accounts, no installs, no data collected</strong>; everything stays in their browser, and it works on any phone.</li>
+      <li>Tag store submissions <code>category: "education"</code> so they're labeled honestly in the store.</li>
+      <li>Naming that works: the <em>reality</em> names the world ("The Perimeter"), each <em>deck</em> names the pressure point inside it ("Chain of Custody", "Zero Hour").</li>
+    </ul>
+
+    <h2>House rules (the short version)</h2>
+    <ul>
+      <li>Card art comes from the archetype defaults, the store art palette, or bundled paths — no external image URLs, no embedded <code>data:</code> images.</li>
+      <li>Stat effects within ±50 (aim ±35), branch jumps inside the deck, prompts ≤ 500 characters.</li>
+      <li>No hate, harassment, or content designed to demean real people. Dark themes and hard dilemmas are welcome — that's the genre.</li>
+    </ul>
+
+    <p class="crumb" style="margin-top:2.5rem"><a href="../">← SwipeVerse Store</a> · <a href="https://swipeverse.app/app/">Play SwipeVerse</a></p>
+  </div>
+</body>
+</html>
