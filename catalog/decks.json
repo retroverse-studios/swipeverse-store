@@ -1,79 +1,3056 @@
 [
   {
-    "name": "The Android's Gambit",
-    "description": "An android seeking freedom must navigate corporate espionage and back-alley deals. Designed for a Cyberpunk setting.",
+    "name": "The Hollow Crown, Part I: The Exile",
+    "description": "Smuggled from the capital the night of the usurpation, the rightful heir must gather loyalists, unmask a lie, and survive the assassin's blade before daring to raise their banner.",
     "cards": [
       {
-        "prompt": "Your manufacturer's kill-switch is about to activate. A black-market technician offers you a bypass chip for a steep price.",
+        "prompt": "The palace burns behind you. A grizzled guardsman drags you through the sewer gate as bells toll the false king's coronation. 'Ride hard, or ride never, my liege.'",
         "leftChoice": {
-          "text": "Pay the price.",
+          "text": "Flee at once, taking only the guardsman",
           "effects": {
-            "Power": -5,
-            "Wealth": -25,
-            "People": 0,
-            "Knowledge": 10
-          }
+            "Power": -10,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 1
         },
         "rightChoice": {
-          "text": "Steal the chip.",
+          "text": "Delay to grab the royal seal from the vault",
+          "effects": {
+            "Power": 10,
+            "Wealth": 10,
+            "People": -5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "Dawn finds you penniless in a mud-slick border province. Your boots are worn through and no one here knows your face — or believes it.",
+        "leftChoice": {
+          "text": "Beg shelter at a farmhouse, revealing nothing",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Seek the provincial capital and old allies",
+          "effects": {
+            "Power": 5,
+            "Wealth": -5,
+            "People": -5,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "A caravan merchant recognizes the seal you carry. 'The heir lives! Gold buys silence, gold buys blades. I have both — for a price.'",
+        "leftChoice": {
+          "text": "Accept his gold and pledge future favor",
+          "effects": {
+            "Power": 5,
+            "Wealth": 25,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Refuse; debts to merchants strangle kings",
+          "effects": {
+            "Power": 10,
+            "Wealth": -10,
+            "People": 10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/opportunity.webp"
+      },
+      {
+        "prompt": "Baron Vhent controls the border marches. He receives you coldly, unsure whether harboring you is worth the usurper's wrath.",
+        "leftChoice": {
+          "text": "Offer him a duchy in the realm you'll reclaim",
+          "effects": {
+            "Power": 15,
+            "Wealth": -10,
+            "People": 0,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Appeal to his honor and old oaths",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/faction.webp"
+      },
+      {
+        "prompt": "Your childhood tutor, now a hedge-scholar, finds you. 'The usurper claims your father named him heir with a dying breath. A forged decree — but the people believe it.'",
+        "leftChoice": {
+          "text": "Vow to find proof of the forgery",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 20
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Dismiss lies with steel, not scholarship",
+          "effects": {
+            "Power": 15,
+            "Wealth": -5,
+            "People": -5,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/advisor.webp"
+      },
+      {
+        "prompt": "Word spreads quietly. A handful of soldiers, a smith, and a disgraced knight gather in a barn, awaiting your first command as their would-be sovereign.",
+        "leftChoice": {
+          "text": "Drill them hard into a disciplined core",
+          "effects": {
+            "Power": 15,
+            "Wealth": -10,
+            "People": -5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Win their hearts with promises and feasting",
+          "effects": {
+            "Power": -5,
+            "Wealth": -15,
+            "People": 20,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "A deserter from the usurper's army throws down his sword at your feet. 'I fled the massacre of your servants. Take me — or take my head, I care not.'",
+        "leftChoice": {
+          "text": "Welcome him and learn the enemy's movements",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 15
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Distrust him; deserters betray twice",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "Coin runs dry. In a smoky tavern, a river-boss offers a dice game that could double your purse — or leave you owing him your loyalists.",
+        "leftChoice": {
+          "text": "Wager everything on the dice",
+          "effects": {
+            "Power": -5,
+            "Wealth": 30,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Walk out and rely on your growing band",
+          "effects": {
+            "Power": 5,
+            "Wealth": -10,
+            "People": 10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/gamble.webp"
+      },
+      {
+        "prompt": "Assassins in traveler's cloaks slip into the province, blades oiled for your throat. Your scouts spot them near the crossroads.",
+        "leftChoice": {
+          "text": "Set a trap and take one alive",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": 0,
+            "Knowledge": 15
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Scatter your camp and vanish into the hills",
+          "effects": {
+            "Power": -10,
+            "Wealth": -5,
+            "People": 15,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "Two villagers demand you judge them: one's granary was burned by the other over a stolen bride. Both households could arm your cause — or turn against you.",
+        "leftChoice": {
+          "text": "Rule for the wronged farmer, restore the granary",
+          "effects": {
+            "Power": 5,
+            "Wealth": -10,
+            "People": 15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Force a marriage-truce binding both to you",
           "effects": {
             "Power": 10,
             "Wealth": 0,
             "People": -5,
-            "Knowledge": 5
-          }
-        }
+            "Knowledge": 10
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/judgement.webp"
       },
       {
-        "prompt": "A detective corners you, suspecting you're a rogue unit. They seem sympathetic to your cause.",
+        "prompt": "The tutor uncovers the forger's own confession, hidden in a monastery. With a printing press seized from a rebel monk, you could spread the truth.",
         "leftChoice": {
-          "text": "Trust them.",
+          "text": "Print the confession across the province",
           "effects": {
-            "Power": -15,
+            "Power": 10,
+            "Wealth": -15,
+            "People": 20,
+            "Knowledge": 15
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Hold the proof secret as leverage",
+          "effects": {
+            "Power": 15,
             "Wealth": 0,
+            "People": -10,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/opportunity.webp"
+      },
+      {
+        "prompt": "The usurper's heralds arrive, reading a proclamation naming you a dead pretender's imposter and offering gold for your capture.",
+        "leftChoice": {
+          "text": "Reveal yourself publicly and denounce him",
+          "effects": {
+            "Power": 15,
+            "Wealth": -5,
+            "People": 15,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Let a decoy 'imposter' be captured to buy time",
+          "effects": {
+            "Power": -10,
+            "Wealth": 5,
+            "People": -10,
+            "Knowledge": 20
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "The provincial Bishop weighs the truth you've spread. The Church's blessing could sanctify your claim — but priests remember every promise.",
+        "leftChoice": {
+          "text": "Kneel and pledge to restore Church lands",
+          "effects": {
+            "Power": 15,
+            "Wealth": -15,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Demand blessing on your terms alone",
+          "effects": {
+            "Power": 20,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/faction.webp"
+      },
+      {
+        "prompt": "A spymistress once loyal to the crown slips into your tent. 'I served your father. The usurper's court rots with doubters — I can bring them to you.'",
+        "leftChoice": {
+          "text": "Trust her and share your plans",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 25
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Use her but tell her nothing vital",
+          "effects": {
+            "Power": 10,
+            "Wealth": 5,
+            "People": -5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "At the night feast, a poisoned cup is raised in your honor. Your food-taster clutches his throat and collapses — the assassins are among your own.",
+        "leftChoice": {
+          "text": "Lock down the camp and interrogate everyone",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -15,
+            "Knowledge": 15
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Feign death to draw the traitor out",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": 20
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "Your scouts locate the assassins' hideout in an old mill. Strike now, and you might end the threat — or spring their trap.",
+        "leftChoice": {
+          "text": "Lead the night raid yourself",
+          "effects": {
+            "Power": 20,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Burn the mill from afar, taking no prisoners",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/gamble.webp"
+      },
+      {
+        "prompt": "The captured killer breaks: he was hired by a lord of the usurper's council who secretly favors your claim, hedging his bets. He offers a secret alliance.",
+        "leftChoice": {
+          "text": "Accept the shadow-ally's terms",
+          "effects": {
+            "Power": 15,
+            "Wealth": 15,
+            "People": -5,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Refuse — a traitor to one is a traitor to all",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": 15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/advisor.webp"
+      },
+      {
+        "prompt": "The province stirs. Farmers sharpen scythes, the baron's banners are ready, and the truth of the forgery has spread. They wait only for you to declare.",
+        "leftChoice": {
+          "text": "Call a great muster in the town square",
+          "effects": {
+            "Power": 15,
+            "Wealth": -10,
+            "People": 20,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Wait for more provinces before showing your hand",
+          "effects": {
+            "Power": -10,
+            "Wealth": 10,
+            "People": -15,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "On the eve of rebellion, your loyalists kneel and beg you to swear the ancient oath of kings — to bind your fate to theirs, come crown or grave.",
+        "leftChoice": {
+          "text": "Swear the oath before them all",
+          "effects": {
+            "Power": 15,
+            "Wealth": -5,
             "People": 20,
             "Knowledge": 5
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Swear privately, sparing the risk of spies",
+          "effects": {
+            "Power": 10,
+            "Wealth": 5,
+            "People": -5,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "At dawn the standard rises over the border keep — the old royal sigil, thought buried with your house. Loyalists cheer, and word races toward the capital: the heir lives, and the war for the hollow crown has begun.",
+        "leftChoice": {
+          "text": "Raise the banner and march toward the heartland",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": 0
           }
         },
         "rightChoice": {
-          "text": "Flee.",
+          "text": "Raise the banner and send envoys to rally the realm",
+          "effects": {
+            "Power": 5,
+            "Wealth": 5,
+            "People": 5,
+            "Knowledge": 10
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/terminal.webp"
+      }
+    ],
+    "series": {
+      "name": "The Hollow Crown",
+      "part": 1
+    },
+    "category": "game"
+  },
+  {
+    "name": "The Hollow Crown, Part II: The March",
+    "description": "Your rebel host marches on the capital through a kingdom forced to choose sides, past sieges, defections, a killing winter, and a foreign prince's poisoned bargain.",
+    "cards": [
+      {
+        "prompt": "The border keep empties behind you as the host takes the road south. Two ways lead to the capital: the King's Road past fortified towns, or the smugglers' tracks through the eastern hills. Your captains await your banner's turn.",
+        "leftChoice": {
+          "text": "Take the King's Road and dare the towns",
+          "effects": {
+            "Power": 10,
+            "Wealth": -8,
+            "People": 6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Slip through the hills unseen",
+          "effects": {
+            "Power": -6,
+            "Wealth": 6,
+            "People": -4,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "The walled town of Aldmere shuts its gates. Its garrison flies the usurper's colors, but the townsfolk hang your sigil from the windows. Your quartermaster says a siege will cost a fortnight and grain you cannot spare.",
+        "leftChoice": {
+          "text": "Storm the walls before winter deepens",
+          "effects": {
+            "Power": 15,
+            "Wealth": -12,
+            "People": -14,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Negotiate the townsfolk into opening the gates",
+          "effects": {
+            "Power": -4,
+            "Wealth": 8,
+            "People": 16,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "The hill tracks are lonely and cruel. A clan of mountain folk, long ignored by every crown, blocks the pass. Their chieftain will guide you — for a price, or for a promise.",
+        "leftChoice": {
+          "text": "Pay their toll in silver",
+          "effects": {
+            "Power": 4,
+            "Wealth": -18,
+            "People": 8,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Promise them autonomy under your rule",
+          "effects": {
+            "Power": -12,
+            "Wealth": 6,
+            "People": 18,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "A rider comes under a white flag: Lord Varic, the usurper's finest general, offers to defect — bringing three thousand spears and the eastern granaries. But men remember he burned loyalist villages in the last war.",
+        "leftChoice": {
+          "text": "Welcome him and forgive the past",
+          "effects": {
+            "Power": 20,
+            "Wealth": 15,
+            "People": -18,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Refuse; his crimes cannot be bought",
+          "effects": {
+            "Power": -10,
+            "Wealth": -8,
+            "People": 16,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/faction.webp"
+      },
+      {
+        "prompt": "Aldmere's gates swing open to cheering crowds, but its people beg you to leave a garrison — the usurper's reavers will return the moment you march on.",
+        "leftChoice": {
+          "text": "Leave good soldiers to defend them",
+          "effects": {
+            "Power": -14,
+            "Wealth": -6,
+            "People": 22,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "March on; you cannot spare a single blade",
+          "effects": {
+            "Power": 10,
+            "Wealth": 4,
+            "People": -16,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "The Iron Fords freeze early. Cross now over cracking ice and steal a month's march — or wait for a safer thaw that never seems to come.",
+        "leftChoice": {
+          "text": "Cross the ice at once",
+          "effects": {
+            "Power": 16,
+            "Wealth": -4,
+            "People": -20,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 6
+        },
+        "rightChoice": {
+          "text": "Wait, and forage the frozen valley",
+          "effects": {
+            "Power": -8,
+            "Wealth": -16,
+            "People": 10,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "An envoy in furs arrives from across the sea: Prince Aldous of the Salt Kingdoms offers gold and ten warships — if you cede the coastal ports to his crown once you take the throne.",
+        "leftChoice": {
+          "text": "Hear the terms of his bargain",
+          "effects": {
+            "Power": 4,
+            "Wealth": 10,
+            "People": -6,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Send him away with cold thanks",
+          "effects": {
+            "Power": -6,
+            "Wealth": -10,
+            "People": 12,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "Your spymaster whispers that Prince Aldous's envoy has been meeting a hooded man from the capital by night. Either the foreigner plays both sides — or your own camp harbors a traitor.",
+        "leftChoice": {
+          "text": "Set a trap to unmask the meeting",
+          "effects": {
+            "Power": 6,
+            "Wealth": -8,
+            "People": -4,
+            "Knowledge": 18
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Ignore rumor; you need the alliance",
+          "effects": {
+            "Power": 8,
+            "Wealth": 6,
+            "People": -6,
+            "Knowledge": -16
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/advisor.webp"
+      },
+      {
+        "prompt": "Two loyalist lords come to blows in your hall. Lord Feyne demands the vanguard's honor; the widow Countess Maur claims it by her fallen husband's oath. Both threaten to withdraw their levies.",
+        "leftChoice": {
+          "text": "Grant the vanguard to Lord Feyne",
+          "effects": {
+            "Power": 14,
+            "Wealth": 6,
+            "People": -12,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Honor the Countess's oath",
+          "effects": {
+            "Power": -6,
+            "Wealth": -4,
+            "People": 16,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/judgement.webp"
+      },
+      {
+        "prompt": "Scouts find the usurper's outrider camp asleep in a hollow below. A night raid could shatter their morale — or blunder into a well-set ambush in the dark.",
+        "leftChoice": {
+          "text": "Attack under cover of darkness",
+          "effects": {
+            "Power": 22,
+            "Wealth": 8,
+            "People": -18,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Slip past and preserve your strength",
+          "effects": {
+            "Power": -8,
+            "Wealth": -4,
+            "People": 10,
+            "Knowledge": 12
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/gamble.webp"
+      },
+      {
+        "prompt": "The Brennmark mercenaries, sword-hearts of your center line, have not been paid in two months. Their captain speaks softly, but his hand rests on his purse and his sword both.",
+        "leftChoice": {
+          "text": "Empty the war-chest to pay them",
+          "effects": {
+            "Power": 8,
+            "Wealth": -28,
+            "People": 6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Promise them plunder from the capital",
+          "effects": {
+            "Power": -4,
+            "Wealth": 10,
+            "People": -14,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "A camp fever spreads among the wagons. The healers say quarantine will slow the march; the priests say prayer and pressing on will carry the sick to glory or the grave.",
+        "leftChoice": {
+          "text": "Quarantine the sick and lose days",
+          "effects": {
+            "Power": -10,
+            "Wealth": -8,
+            "People": 18,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "March on and leave the dying behind",
+          "effects": {
+            "Power": 12,
+            "Wealth": 6,
+            "People": -22,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "Your scouts spot the usurper's supply train crawling through a river gorge, lightly guarded. Seize it and your host eats like kings — but the raid will announce your true position.",
+        "leftChoice": {
+          "text": "Take the supply train",
+          "effects": {
+            "Power": 10,
+            "Wealth": 24,
+            "People": 4,
+            "Knowledge": -12
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Let it pass and stay hidden",
+          "effects": {
+            "Power": -8,
+            "Wealth": -12,
+            "People": 6,
+            "Knowledge": 16
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/opportunity.webp"
+      },
+      {
+        "prompt": "Your council of loyal lords urges patience: winter, they say, will do your killing for you if you only wait at the river. But every idle day, deserters trickle away from your fires.",
+        "leftChoice": {
+          "text": "Heed the council and hold position",
+          "effects": {
+            "Power": -14,
+            "Wealth": 8,
+            "People": -6,
+            "Knowledge": 20
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Overrule them and press the advance",
+          "effects": {
+            "Power": 16,
+            "Wealth": -6,
+            "People": 8,
+            "Knowledge": -16
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/faction.webp"
+      },
+      {
+        "prompt": "A tide of refugees flees the capital's outskirts, telling of the usurper's purges. They slow your column and eat your grain — but they carry maps, gossip, and hungry sons who would fight.",
+        "leftChoice": {
+          "text": "Take them in and arm the willing",
+          "effects": {
+            "Power": 6,
+            "Wealth": -16,
+            "People": 20,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Turn them from the road",
+          "effects": {
+            "Power": 8,
+            "Wealth": 6,
+            "People": -24,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "The hour comes to seal the pact with Prince Aldous — or spurn it forever. His fleet waits off the coast; his terms would carve a slice from the very kingdom you fight to reclaim.",
+        "leftChoice": {
+          "text": "Sign the terrible bargain for his ships",
+          "effects": {
+            "Power": 18,
+            "Wealth": 20,
+            "People": -22,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Tear the treaty and go it alone",
+          "effects": {
+            "Power": -12,
+            "Wealth": -14,
+            "People": 22,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "Betrayal in the dark: a captain you trusted flees to the capital with your battle plans. Half the camp cries for a purge of suspects; the other half begs for calm before the host tears itself apart.",
+        "leftChoice": {
+          "text": "Purge the suspected conspirators",
+          "effects": {
+            "Power": 14,
+            "Wealth": -6,
+            "People": -18,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Show mercy and rally the loyal",
+          "effects": {
+            "Power": -8,
+            "Wealth": -4,
+            "People": 16,
+            "Knowledge": 12
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "On the last ridge before the capital, an old servant of your house creeps into camp. She knows the sally-ports, the corrupt gate-captain, the hour the walls are thinnest. But her price is your promise to spare the city's people from sack.",
+        "leftChoice": {
+          "text": "Swear the oath and take her secrets",
+          "effects": {
+            "Power": 6,
+            "Wealth": -10,
+            "People": 22,
+            "Knowledge": 16
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Refuse to bind your soldiers' hands",
+          "effects": {
+            "Power": 12,
+            "Wealth": 8,
+            "People": -18,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/advisor.webp"
+      },
+      {
+        "prompt": "The outer wall of the capital rises before you, banners of the usurper snapping in the winter wind. Your host is assembled, breath steaming, waiting for the word. One throw of the dice for everything.",
+        "leftChoice": {
+          "text": "Strike at dawn while surprise holds",
+          "effects": {
+            "Power": 20,
+            "Wealth": -10,
+            "People": -8,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Encircle and summon the city to yield",
+          "effects": {
+            "Power": -6,
+            "Wealth": -8,
+            "People": 18,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/gamble.webp"
+      },
+      {
+        "prompt": "The gates of the capital loom at last, close enough to touch. Behind you stands the host that followed a lost heir out of exile; before you waits the hollow crown and the man who stole it. The March is over. The reckoning begins.",
+        "leftChoice": {
+          "text": "Raise the old sigil and give the signal",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Stand a moment, and remember the dead",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/terminal.webp"
+      }
+    ],
+    "series": {
+      "name": "The Hollow Crown",
+      "part": 2
+    },
+    "category": "game"
+  },
+  {
+    "name": "The Hollow Crown, Part III: The Reckoning",
+    "description": "The capital is yours at last, but a stolen throne must be held against the usurper's ghost, a foreign prince's debt, and the crushing weight of the crown you bled for.",
+    "cards": [
+      {
+        "prompt": "The gates splinter and your host pours into the capital. Ahead lies the palace and the man who stole your birthright. The March is over; the reckoning begins.",
+        "leftChoice": {
+          "text": "Storm the palace at once",
+          "effects": {
+            "Power": 15,
+            "Wealth": -5,
+            "People": -12,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Offer terms of surrender",
+          "effects": {
+            "Power": -8,
+            "Wealth": 0,
+            "People": 8,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "The throne room stands empty — the usurper has fled through the sewers as fires bloom across the lower districts.",
+        "leftChoice": {
+          "text": "Ride out and hunt him down",
+          "effects": {
+            "Power": 12,
+            "Wealth": -15,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 4
+        },
+        "rightChoice": {
+          "text": "Let him run; save the burning city",
+          "effects": {
+            "Power": -6,
+            "Wealth": -8,
+            "People": 18,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "An envoy of the foreign prince who armed your rebellion arrives before the ashes cool. 'His Highness recalls his generosity,' he says, smiling. 'And expects it repaid.'",
+        "leftChoice": {
+          "text": "Pledge the debt will be honored",
+          "effects": {
+            "Power": -5,
+            "Wealth": -15,
+            "People": 0,
+            "Knowledge": 12
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Remind him whose sword took the city",
+          "effects": {
+            "Power": 15,
+            "Wealth": 0,
+            "People": 3,
+            "Knowledge": -14
+          },
+          "nextCardIndex": 3
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/faction.webp"
+      },
+      {
+        "prompt": "The usurper's nobles kneel in chains before you. Some plotted your family's murder; others merely bowed to whoever wore the crown.",
+        "leftChoice": {
+          "text": "Execute the traitors as an example",
+          "effects": {
+            "Power": 18,
+            "Wealth": 8,
+            "People": -15,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 6
+        },
+        "rightChoice": {
+          "text": "Pardon those who swear new oaths",
+          "effects": {
+            "Power": -10,
+            "Wealth": 0,
+            "People": 14,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/judgement.webp"
+      },
+      {
+        "prompt": "Your riders drag the usurper from a fisherman's cellar. Bloodied and bound, he offers the names of those still plotting against you — for his life.",
+        "leftChoice": {
+          "text": "Accept his bargain of secrets",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": -8,
+            "Knowledge": 20
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Refuse; a traitor's word is worthless",
+          "effects": {
+            "Power": 12,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "Alone at last in the royal apartments, your old tutor finds you staring at the crown. 'It is heavier than it looks, my lord. Heavier still on a head that grabbed for it.'",
+        "leftChoice": {
+          "text": "Heed his counsel and rule with restraint",
+          "effects": {
+            "Power": -12,
+            "Wealth": 0,
+            "People": 8,
+            "Knowledge": 16
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Silence such doubts; you earned this",
+          "effects": {
+            "Power": 16,
+            "Wealth": 0,
+            "People": -4,
+            "Knowledge": -14
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/advisor.webp"
+      },
+      {
+        "prompt": "The siege has left the city starving. The royal granaries are full, but so are the ledgers of debt you inherited.",
+        "leftChoice": {
+          "text": "Throw open the granaries to the people",
+          "effects": {
+            "Power": 5,
+            "Wealth": -18,
+            "People": 22,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Sell the grain to fill the coffers",
+          "effects": {
+            "Power": 0,
+            "Wealth": 20,
+            "People": -20,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "The council that once served the usurper now bends to you — but demands charters restoring their ancient privileges as the price of loyalty.",
+        "leftChoice": {
+          "text": "Grant the charters and share power",
+          "effects": {
+            "Power": -15,
+            "Wealth": -5,
+            "People": 6,
+            "Knowledge": 18
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Rule alone; a king needs no leash",
+          "effects": {
+            "Power": 18,
+            "Wealth": 5,
+            "People": -3,
+            "Knowledge": -16
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/faction.webp"
+      },
+      {
+        "prompt": "The foreign prince proposes his daughter's hand — a marriage to bind two crowns and forgive the war-debt in a single stroke.",
+        "leftChoice": {
+          "text": "Accept the match and the alliance",
+          "effects": {
+            "Power": 12,
+            "Wealth": 18,
+            "People": -10,
+            "Knowledge": -3
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Decline; you'll owe no foreign master",
+          "effects": {
+            "Power": -5,
+            "Wealth": -12,
+            "People": 6,
+            "Knowledge": 14
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "Your victorious soldiers, unpaid for months, have begun sacking the merchant quarter. Screams rise with the smoke.",
+        "leftChoice": {
+          "text": "Hang the looters in the square",
+          "effects": {
+            "Power": 14,
+            "Wealth": -12,
+            "People": 16,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Let them take their spoils this once",
+          "effects": {
+            "Power": -4,
+            "Wealth": 18,
+            "People": -22,
+            "Knowledge": -3
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "The captains who followed you out of exile crowd your hall, drunk and expectant. They bled for you; now they want lands, titles, gold.",
+        "leftChoice": {
+          "text": "Reward them richly as promised",
+          "effects": {
+            "Power": 10,
+            "Wealth": -22,
+            "People": 3,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Give thanks but withhold the spoils",
+          "effects": {
+            "Power": -12,
+            "Wealth": 10,
+            "People": -8,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "The captured usurper whispers of a hidden treasury and a network of spies — if you'll rule beside him as a shadow-partner rather than kill him.",
+        "leftChoice": {
+          "text": "Gamble on his poisoned partnership",
+          "effects": {
+            "Power": -10,
+            "Wealth": 25,
+            "People": -12,
+            "Knowledge": 12
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Reject him and trust your own hand",
+          "effects": {
+            "Power": 14,
+            "Wealth": -8,
+            "People": 6,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/gamble.webp"
+      },
+      {
+        "prompt": "The coronation looms. Your stewards ask how grand it should be — the people crave a spectacle, but the treasury is thin.",
+        "leftChoice": {
+          "text": "A lavish coronation for all to see",
+          "effects": {
+            "Power": 12,
+            "Wealth": -20,
+            "People": 18,
+            "Knowledge": -3
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "A modest crowning; save the gold",
+          "effects": {
+            "Power": -6,
+            "Wealth": 18,
+            "People": -14,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/opportunity.webp"
+      },
+      {
+        "prompt": "A servant is caught with poisoned wine. Under torture she names a dozen names — half of them your own allies.",
+        "leftChoice": {
+          "text": "Purge everyone she named",
+          "effects": {
+            "Power": 16,
+            "Wealth": -5,
+            "People": -14,
+            "Knowledge": -14
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Investigate quietly before you act",
+          "effects": {
+            "Power": -8,
+            "Wealth": 0,
+            "People": 6,
+            "Knowledge": 18
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
+      },
+      {
+        "prompt": "The foreign prince's fleet anchors in your harbor. His debt-collector lands with a mailed fist: pay now, or the alliance becomes an occupation.",
+        "leftChoice": {
+          "text": "Pay the debt in full at once",
+          "effects": {
+            "Power": -6,
+            "Wealth": -28,
+            "People": 0,
+            "Knowledge": 12
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Defy him and man the walls",
+          "effects": {
+            "Power": 18,
+            "Wealth": 10,
+            "People": -16,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/faction.webp"
+      },
+      {
+        "prompt": "A distant cousin of the old dynasty raises a banner in the west, claiming your throne is as stolen as the usurper's was.",
+        "leftChoice": {
+          "text": "March west and crush the pretender",
+          "effects": {
+            "Power": 16,
+            "Wealth": -12,
+            "People": -12,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Offer him titles and negotiate",
+          "effects": {
+            "Power": -10,
+            "Wealth": -6,
+            "People": 8,
+            "Knowledge": 16
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/judgement.webp"
+      },
+      {
+        "prompt": "Thousands gather at the palace gates, not in anger but in pleading — they beg mercy for the fallen usurper, weary of blood.",
+        "leftChoice": {
+          "text": "Grant the people their mercy",
+          "effects": {
+            "Power": -14,
+            "Wealth": 0,
+            "People": 22,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Deny them; justice must be seen",
+          "effects": {
+            "Power": 14,
+            "Wealth": 0,
+            "People": -18,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/petitioner.webp"
+      },
+      {
+        "prompt": "At last the usurper stands trial before the realm. His fate rests in your hands — and so, everyone senses, does the meaning of your own reign.",
+        "leftChoice": {
+          "text": "Condemn him to the headsman",
+          "effects": {
+            "Power": 15,
+            "Wealth": 0,
+            "People": -12,
+            "Knowledge": -12
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Spare him to exile and disgrace",
+          "effects": {
+            "Power": -12,
+            "Wealth": 0,
+            "People": 16,
+            "Knowledge": 14
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/judgement.webp"
+      },
+      {
+        "prompt": "The trial is done. In the quiet after, you lift the crown and feel its true weight. A saga of exile, march, and reckoning ends with a single question: what have you become?",
+        "leftChoice": {
+          "text": "Grip the crown and rule until death",
+          "effects": {
+            "Power": 20,
+            "Wealth": -5,
+            "People": -10,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Bind your power to law and council",
+          "effects": {
+            "Power": -18,
+            "Wealth": 0,
+            "People": 15,
+            "Knowledge": 20
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/chain.webp"
+      },
+      {
+        "prompt": "History will remember how the lost heir came home. Whether as tyrant, martyr, or the rare king who wore the hollow crown without being hollowed by it — the reckoning is complete, and the tale is yours to end.",
+        "leftChoice": {
+          "text": "Close the chronicle with your name",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Let others write the final word",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/kingdom/terminal.webp"
+      }
+    ],
+    "series": {
+      "name": "The Hollow Crown",
+      "part": 3
+    },
+    "category": "game"
+  },
+  {
+    "name": "Ashfall: The Burning Valley",
+    "description": "Lead a ragtag convoy out of a raider-torched settlement, choosing who rides and what burns, until you break the cordon and reach the open ash roads.",
+    "cards": [
+      {
+        "prompt": "Raiders pour over the settlement wall as the fuel depot burns. Your people scatter toward the motor pool, screaming your name. There's no time to save it all.",
+        "leftChoice": {
+          "text": "Hold the streets and cover the retreat",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Sound the horns and flee at once",
+          "effects": {
+            "Power": -5,
+            "Wealth": -10,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "Greasehands, the old mechanic, blocks your path. 'Give me the good scrap and an hour, and these rustbuckets will actually run. Refuse, and pray to the road.'",
+        "leftChoice": {
+          "text": "Hand over parts and let her work",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 15
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "No time — we leave on what runs",
+          "effects": {
+            "Power": 5,
+            "Wealth": 5,
+            "People": 0,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "Flames climb the armory. If you torch what remains, the raiders gain nothing — but neither do you.",
+        "leftChoice": {
+          "text": "Burn it all to deny them",
+          "effects": {
+            "Power": 5,
+            "Wealth": -10,
+            "People": 0,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Grab an armful and run",
+          "effects": {
+            "Power": -5,
+            "Wealth": 10,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "A crowd of survivors clings to the trucks — elders, wounded, children. Every extra body means less speed and less food.",
+        "leftChoice": {
+          "text": "Take everyone we can fit",
+          "effects": {
+            "Power": -5,
+            "Wealth": -10,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Only those who can fight or fix",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "On the way out you pass a half-collapsed supply depot the raiders missed. The roof groans overhead.",
+        "leftChoice": {
+          "text": "Grab fuel and food, fast",
+          "effects": {
+            "Power": 0,
+            "Wealth": 15,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Search for old-world gear too",
+          "effects": {
+            "Power": -5,
+            "Wealth": 5,
+            "People": 0,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/opportunity.webp"
+      },
+      {
+        "prompt": "A lone raider outrider tails your dust trail, radio crackling. If he reports your heading, the cordon will be ready.",
+        "leftChoice": {
+          "text": "Ambush and silence him",
+          "effects": {
+            "Power": 10,
+            "Wealth": 5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Kill your lights and hide the convoy",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "Your scout returns pale: 'They've strung a cordon across the only pass. Wire, spikes, gun-trucks. We can reroute through the ash flats, but it's slow.'",
+        "leftChoice": {
+          "text": "Reroute through the flats",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Push straight for the pass anyway",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/advisor.webp"
+      },
+      {
+        "prompt": "The Kesh family — another fleeing clan — flags you down. They have trucks and guns but empty tanks and want to merge convoys under one banner.",
+        "leftChoice": {
+          "text": "Merge and share the road",
+          "effects": {
+            "Power": -10,
+            "Wealth": 10,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Refuse — we travel lighter alone",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/faction.webp"
+      },
+      {
+        "prompt": "Two riders brawl over the last cab seat: a steady medic and a hardened gunner. The convoy watches to see who you favor.",
+        "leftChoice": {
+          "text": "Seat the medic",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Seat the gunner",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/judgement.webp"
+      },
+      {
+        "prompt": "Night falls thick with ash. Crossing the dead salt lake in darkness hides you — but running blind risks the engines and the drivers' nerves.",
+        "leftChoice": {
+          "text": "Drive dark and quiet",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": 5,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Burn flares to light the way",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/gamble.webp"
+      },
+      {
+        "prompt": "A soot-streaked child tugs your sleeve. 'My gran and our dog are still back at the wagon. Please. We won't leave without them.'",
+        "leftChoice": {
+          "text": "Send a truck back for them",
+          "effects": {
+            "Power": 0,
+            "Wealth": -10,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "We can't stop — I'm sorry",
+          "effects": {
+            "Power": 5,
+            "Wealth": 5,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "The lead hauler's engine bursts into flame. You can dump the loaded trailer to lighten and save it, or risk lives fighting the fire.",
+        "leftChoice": {
+          "text": "Cut the trailer loose",
+          "effects": {
+            "Power": 0,
+            "Wealth": -10,
+            "People": 5,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Fight the fire, save the cargo",
+          "effects": {
+            "Power": 5,
+            "Wealth": 5,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "In a wrecked convoy you find a sealed weapons cache — enough to arm every fighter, or enough to trade to fuel-runners.",
+        "leftChoice": {
+          "text": "Arm the convoy",
+          "effects": {
+            "Power": 15,
+            "Wealth": -5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Trade it all for fuel and stores",
+          "effects": {
+            "Power": -10,
+            "Wealth": 15,
+            "People": 0,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/opportunity.webp"
+      },
+      {
+        "prompt": "The raider cordon looms ahead in the smoke. You must choose how to face the wire and the gun-trucks.",
+        "leftChoice": {
+          "text": "Scout for a weak point in the line",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Send envoys to bribe your way through",
+          "effects": {
+            "Power": -5,
+            "Wealth": -15,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "An old-world road map surfaces in the depot loot, marking a service tunnel beneath the pass. It may be collapsed — or a clean escape.",
+        "leftChoice": {
+          "text": "Trust the map and take the tunnel",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Send scouts ahead to be sure",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/advisor.webp"
+      },
+      {
+        "prompt": "You reach the cordon. Searchlights sweep the dark; engines idle on both sides. The moment to break through is now.",
+        "leftChoice": {
+          "text": "Ram straight through the barricade",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Slip past quietly on the flank",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "A raider defector crawls to your line. 'I'll show you the gap in the wire — if you take me with you. They'll gut me if I stay.'",
+        "leftChoice": {
+          "text": "Trust him and follow the gap",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Bind him and question him first",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "Gunfire erupts as your lead trucks hit the line. It's chaos — the whole convoy could break free or be pinned down.",
+        "leftChoice": {
+          "text": "Full throttle, no one stops",
+          "effects": {
+            "Power": 5,
+            "Wealth": -10,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Hold and parley for passage",
+          "effects": {
+            "Power": -10,
+            "Wealth": -10,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/gamble.webp"
+      },
+      {
+        "prompt": "Raiders swarm the rearmost wagons at the barricade. To save the convoy, someone must hold the line while the rest punch through.",
+        "leftChoice": {
+          "text": "Order a rear guard to hold and die",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Everyone pushes through together",
+          "effects": {
+            "Power": -5,
+            "Wealth": -10,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "The cordon falls behind you. Ahead the valley opens into endless grey ash roads under a bruised dawn. The convoy is battered, alive, and free — but the fuel gauge is low and the horizon holds unknown clans and colder rumors.",
+        "leftChoice": {
+          "text": "Point the convoy toward the far cities",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Make camp and count the survivors",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/terminal.webp"
+      }
+    ],
+    "series": {
+      "name": "Ashfall",
+      "part": 1
+    },
+    "category": "game"
+  },
+  {
+    "name": "Ashfall: The Dead Highway",
+    "description": "Drive your battered convoy across a ruined continent of toll-bridge warlords, a ghost city full of intact tech and worse, and brutal fuel mathematics, until the rumored green valley finally rises on the horizon.",
+    "cards": [
+      {
+        "prompt": "The cordon is behind you, but the fuel gauge hovers near empty as the ash roads unspool toward nothing. Every choice now is measured in litres.",
+        "leftChoice": {
+          "text": "Ration fuel and crawl forward",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Burn hard toward a rumored fuel stop",
+          "effects": {
+            "Power": 5,
+            "Wealth": -10,
+            "People": 0,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "A rusted bridge spans a poisoned river, its far end draped in banners. A warlord's gunners lean over the rail. 'Toll,' one shouts. 'Or swim.'",
+        "leftChoice": {
+          "text": "Pay the toll in scrap",
+          "effects": {
+            "Power": 0,
+            "Wealth": -10,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Ram the barricade at dawn",
+          "effects": {
+            "Power": 10,
+            "Wealth": 5,
+            "People": -15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/faction.webp"
+      },
+      {
+        "prompt": "The rumored stop is a mirage of dry pumps. The mechanic does the fuel math aloud: not everyone reaches the next horizon on what you have.",
+        "leftChoice": {
+          "text": "Siphon a leaking wreck by the road",
+          "effects": {
+            "Power": -5,
+            "Wealth": 5,
+            "People": 0,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Strip and abandon a stalled truck",
+          "effects": {
+            "Power": 0,
+            "Wealth": 15,
+            "People": -15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 3
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "A scout returns pale. 'Ghost city ahead — towers still lit, machines still humming. Tech worth a kingdom.' She pauses. 'And something in there that isn't dead.'",
+        "leftChoice": {
+          "text": "Enter the ghost city",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 4
+        },
+        "rightChoice": {
+          "text": "Skirt the ruins entirely",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 0,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/advisor.webp"
+      },
+      {
+        "prompt": "A glass tower stands intact, servers blinking, solar arrays drinking the grey sun. Untouched for decades. The salvage of a lifetime — if you can carry it.",
+        "leftChoice": {
+          "text": "Strip the servers and solar arrays",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 20
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Take only what fits, move fast",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": 0,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/opportunity.webp"
+      },
+      {
+        "prompt": "Sirens you didn't trigger begin to wail. Old war drones unfold from the pavement, targeting lights sweeping the convoy. This is the 'worse.'",
+        "leftChoice": {
+          "text": "Flee the city, leave the loot",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 6
+        },
+        "rightChoice": {
+          "text": "Fight the drones for their cores",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "On the open highway a rival clan straddles the road with mismatched trucks, engines idling, weapons on knees. They watch, waiting to see what you are.",
+        "leftChoice": {
+          "text": "Parley and share the road",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Intimidate them off the road",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/faction.webp"
+      },
+      {
+        "prompt": "Figures rise from a roadside ditch — a dozen refugees, gaunt and hollow-eyed, hands raised. 'Take us,' the eldest rasps. 'We can work. We can shoot.'",
+        "leftChoice": {
+          "text": "Welcome them aboard",
+          "effects": {
+            "Power": 0,
+            "Wealth": -10,
+            "People": 15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Turn them away",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "The sky turns the colour of a bruise and a wall of grit roars across the plain. There is no outrunning it, only choices.",
+        "leftChoice": {
+          "text": "Circle the wagons and wait it out",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Drive blind through the storm",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "A fuel depot squats beside the road, tanks unmarred, too perfect. Your gut says mines. Your gauge says you need it.",
+        "leftChoice": {
+          "text": "Rush the pumps and pray",
+          "effects": {
+            "Power": -5,
+            "Wealth": 20,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Sweep it carefully first",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": 0,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/gamble.webp"
+      },
+      {
+        "prompt": "The convoy's mechanic wipes grease from her brow. 'Half the rigs are coughing. Give me the rare parts or we shed trucks by nightfall.'",
+        "leftChoice": {
+          "text": "Sacrifice salvage for repairs",
+          "effects": {
+            "Power": 0,
+            "Wealth": -10,
+            "People": 0,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Push the engines untended",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "Two families come to blows over the water ration — one has strong backs and full guns, the other children and elders. Both look to you to rule.",
+        "leftChoice": {
+          "text": "Favor the workers who keep us moving",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Ration equally to all",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/judgement.webp"
+      },
+      {
+        "prompt": "At dusk a signal crackles through static — a repeating voice promising 'the green valley, safe roads, follow the tone.' The old paper map says otherwise.",
+        "leftChoice": {
+          "text": "Follow the signal",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Trust the old paper map",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/advisor.webp"
+      },
+      {
+        "prompt": "A lone trader flags you down beside a stall of salvaged goods. 'Fuel for scrap, or supplies for that shiny old-world tech you're hauling — your pick, friend.'",
+        "leftChoice": {
+          "text": "Trade scrap for fuel",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Trade old-world tech for supplies",
+          "effects": {
+            "Power": 0,
+            "Wealth": 15,
+            "People": 0,
+            "Knowledge": -15
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "The road narrows into a canyon and the walls come alive with raiders — the trader sold your route. Rocks tumble, engines rev in ambush.",
+        "leftChoice": {
+          "text": "Fight through the choke point",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Pay the ransom and pass",
+          "effects": {
+            "Power": 0,
+            "Wealth": -15,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "In a collapsed hangar sits a working solar rig, panels folded like a sleeping bird. The warlord's men haven't found it — yet. It is heavy and it is priceless.",
+        "leftChoice": {
+          "text": "Haul the solar rig with us",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 15
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Leave it, we can't spare the weight",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/opportunity.webp"
+      },
+      {
+        "prompt": "The last toll bridge before the valley, held by the highway's cruelest warlord. Guns bristle from every girder. Beyond it, the road climbs green.",
+        "leftChoice": {
+          "text": "Negotiate safe passage",
+          "effects": {
+            "Power": -5,
+            "Wealth": -5,
+            "People": 0,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Storm the bridge at speed",
+          "effects": {
+            "Power": 10,
+            "Wealth": 5,
+            "People": -15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "The warlord, impressed, makes an offer over cold tea: 'Ride with me. Whatever's in that green valley, we take it together — and split it.'",
+        "leftChoice": {
+          "text": "Accept the alliance",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Decline and go alone",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/faction.webp"
+      },
+      {
+        "prompt": "From the last ridge, you see it: a smudge of impossible green in the grey world, a valley alive. The fuel gauge is a whisper above empty.",
+        "leftChoice": {
+          "text": "Make the final push at full throttle",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Coast down carefully to save the last drops",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 0,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/advisor.webp"
+      },
+      {
+        "prompt": "The convoy rolls to a stop where the ash gives way to grass. Water glints below, real and clean. The dead highway is behind you at last — and the green valley waits, holding its own unknown promises.",
+        "leftChoice": {
+          "text": "Sound the horns and descend as one",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Stand watch a moment, savoring survival",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/terminal.webp"
+      }
+    ],
+    "series": {
+      "name": "Ashfall",
+      "part": 2
+    },
+    "category": "game"
+  },
+  {
+    "name": "Ashfall: The Green Valley",
+    "description": "The convoy reaches the promised valley only to find it already claimed, and must negotiate, integrate, or conquer while the raiders of the dead highway close in for one final reckoning.",
+    "cards": [
+      {
+        "prompt": "The convoy idles where ash gives way to grass. Riders in patchwork armor watch from a ridge — the valley is already someone's home, and they have buried convoys before.",
+        "leftChoice": {
+          "text": "Send one unarmed emissary forward.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Roll in with gun-trucks to show strength.",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "The valley's council receives you in a hall of living timber. Their welcome is cold, their hands never far from bowstrings.",
+        "leftChoice": {
+          "text": "Offer trade: fuel and tools for passage.",
+          "effects": {
+            "Power": 0,
+            "Wealth": -10,
+            "People": 0,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Demand the right of settlement.",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/faction.webp"
+      },
+      {
+        "prompt": "Horns sound across the valley. Farmers become archers; irrigation channels become moats. You have frightened them badly.",
+        "leftChoice": {
+          "text": "Stand down and apologize.",
+          "effects": {
+            "Power": -10,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Hold the line and dig in.",
+          "effects": {
+            "Power": 5,
+            "Wealth": -10,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "An old woman with a green sash asks what proof you can give that your people won't simply take what they need.",
+        "leftChoice": {
+          "text": "Surrender half your heavy weapons as a bond.",
+          "effects": {
+            "Power": -10,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Offer to share pre-war medical knowledge.",
+          "effects": {
+            "Power": 0,
+            "Wealth": 5,
+            "People": 5,
+            "Knowledge": -5
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "A nervous trigger finger starts a skirmish at the treeline. Blood on the grass — the valley will remember this for generations.",
+        "leftChoice": {
+          "text": "Pull back and sue for peace.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Press the attack into the fields.",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "Wary but curious, the valley proposes your people camp among them, share the harvest, and learn their ways.",
+        "leftChoice": {
+          "text": "Embrace integration; mingle the camps.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Keep the convoy separate and self-reliant.",
+          "effects": {
+            "Power": 5,
+            "Wealth": -5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "In gratitude, the elder reveals a sealed pre-war clinic buried beneath the orchard, its machines still faintly humming.",
+        "leftChoice": {
+          "text": "Study it patiently with their healers.",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Seize the facility for the convoy alone.",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/opportunity.webp"
+      },
+      {
+        "prompt": "By force or theft you now hold the upper hand. The valley's leaders kneel, but their eyes are knives.",
+        "leftChoice": {
+          "text": "Rule through fear and garrisons.",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Rule lightly, keep local leaders in place.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/faction.webp"
+      },
+      {
+        "prompt": "Weeks of uneasy peace shatter when a child runs in: dust on the horizon. The raiders who tracked your trail have found the valley.",
+        "leftChoice": {
+          "text": "Prepare joint defenses with the valley.",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": 0,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Send scouts to gauge the threat first.",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "Your separate camp draws from the valley's spring. A delegation arrives demanding you ration like everyone else.",
+        "leftChoice": {
+          "text": "Agree to share the water fairly.",
+          "effects": {
+            "Power": 0,
+            "Wealth": -5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Post guards on the well you dug yourselves.",
+          "effects": {
+            "Power": 5,
+            "Wealth": 5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/petitioner.webp"
+      },
+      {
+        "prompt": "Resentment festers between conqueror and conquered. Sabotage in the night; a garrison found with slit throats at dawn.",
+        "leftChoice": {
+          "text": "Crack down hard on all dissent.",
+          "effects": {
+            "Power": 10,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Offer concessions and shared council seats.",
+          "effects": {
+            "Power": -10,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "The raider host arrives — trucks bristling with scrap-iron spikes, flying a banner sewn from convoy skulls you recognize.",
+        "leftChoice": {
+          "text": "Ride out to parley with their chief.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Fortify the valley mouth and fight.",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -5,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "Your scouts return pale. The raiders number three hundred, but their trucks run on fumes and desperation.",
+        "leftChoice": {
+          "text": "Plan an ambush at the fuel-dry pass.",
+          "effects": {
+            "Power": 5,
+            "Wealth": -5,
+            "People": 0,
+            "Knowledge": 5
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Warn the valley and rally every hand.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/advisor.webp"
+      },
+      {
+        "prompt": "The valley rises in open revolt, and your own convoy splits over how far the crackdown should go.",
+        "leftChoice": {
+          "text": "Suppress the uprising with everything.",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -15,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Abandon the valley and flee north.",
+          "effects": {
+            "Power": -10,
+            "Wealth": -10,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
+      {
+        "prompt": "The raider chief, gaunt and clever, offers alliance against the valley — or safe passage in exchange for tribute.",
+        "leftChoice": {
+          "text": "Pay tribute in fuel and be rid of them.",
+          "effects": {
+            "Power": 0,
+            "Wealth": -15,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Refuse and dare them to break on your walls.",
+          "effects": {
+            "Power": 5,
+            "Wealth": 0,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/judgement.webp"
+      },
+      {
+        "prompt": "The raiders charge. Dust, fire, and the scream of failing engines fill the valley mouth as your fate is decided.",
+        "leftChoice": {
+          "text": "Meet them head-on in a grinding defense.",
+          "effects": {
+            "Power": 5,
+            "Wealth": -5,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Spring a tech-rigged trap to shatter them.",
           "effects": {
             "Power": 5,
             "Wealth": 0,
             "People": -5,
             "Knowledge": -5
-          }
-        }
-      }
-    ],
-    "category": "game"
-  },
-  {
-    "name": "The Dragon's Curse",
-    "description": "A dragon's curse afflicts your kingdom. Appease it with treasure or seek a way to break the spell? Designed for a Mystic setting.",
-    "cards": [
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
+      },
       {
-        "prompt": "The dragon demands a tribute of gold that would empty the royal treasury.",
+        "prompt": "Smoke clears over broken raiders and freshly dug graves. The valley and the convoy count their shared dead.",
         "leftChoice": {
-          "text": "Pay the tribute.",
+          "text": "Hold a joint rite to honor the fallen.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 0,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Consolidate your grip while emotions run high.",
           "effects": {
             "Power": 10,
-            "Wealth": -30,
-            "People": 15,
+            "Wealth": 5,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "The question no one dares ask aloud: is the convoy a people now, or just a machine that must keep rolling?",
+        "leftChoice": {
+          "text": "Beach the trucks for good; become farmers.",
+          "effects": {
+            "Power": -10,
+            "Wealth": 10,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Keep the convoy armed as the valley's shield.",
+          "effects": {
+            "Power": 10,
+            "Wealth": -5,
+            "People": -5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/gamble.webp"
+      },
+      {
+        "prompt": "The valley is green, the dead highway a memory. Now the shape of what comes after must be chosen.",
+        "leftChoice": {
+          "text": "Found an elected council of valley and convoy.",
+          "effects": {
+            "Power": -5,
+            "Wealth": 5,
+            "People": 5,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Take the crown yourself as the valley's warlord.",
+          "effects": {
+            "Power": 15,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
+      },
+      {
+        "prompt": "Seasons turn. Grass grows over the fuel stains, children who never saw the ash play by the clean water, and the saga of the convoy ends not on the dead highway but here, in the green.",
+        "leftChoice": {
+          "text": "Rest at last.",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
             "Knowledge": 0
           }
         },
         "rightChoice": {
-          "text": "Refuse.",
+          "text": "Watch the horizon, always.",
           "effects": {
-            "Power": -10,
+            "Power": 0,
             "Wealth": 0,
-            "People": -15,
-            "Knowledge": 5
+            "People": 0,
+            "Knowledge": 0
           }
-        }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/postapoc/terminal.webp"
       }
     ],
+    "series": {
+      "name": "Ashfall",
+      "part": 3
+    },
     "category": "game"
   }
 ]
