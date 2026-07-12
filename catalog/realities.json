@@ -10565,11 +10565,542 @@
     }
   },
   {
-    "id": "edu-founders-gambit",
-    "name": "The Founder's Gambit",
-    "description": "Learn startup judgment the hard way: twelve months of runway, one company, no safety net. Every card is a real founder's trade-off.",
+    "id": "noir",
+    "name": "Rain City",
+    "description": "A private eye, a case that smells wrong, and a city where every streetlight hides a debt. Classic hard-boiled noir.",
     "font": "font-exo",
-    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Founder's Gambit\". The stats are Control, Runway, The Team, Insight.",
+    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"Rain City\". The stats are Nerve, The Retainer, Contacts, The Case.",
+    "statNames": {
+      "Power": "Nerve",
+      "Wealth": "The Retainer",
+      "People": "Contacts",
+      "Knowledge": "The Case"
+    },
+    "statIconNames": {
+      "Power": "PowerIconCyber",
+      "Wealth": "WealthIconCyber",
+      "People": "PeopleIconCyber",
+      "Knowledge": "KnowledgeIconCyber"
+    },
+    "imageSet": [],
+    "colors": {
+      "primary": "text-slate-300",
+      "secondary": "text-amber-300",
+      "background": "bg-gradient-to-br from-zinc-950 via-slate-950 to-black",
+      "accent": "border-slate-400"
+    },
+    "category": "game",
+    "deck": {
+      "name": "Rain City: The Kessler File",
+      "description": "A broke private eye takes a missing-husband case from a woman who lies, in a city where the cops owe favors they resent, the papers pay for secrets, and every truth is buried under rain.",
+      "cards": [
+        {
+          "prompt": "Neon bleeds through the rain on your office window when she walks in—Mrs. Kessler, all mink and trouble, saying her husband's vanished. Her hands don't shake like a worried wife's.",
+          "leftChoice": {
+            "text": "Take the retainer and the case.",
+            "effects": {
+              "Power": 0,
+              "Wealth": 20,
+              "People": -5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 1
+          },
+          "rightChoice": {
+            "text": "Turn her away—something's rotten.",
+            "effects": {
+              "Power": 10,
+              "Wealth": -10,
+              "People": 5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 2
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/noir/petitioner.webp"
+        },
+        {
+          "prompt": "Her cash sits in your drawer like a loaded gun. The husband's last known address is a fleabag hotel across town.",
+          "leftChoice": {
+            "text": "Set up a cold, wet stakeout.",
+            "effects": {
+              "Power": -10,
+              "Wealth": -10,
+              "People": 10,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 3
+          },
+          "rightChoice": {
+            "text": "Shake down your street contacts first.",
+            "effects": {
+              "Power": -5,
+              "Wealth": -10,
+              "People": 10,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 4
+          },
+          "archetype": "chain",
+          "imageUrl": "https://store.swipeverse.app/art/noir/chain.webp"
+        },
+        {
+          "prompt": "She leaves in a cloud of perfume, but a flat-faced goon lingers under the streetlamp, watching your door.",
+          "leftChoice": {
+            "text": "Slip out and tail the goon.",
+            "effects": {
+              "Power": 10,
+              "Wealth": -5,
+              "People": -5,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 3
+          },
+          "rightChoice": {
+            "text": "Kill the lights and lay low.",
+            "effects": {
+              "Power": -10,
+              "Wealth": 5,
+              "People": 5,
+              "Knowledge": -5
+            },
+            "nextCardIndex": 4
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/noir/crisis.webp"
+        },
+        {
+          "prompt": "The Alameda Hotel drips misery from every gutter. Room 4C stays dark, but the desk clerk keeps glancing your way.",
+          "leftChoice": {
+            "text": "Wait all night in the rain.",
+            "effects": {
+              "Power": -10,
+              "Wealth": -5,
+              "People": 5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 5
+          },
+          "rightChoice": {
+            "text": "Slide the clerk a folded bill.",
+            "effects": {
+              "Power": 5,
+              "Wealth": -15,
+              "People": 10,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 6
+          },
+          "archetype": "chain",
+          "imageUrl": "https://store.swipeverse.app/art/noir/chain.webp"
+        },
+        {
+          "prompt": "Halloran of the Ledger corners you in a diner, cigarette bobbing. 'Word is you got a live one. Papers pay cash for a name.'",
+          "leftChoice": {
+            "text": "Sell him a tip.",
+            "effects": {
+              "Power": 5,
+              "Wealth": 20,
+              "People": -10,
+              "Knowledge": -5
+            },
+            "nextCardIndex": 5
+          },
+          "rightChoice": {
+            "text": "Keep your mouth shut.",
+            "effects": {
+              "Power": 5,
+              "Wealth": -5,
+              "People": 10,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 6
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/noir/opportunity.webp"
+        },
+        {
+          "prompt": "Lieutenant Brannigan owes you for the Delgado business, and he hates it. 'Ask your favor and get outta my precinct,' he growls.",
+          "leftChoice": {
+            "text": "Cash in the favor for the files.",
+            "effects": {
+              "Power": 5,
+              "Wealth": 5,
+              "People": 5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 7
+          },
+          "rightChoice": {
+            "text": "Save the favor for a rainier day.",
+            "effects": {
+              "Power": 10,
+              "Wealth": 5,
+              "People": 0,
+              "Knowledge": -5
+            },
+            "nextCardIndex": 8
+          },
+          "archetype": "advisor",
+          "imageUrl": "https://store.swipeverse.app/art/noir/advisor.webp"
+        },
+        {
+          "prompt": "Uniforms boot in the door of the Blue Parrot mid-question. A raid—and you're in the middle of it.",
+          "leftChoice": {
+            "text": "Slip out the kitchen door.",
+            "effects": {
+              "Power": -5,
+              "Wealth": -5,
+              "People": 5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 7
+          },
+          "rightChoice": {
+            "text": "Flash the license, play it cool.",
+            "effects": {
+              "Power": 10,
+              "Wealth": 0,
+              "People": -5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 8
+          },
+          "archetype": "faction",
+          "imageUrl": "https://store.swipeverse.app/art/noir/faction.webp"
+        },
+        {
+          "prompt": "The bartender wipes the same glass three times. 'Kessler? Never heard of him.' The wet ring on the bar says otherwise.",
+          "leftChoice": {
+            "text": "Lean on him, hard.",
+            "effects": {
+              "Power": 10,
+              "Wealth": -5,
+              "People": -10,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 9
+          },
+          "rightChoice": {
+            "text": "Buy a round and play friendly.",
+            "effects": {
+              "Power": -5,
+              "Wealth": -10,
+              "People": 10,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 9
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/noir/petitioner.webp"
+        },
+        {
+          "prompt": "A black sedan noses out of the alley and rolls slow through the downpour. No plates you can read from here—not yet.",
+          "leftChoice": {
+            "text": "Tail it down to the docks.",
+            "effects": {
+              "Power": 5,
+              "Wealth": -10,
+              "People": -5,
+              "Knowledge": 15
+            },
+            "nextCardIndex": 10
+          },
+          "rightChoice": {
+            "text": "Catch the plate and back off.",
+            "effects": {
+              "Power": -5,
+              "Wealth": 5,
+              "People": 5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 10
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/noir/gamble.webp"
+        },
+        {
+          "prompt": "You find him at last—Kessler, face-down in a warehouse, two days dead. This was never about a runaway husband.",
+          "leftChoice": {
+            "text": "Phone it in to Brannigan.",
+            "effects": {
+              "Power": -5,
+              "Wealth": -5,
+              "People": 5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 11
+          },
+          "rightChoice": {
+            "text": "Search the body before the cops come.",
+            "effects": {
+              "Power": 5,
+              "Wealth": 5,
+              "People": -5,
+              "Knowledge": 15
+            },
+            "nextCardIndex": 12
+          },
+          "archetype": "chain",
+          "imageUrl": "https://store.swipeverse.app/art/noir/chain.webp"
+        },
+        {
+          "prompt": "Two snitches, two stories. The dockworker swears he saw a woman; the showgirl swears she saw a badge.",
+          "leftChoice": {
+            "text": "Trust the dockworker.",
+            "effects": {
+              "Power": -5,
+              "Wealth": -5,
+              "People": 5,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 11
+          },
+          "rightChoice": {
+            "text": "Trust the showgirl.",
+            "effects": {
+              "Power": 5,
+              "Wealth": -5,
+              "People": -5,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 12
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/noir/judgement.webp"
+        },
+        {
+          "prompt": "They're waiting in the alley—two of them with pipes. 'Drop the case, gumshoe,' one grunts as the rain runs pink.",
+          "leftChoice": {
+            "text": "Swing first and swing hard.",
+            "effects": {
+              "Power": 10,
+              "Wealth": -5,
+              "People": -5,
+              "Knowledge": -5
+            },
+            "nextCardIndex": 13
+          },
+          "rightChoice": {
+            "text": "Take the beating and listen.",
+            "effects": {
+              "Power": -15,
+              "Wealth": 0,
+              "People": 5,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 13
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/noir/crisis.webp"
+        },
+        {
+          "prompt": "In Kessler's coat lining: a safe-deposit key, numbered 217. Somebody would kill to get it—maybe already did.",
+          "leftChoice": {
+            "text": "Open the box at the bank.",
+            "effects": {
+              "Power": -5,
+              "Wealth": 10,
+              "People": -5,
+              "Knowledge": 20
+            },
+            "nextCardIndex": 13
+          },
+          "rightChoice": {
+            "text": "Sell the key to the highest bidder.",
+            "effects": {
+              "Power": 0,
+              "Wealth": 25,
+              "People": 5,
+              "Knowledge": -10
+            },
+            "nextCardIndex": 14
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/noir/opportunity.webp"
+        },
+        {
+          "prompt": "Mrs. Kessler sweeps back in, tears on cue, with a brand-new story about her 'poor lost husband.' The math still doesn't add up.",
+          "leftChoice": {
+            "text": "Lay the truth on the table.",
+            "effects": {
+              "Power": 5,
+              "Wealth": 10,
+              "People": 5,
+              "Knowledge": -10
+            },
+            "nextCardIndex": 15
+          },
+          "rightChoice": {
+            "text": "Play along and let her hang herself.",
+            "effects": {
+              "Power": -5,
+              "Wealth": 5,
+              "People": 5,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 16
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/noir/petitioner.webp"
+        },
+        {
+          "prompt": "District Attorney Voss sends a car for you. 'Drop the Kessler matter,' he purrs over brandy, 'and forget you ever heard my name.'",
+          "leftChoice": {
+            "text": "Tell him where to stuff it.",
+            "effects": {
+              "Power": 10,
+              "Wealth": -5,
+              "People": -10,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 15
+          },
+          "rightChoice": {
+            "text": "Bargain for protection instead.",
+            "effects": {
+              "Power": -5,
+              "Wealth": -5,
+              "People": 10,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 16
+          },
+          "archetype": "advisor",
+          "imageUrl": "https://store.swipeverse.app/art/noir/advisor.webp"
+        },
+        {
+          "prompt": "You've got the crooked official cold—ledgers, payoffs, the works. He mops his brow across the desk from you.",
+          "leftChoice": {
+            "text": "Threaten to blow it all open.",
+            "effects": {
+              "Power": 10,
+              "Wealth": -5,
+              "People": -5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 17
+          },
+          "rightChoice": {
+            "text": "Pocket his bribe and walk.",
+            "effects": {
+              "Power": -10,
+              "Wealth": 25,
+              "People": 5,
+              "Knowledge": -15
+            },
+            "nextCardIndex": 18
+          },
+          "archetype": "chain",
+          "imageUrl": "https://store.swipeverse.app/art/noir/chain.webp"
+        },
+        {
+          "prompt": "The real killer bolts through the storm toward the pier. Your lungs burn and your gun's slick with rain.",
+          "leftChoice": {
+            "text": "Corner him at the pier's end.",
+            "effects": {
+              "Power": 5,
+              "Wealth": -5,
+              "People": -5,
+              "Knowledge": 15
+            },
+            "nextCardIndex": 17
+          },
+          "rightChoice": {
+            "text": "Whistle up Brannigan for backup.",
+            "effects": {
+              "Power": -5,
+              "Wealth": -5,
+              "People": 10,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 18
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/noir/gamble.webp"
+        },
+        {
+          "prompt": "Sirens. A planted pistol, your prints, a corpse you never touched. Voss has framed you neat as a Sunday suit.",
+          "leftChoice": {
+            "text": "Run and dig up the proof.",
+            "effects": {
+              "Power": -10,
+              "Wealth": -5,
+              "People": 5,
+              "Knowledge": 15
+            },
+            "nextCardIndex": 18
+          },
+          "rightChoice": {
+            "text": "Surrender and trust the truth.",
+            "effects": {
+              "Power": -5,
+              "Wealth": 5,
+              "People": 5,
+              "Knowledge": 10
+            },
+            "nextCardIndex": 19
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/noir/crisis.webp"
+        },
+        {
+          "prompt": "It all comes down to one rain-lashed room: the widow, the DA, the lieutenant, and the file that ties them together.",
+          "leftChoice": {
+            "text": "Lay the whole rotten scheme bare.",
+            "effects": {
+              "Power": 10,
+              "Wealth": -5,
+              "People": 5,
+              "Knowledge": 5
+            },
+            "nextCardIndex": 19
+          },
+          "rightChoice": {
+            "text": "Cut a quiet deal and let it slide.",
+            "effects": {
+              "Power": -5,
+              "Wealth": 15,
+              "People": 0,
+              "Knowledge": -5
+            },
+            "nextCardIndex": 19
+          },
+          "archetype": "chain",
+          "imageUrl": "https://store.swipeverse.app/art/noir/chain.webp"
+        },
+        {
+          "prompt": "Dawn finally cracks grey over the wet city. The Kessler file is closed—one way or another—and the rain, at last, begins to ease.",
+          "leftChoice": {
+            "text": "Pour a drink and let the case rest.",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "rightChoice": {
+            "text": "Hang out the shingle for the next lie.",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "archetype": "terminal",
+          "imageUrl": "https://store.swipeverse.app/art/noir/terminal.webp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "edu-founders-gambit",
+    "name": "The Ledger",
+    "description": "The business world. Deck 1 — Runway: twelve months of cash, one company, no safety net. Every card is a real founder's trade-off.",
+    "font": "font-exo",
+    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Ledger\". The stats are Control, Runway, The Team, Insight.",
     "statNames": {
       "Power": "Control",
       "Wealth": "Runway",
@@ -10591,7 +11122,7 @@
     },
     "category": "education",
     "deck": {
-      "name": "The Founder's Gambit",
+      "name": "Runway",
       "description": "Bootstrap a software startup through twelve months of runway, trading founder control, cash, team trust, and hard-won business insight on the road to product-market fit.",
       "cards": [
         {
@@ -11092,15 +11623,19 @@
           "archetype": "terminal",
           "imageUrl": "https://store.swipeverse.app/art/business/terminal.webp"
         }
-      ]
+      ],
+      "series": {
+        "name": "The Ledger",
+        "part": 1
+      }
     }
   },
   {
     "id": "edu-zero-day",
-    "name": "Zero Day",
-    "description": "Run security for a company under live attack. Real security trade-offs — patching, disclosure, phishing, backups — as swipe decisions.",
+    "name": "The Perimeter",
+    "description": "The security world. Deck 1 — Zero Hour: run security for a company under live attack. Contain or investigate, patch or keep uptime, disclose or dig deeper.",
     "font": "font-exo",
-    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"Zero Day\". The stats are Clearance, Budget, Trust, Threat Intel.",
+    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Perimeter\". The stats are Clearance, Budget, Trust, Threat Intel.",
     "statNames": {
       "Power": "Clearance",
       "Wealth": "Budget",
@@ -11122,7 +11657,7 @@
     },
     "category": "education",
     "deck": {
-      "name": "Zero Day: Breach Protocol",
+      "name": "Zero Hour",
       "description": "As a mid-size company's new security lead, steer a single escalating incident from a suspicious phishing email through lateral movement, ransomware detonation, and the messy aftermath — balancing your team's authority, budget, organizational trust, and threat intelligence.",
       "cards": [
         {
@@ -11148,7 +11683,7 @@
             "nextCardIndex": 1
           },
           "archetype": "crisis",
-          "imageUrl": "https://store.swipeverse.app/art/science/crisis.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
         },
         {
           "prompt": "Your scanner flags a critical remote-code-execution vuln on the app server. A patch exists, but the box runs production. Patch or wait?",
@@ -11173,7 +11708,7 @@
             "nextCardIndex": 5
           },
           "archetype": "chain",
-          "imageUrl": "https://store.swipeverse.app/art/science/chain.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
         },
         {
           "prompt": "You have leftover budget for exactly one thing: a third-party penetration test to find gaps, or an EDR tool for continuous endpoint visibility.",
@@ -11198,7 +11733,7 @@
             "nextCardIndex": 3
           },
           "archetype": "opportunity",
-          "imageUrl": "https://store.swipeverse.app/art/science/opportunity.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
         },
         {
           "prompt": "Logs suggest a set of credentials was harvested. Resetting everyone's password is safe but will bury the helpdesk in tickets.",
@@ -11223,7 +11758,7 @@
             "nextCardIndex": 4
           },
           "archetype": "crisis",
-          "imageUrl": "https://store.swipeverse.app/art/science/crisis.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
         },
         {
           "prompt": "An access review shows a shared service account with domain-admin rights used by half the ops team — a least-privilege nightmare. How aggressively do you fix it?",
@@ -11248,7 +11783,7 @@
             "nextCardIndex": 5
           },
           "archetype": "advisor",
-          "imageUrl": "https://store.swipeverse.app/art/science/advisor.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/advisor.webp"
         },
         {
           "prompt": "Your EDR lights up: the intruder is moving laterally, hopping from the accountant's laptop toward a file server. Contain or observe?",
@@ -11273,7 +11808,7 @@
             "nextCardIndex": 6
           },
           "archetype": "crisis",
-          "imageUrl": "https://store.swipeverse.app/art/science/crisis.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
         },
         {
           "prompt": "A vendor offers a premium threat-intelligence feed with fresh IOCs matching this actor. Your open-source feeds are free but slower.",
@@ -11298,7 +11833,7 @@
             "nextCardIndex": 7
           },
           "archetype": "opportunity",
-          "imageUrl": "https://store.swipeverse.app/art/science/opportunity.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
         },
         {
           "prompt": "You want MFA everywhere, but managers complain it slows logins and floods you with 'lost phone' requests. How far do you push?",
@@ -11323,7 +11858,7 @@
             "nextCardIndex": 8
           },
           "archetype": "petitioner",
-          "imageUrl": "https://store.swipeverse.app/art/science/petitioner.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
         },
         {
           "prompt": "Evidence of a breach is mounting. The CEO wants it kept quiet until you 'know for sure.' Legal risk and customer trust hang in the balance.",
@@ -11348,7 +11883,7 @@
             "nextCardIndex": 10
           },
           "archetype": "judgement",
-          "imageUrl": "https://store.swipeverse.app/art/science/judgement.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
         },
         {
           "prompt": "Word of the incident has reached a regulator and a nervous customer. How you communicate now shapes everything.",
@@ -11373,7 +11908,7 @@
             "nextCardIndex": 11
           },
           "archetype": "faction",
-          "imageUrl": "https://store.swipeverse.app/art/science/faction.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
         },
         {
           "prompt": "Before things get worse, your backup admin swears the nightly backups are solid. But nobody has done a test restore in months.",
@@ -11398,7 +11933,7 @@
             "nextCardIndex": 11
           },
           "archetype": "chain",
-          "imageUrl": "https://store.swipeverse.app/art/science/chain.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
         },
         {
           "prompt": "Too late to prevent it: ransomware detonates. Files across shares are encrypting in real time and a ransom note appears. Every second counts.",
@@ -11423,7 +11958,7 @@
             "nextCardIndex": 12
           },
           "archetype": "crisis",
-          "imageUrl": "https://store.swipeverse.app/art/science/crisis.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
         },
         {
           "prompt": "The operators open a chat: pay in crypto for the decryptor, or lose the data and see it leaked. Your backups are uncertain.",
@@ -11448,7 +11983,7 @@
             "nextCardIndex": 13
           },
           "archetype": "gamble",
-          "imageUrl": "https://store.swipeverse.app/art/science/gamble.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/gamble.webp"
         },
         {
           "prompt": "Recovery time. Your backups predate the intrusion by weeks — but the attacker may have been dormant inside them. Restore or rebuild?",
@@ -11473,7 +12008,7 @@
             "nextCardIndex": 14
           },
           "archetype": "chain",
-          "imageUrl": "https://store.swipeverse.app/art/science/chain.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
         },
         {
           "prompt": "Forensics confirm customer PII was exfiltrated. Breach-notification clocks are ticking. How and when do you disclose to those affected?",
@@ -11498,7 +12033,7 @@
             "nextCardIndex": 15
           },
           "archetype": "judgement",
-          "imageUrl": "https://store.swipeverse.app/art/science/judgement.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
         },
         {
           "prompt": "The board convenes an emergency session. They want accountability — and to know whether to fund security properly or cut losses.",
@@ -11523,7 +12058,7 @@
             "nextCardIndex": 18
           },
           "archetype": "faction",
-          "imageUrl": "https://store.swipeverse.app/art/science/faction.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
         },
         {
           "prompt": "A log detail nags you: the initial access looks like someone knew exactly where to look. Could this be an insider?",
@@ -11548,7 +12083,7 @@
             "nextCardIndex": 18
           },
           "archetype": "gamble",
-          "imageUrl": "https://store.swipeverse.app/art/science/gamble.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/gamble.webp"
         },
         {
           "prompt": "The dust is settling and you're cleared to build a real capability. Stand up an in-house SOC, or contract a managed security provider?",
@@ -11573,7 +12108,7 @@
             "nextCardIndex": 18
           },
           "archetype": "petitioner",
-          "imageUrl": "https://store.swipeverse.app/art/science/petitioner.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
         },
         {
           "prompt": "The post-incident review lands on your desk. You can push a layered defense-in-depth roadmap, or just close the specific gaps that were exploited.",
@@ -11598,7 +12133,7 @@
             "nextCardIndex": 19
           },
           "archetype": "chain",
-          "imageUrl": "https://store.swipeverse.app/art/science/chain.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
         },
         {
           "prompt": "Six months later, the company is still standing — and hardened by hard lessons. As you write the retrospective, what note do you leave for your successor?",
@@ -11621,9 +12156,13 @@
             }
           },
           "archetype": "terminal",
-          "imageUrl": "https://store.swipeverse.app/art/science/terminal.webp"
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/terminal.webp"
         }
-      ]
+      ],
+      "series": {
+        "name": "The Perimeter",
+        "part": 1
+      }
     }
   },
   {
