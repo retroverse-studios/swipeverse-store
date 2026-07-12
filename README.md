@@ -46,6 +46,24 @@ Design decisions for the wiring work — recorded so they aren't relitigated:
   the educator recipe (host the JSON, hand out a `?play=` link). Linked from
   the app's editor and About panel.
 
+## Deferred — revisit post-launch (decided 2026-07-12)
+
+Popularity signals and voting were assessed and deliberately skipped for
+launch (a curated catalog of ~30 decks doesn't need ranking yet). When the
+community grows, the designs on the table:
+
+1. **"Most added" counting** — the store is static Pages and can't count,
+   so this needs a tiny Cloudflare Worker (we're already on Cloudflare):
+   the app pings `/add?deck=X` on library-add, Worker increments KV and
+   serves an aggregated `popular.json` for a "most added this week" shelf.
+   No accounts, no PII, ~50 lines. Vote-stuffing possible, stakes near zero.
+   Build this one first — it's invisible UX with honest data.
+2. **Voting** — GitHub 👍 reactions on one discussion/issue per deck,
+   counts fetched via the public API. Reactions-only = **no free text**, so
+   no NSFW/abuse moderation burden (the reason free-text feedback is
+   permanently out of scope). Costs voters a GitHub login; only worth it
+   once volume exists.
+
 ## Hosting
 
 Intended home: **`store.swipeverse.app`** (CNAME to GitHub Pages on this repo).
