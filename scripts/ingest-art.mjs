@@ -179,6 +179,13 @@ for (const name of targets) {
 
 if (installed.length > 0) {
     index.sets.sort();
+    index.setInfo ??= {};
+    for (const name of installed) {
+        if (!index.setInfo[name]) {
+            index.setInfo[name] = { title: name[0].toUpperCase() + name.slice(1), hint: "" };
+            console.log(`  ⚠ ${name}: added placeholder setInfo — fill in the genre hint (shows in the gallery + editor)`);
+        }
+    }
     writeFileSync(INDEX_PATH, JSON.stringify(index, null, 2) + "\n");
     console.log(`\nUpdated art/index.json (${index.sets.length} sets).`);
     reportCountCopy(index);

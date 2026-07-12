@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwipeVerse Art Gallery — themed card art for your stories</title>
+  <meta name="description" content="Browse the SwipeVerse art palette: themed pixel-art card sets free for community decks, each with a suggested story genre.">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmNTJlMSI+PHBhdGggZD0iTTEyIDJMMy41IDEyIDEyIDIyIDIwLjUgMTIgMTIgMloiLz48L3N2Zz4=">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --gold:#c9962e; --gold-bright:#f6e4a8; --paper:#e9dfc8; --muted:#9a8db4; --velvet:#0d0718; --velvet2:#120a22; --border:rgba(201,150,46,.35); }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Exo 2',system-ui,sans-serif; color:var(--paper); line-height:1.6;
+      background: radial-gradient(120% 100% at 50% 0%, #1c1030 0%, #0d0718 55%, #060310 100%); background-attachment: fixed; }
+    .container { max-width: 980px; margin:0 auto; padding: 0 1.25rem; }
+    h1,h2 { font-family:'Cinzel',serif; }
+    .hero { padding: 4rem 0 1.5rem; text-align:center; }
+    .hero h1 { font-size: clamp(1.6rem,5vw,2.4rem); font-weight:800;
+      background: linear-gradient(180deg, var(--gold-bright), var(--gold) 60%, #8a6a1c);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+      filter: drop-shadow(0 0 20px rgba(201,150,46,.3)); }
+    .hero p { color: var(--muted); max-width: 62ch; margin: 1rem auto 0; }
+    .hero a { color: var(--gold-bright); }
+    .set { background:var(--velvet2); border:1px solid var(--border); border-radius:14px; padding:1.2rem 1.4rem; margin: 1.1rem 0; }
+    .set h2 { color:var(--gold-bright); font-size:1.1rem; }
+    .set .hint { color:var(--muted); font-size:.92rem; margin-bottom:.8rem; }
+    .set .hint em { color:var(--paper); font-style:normal; }
+    .scenes { display:grid; grid-template-columns:repeat(auto-fill, minmax(120px, 1fr)); gap:.5rem; }
+    .scenes figure { margin:0; }
+    .scenes img { width:100%; border-radius:8px; display:block; border:1px solid rgba(255,255,255,.08); image-rendering: pixelated; }
+    .scenes figcaption { font-size:.7rem; color:var(--muted); text-align:center; margin-top:.15rem; text-transform:capitalize; }
+    .extras { display:flex; gap:.5rem; margin-top:.6rem; align-items:flex-end; flex-wrap:wrap; }
+    .extras img.back { height:96px; border-radius:6px; border:1px solid rgba(255,255,255,.08); image-rendering: pixelated; }
+    .extras img.badge { height:40px; image-rendering: pixelated; }
+    .cta-row { text-align:center; padding: 1rem 0 0; }
+    .cta { display:inline-block; margin: .3rem .4rem 0; padding:.7rem 1.3rem; border-radius:10px; font-weight:700; text-decoration:none; border:1px solid var(--border); color:var(--paper); }
+    .cta:hover { border-color: var(--gold-bright); }
+    .note { background:var(--velvet2); border:1px solid var(--border); border-radius:14px; padding:1.2rem 1.4rem; margin: 2rem 0; color:var(--muted); font-size:.95rem; }
+    .note h2 { color:var(--gold-bright); font-size:1.05rem; margin-bottom:.4rem; }
+    .note code { color:var(--paper); background:rgba(255,255,255,.06); padding:.1rem .35rem; border-radius:4px; font-size:.82rem; }
+    .note a { color:var(--gold-bright); }
+    footer { border-top:1px solid var(--border); margin-top:2rem; padding:1.5rem 0 2.5rem; text-align:center; color:var(--muted); font-size:.9rem; }
+    footer a { color:var(--muted); }
+    #loading { text-align:center; color:var(--muted); padding:3rem 0; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>THE ART GALLERY</h1>
+      <p>Every set below is free to use in community decks — pick one in the
+        deck builder's art picker, or let a set spark the story. Each comes with
+        nine archetype scenes, a card back and four stat badges. <a href="../">Back to the store</a>.</p>
+    </div>
+  </header>
+  <main class="container">
+    <div id="loading">Summoning the gallery…</div>
+    <div id="gallery"></div>
+    <section class="note">
+      <h2>Prefer making art to writing stories?</h2>
+      <p>The palette grows by contribution. A set is 14 images: the 9 archetype
+        scenes above (landscape), a card back (portrait) and 4 stat badges
+        (square), all <code>.webp</code>, named exactly like the existing sets.
+        Open a pull request adding your set under <code>art/&lt;set-name&gt;/</code> —
+        see the <a href="https://github.com/retroverse-studios/swipeverse-store/blob/main/CONTRIBUTING.md">contribution guide</a>.
+        Story writers, art makers, or both — all welcome.</p>
+    </section>
+    <div class="cta-row">
+      <a class="cta" href="https://swipeverse.app/app/">▶ Open the deck builder</a>
+      <a class="cta" href="../guide/">Creator Guide</a>
+      <a class="cta" href="../art/index.json">Raw index (JSON)</a>
+    </div>
+  </main>
+  <footer>
+    <div class="container">SwipeVerse Store — art palette, CC-style free for SwipeVerse decks.</div>
+  </footer>
+  <script>
+    const ART = '../art';
+    fetch(ART + '/index.json').then(r => r.json()).then(index => {
+      document.getElementById('loading').remove();
+      const root = document.getElementById('gallery');
+      for (const set of index.sets) {
+        const info = (index.setInfo && index.setInfo[set]) || {};
+        const section = document.createElement('section');
+        section.className = 'set';
+        const scenes = index.archetypes.map(a =>
+          `<figure><img loading="lazy" src="${ART}/${set}/${a}.webp" alt="${set} ${a}"><figcaption>${a}</figcaption></figure>`
+        ).join('');
+        const badges = (index.badgeSlots || []).map(b =>
+          `<img class="badge" loading="lazy" src="${ART}/${set}/badges/${b}.webp" alt="${set} ${b} badge" title="${b}">`
+        ).join('');
+        section.innerHTML = `
+          <h2>${info.title || set}</h2>
+          <p class="hint">Suits: <em>${info.hint || '—'}</em></p>
+          <div class="scenes">${scenes}</div>
+          <div class="extras"><img class="back" loading="lazy" src="${ART}/${set}/back.webp" alt="${set} card back" title="card back">${badges}</div>`;
+        root.appendChild(section);
+      }
+    }).catch(() => {
+      document.getElementById('loading').textContent = 'The gallery is unreachable right now — try the raw index instead.';
+    });
+  </script>
+</body>
+</html>

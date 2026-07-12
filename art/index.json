@@ -45,5 +45,95 @@
     "scene": "art/<set>/<archetype>.webp",
     "back": "art/<set>/back.webp",
     "badge": "art/<set>/badges/<slot>.webp"
+  },
+  "setInfo": {
+    "aviation": {
+      "title": "Golden Age Aviation",
+      "hint": "pilots, airlines, record flights, airfields, aircraft, storms"
+    },
+    "business": {
+      "title": "Business",
+      "hint": "startups, corporate intrigue, boardrooms, mergers, office politics, money"
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "hint": "hackers, breaches, malware, incident response, networks, digital defense"
+    },
+    "egypt": {
+      "title": "Ancient Egypt",
+      "hint": "pharaohs, pyramids, the nile, tombs, priests, dynasties, gods"
+    },
+    "gothic": {
+      "title": "Gothic Horror",
+      "hint": "haunted manors, curses, vampires, ghosts, victorian dread, occult"
+    },
+    "kingdom": {
+      "title": "Medieval Kingdom",
+      "hint": "kings, castles, knights, court intrigue, thrones, feudal politics"
+    },
+    "medical": {
+      "title": "Medical",
+      "hint": "hospitals, doctors, outbreaks, triage, emergency room, medicine"
+    },
+    "military": {
+      "title": "Military",
+      "hint": "war, soldiers, generals, campaigns, battlefield command, strategy"
+    },
+    "mythology": {
+      "title": "Mythology",
+      "hint": "gods, titans, pantheons, prophecy, heroes, olympus, myths"
+    },
+    "nautical": {
+      "title": "Age of Sail",
+      "hint": "ships, sea voyages, captains, storms, naval trade, harbors"
+    },
+    "noir": {
+      "title": "Noir",
+      "hint": "detectives, murder, crime, mystery, femme fatale, rain, corruption, 1940s"
+    },
+    "pirate": {
+      "title": "Pirates",
+      "hint": "buccaneers, treasure, black flags, mutiny, plunder, the caribbean"
+    },
+    "postapoc": {
+      "title": "Post-Apocalypse",
+      "hint": "wasteland, ruins, survivors, raiders, scavenging, collapse"
+    },
+    "prehistoric": {
+      "title": "Prehistoric",
+      "hint": "stone age, tribes, hunters, mammoths, fire, ice age"
+    },
+    "samurai": {
+      "title": "Samurai",
+      "hint": "feudal japan, honor, katanas, daimyo, shogun, bushido"
+    },
+    "science": {
+      "title": "Science Lab",
+      "hint": "researchers, laboratories, experiments, discovery, breakthroughs"
+    },
+    "sport": {
+      "title": "Sports",
+      "hint": "teams, seasons, championships, coaches, clubs, athletes"
+    },
+    "steampunk": {
+      "title": "Steampunk",
+      "hint": "clockwork, steam engines, airships, brass, victorian invention"
+    },
+    "underwater": {
+      "title": "Deep Sea",
+      "hint": "submarines, ocean depths, diving stations, trenches, sonar, the abyss"
+    },
+    "university": {
+      "title": "University",
+      "hint": "campus, professors, students, academia, scholarship, colleges"
+    },
+    "viking": {
+      "title": "Vikings",
+      "hint": "norse, longships, raids, jarls, runes, sagas, the long winter"
+    },
+    "western": {
+      "title": "Western",
+      "hint": "cowboys, sheriffs, outlaws, frontier towns, gold rush, high noon"
+    }
   }
 }
