@@ -1,0 +1,531 @@
+{
+  "id": "edu-defenders-dilemma",
+  "name": "The Defender's Dilemma",
+  "description": "Day one as the sole security lead at a small business. Every choice trades safety, productivity, budget and trust against each other — push any meter too far and you lose. A five-minute 'assume breach' icebreaker: you can't win, only balance.",
+  "font": "font-exo",
+  "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Defender's Dilemma\". The stats are Security, Budget, Trust, Productivity.",
+  "statNames": {
+    "Power": "Security",
+    "Wealth": "Budget",
+    "People": "Trust",
+    "Knowledge": "Productivity"
+  },
+  "statIconNames": {
+    "Power": "PowerIconCyber",
+    "Wealth": "WealthIconCyber",
+    "People": "PeopleIconCyber",
+    "Knowledge": "KnowledgeIconCyber"
+  },
+  "imageSet": [],
+  "colors": {
+    "primary": "text-cyan-400",
+    "secondary": "text-amber-300",
+    "background": "bg-gradient-to-br from-slate-950 via-cyan-950 to-zinc-950",
+    "accent": "border-cyan-400"
+  },
+  "category": "education",
+  "deck": {
+    "name": "The Defender's Dilemma",
+    "description": "You are the brand-new, only security person at a 40-staff Aussie business on a shoestring, and every hallway conversation this week is a trade-off with no clean answer.",
+    "cards": [
+      {
+        "prompt": "Day one, 9am. Office manager Priya walks you to the front desk. 'Everyone uses the same login here, and the password's on this sticky note so no one forgets. It just works, love. You're not going to change that on your first morning, are you?'",
+        "leftChoice": {
+          "text": "Leave it for now, plan a proper fix",
+          "effects": {
+            "Power": -8,
+            "Wealth": 0,
+            "People": 6,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Ban shared logins immediately",
+          "effects": {
+            "Power": 10,
+            "Wealth": -6,
+            "People": -8,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 1
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "CEO Dave pokes his head in. 'New sales hire starts in an hour. Just give her access to everything so she can hit the ground running — no need for all the checking-people-out business. We're a small mob, we trust each other.'",
+        "leftChoice": {
+          "text": "Do a quick basic check first",
+          "effects": {
+            "Power": 8,
+            "Wealth": -2,
+            "People": -6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 2
+        },
+        "rightChoice": {
+          "text": "Grant full access to keep Dave happy",
+          "effects": {
+            "Power": -10,
+            "Wealth": 0,
+            "People": 8,
+            "Knowledge": 10
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
+      },
+      {
+        "prompt": "IT junior Sam shows you a list. 'These admin accounts belong to people who left ages ago — but they still work. I wasn't sure if we're allowed to touch them, so I left them alone.'",
+        "leftChoice": {
+          "text": "Disable the old accounts today",
+          "effects": {
+            "Power": 2,
+            "Wealth": -2,
+            "People": 2,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Leave them, someone might need them",
+          "effects": {
+            "Power": -12,
+            "Wealth": 0,
+            "People": 2,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 3
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
+      },
+      {
+        "prompt": "Sales lead Marco corners you. 'I close deals from my personal Gmail — it's fast and clients love it. The company email is clunky and I don't have time to relearn everything this quarter.'",
+        "leftChoice": {
+          "text": "Tolerate his Gmail for now",
+          "effects": {
+            "Power": -6,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 4
+        },
+        "rightChoice": {
+          "text": "Move him onto company email now",
+          "effects": {
+            "Power": 8,
+            "Wealth": -8,
+            "People": -4,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "Warehouse worker Kev holds up a USB stick. 'Found this in the car park! Might belong to a customer. I'll just pop it into that spare laptop and see whose it is, hey?'",
+        "leftChoice": {
+          "text": "Quarantine it, don't plug it in",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": -4,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Let him plug it in to help find the owner",
+          "effects": {
+            "Power": -14,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "A vendor named Terry offers a cheap antivirus subscription. 'It's basic, but it's better than nothing, and it won't blow your tiny budget. Sign today and I'll knock off ten percent.'",
+        "leftChoice": {
+          "text": "Buy the basic protection",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": 2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 6
+        },
+        "rightChoice": {
+          "text": "Decline and save the money",
+          "effects": {
+            "Power": -8,
+            "Wealth": 6,
+            "People": -2,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
+      },
+      {
+        "prompt": "Auditor Lena arrives for a scheduled review. 'I need your security documentation — policies, records, that sort of thing.' You've been here four days and have almost none of it.",
+        "leftChoice": {
+          "text": "Be honest and admit the gaps",
+          "effects": {
+            "Power": 2,
+            "Wealth": -2,
+            "People": 4,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Talk it up to look organised",
+          "effects": {
+            "Power": -4,
+            "Wealth": 0,
+            "People": -6,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "Friday, 4:45pm. Journalist Jordan rings. 'I've heard your company may have leaked customer details. I'm filing in an hour — got a comment before the weekend?' Your whole team is halfway out the door.",
+        "leftChoice": {
+          "text": "Give an honest, short statement",
+          "effects": {
+            "Power": 0,
+            "Wealth": 2,
+            "People": 4,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Say 'no comment' and stall",
+          "effects": {
+            "Power": 2,
+            "Wealth": 0,
+            "People": -8,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "Customer Mrs Chen emails: 'Where do you keep my details, and is it actually safe? My neighbour got scammed and I'm nervous.'",
+        "leftChoice": {
+          "text": "Explain honestly, including limits",
+          "effects": {
+            "Power": 2,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Reassure her it's totally safe",
+          "effects": {
+            "Power": -2,
+            "Wealth": 0,
+            "People": 8,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "An email pretending to be Dave lands in a dozen inboxes: 'Urgent — buy $500 of gift cards and send me the codes.' It's a scam. Sam asks whether to warn everyone or keep it quiet.",
+        "leftChoice": {
+          "text": "Alert all staff straight away",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": -4,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Handle it quietly, don't alarm folk",
+          "effects": {
+            "Power": -8,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "Bad news: receptionist Bec already typed her password into the scam site before you caught it. Sam looks at you nervously.",
+        "leftChoice": {
+          "text": "Reset the affected credentials now",
+          "effects": {
+            "Power": 2,
+            "Wealth": -2,
+            "People": -2,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Assume it's fine and just watch",
+          "effects": {
+            "Power": -10,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
+      },
+      {
+        "prompt": "Sam whispers a chilling fact: there are no backups of anything. 'If ransomware locks our files, we lose the lot. But proper backups aren't free, and you know how Dave feels about spending.'",
+        "leftChoice": {
+          "text": "Fund proper backups",
+          "effects": {
+            "Power": 2,
+            "Wealth": -4,
+            "People": 2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Skip it for now and hope",
+          "effects": {
+            "Power": -12,
+            "Wealth": 4,
+            "People": -2,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/advisor.webp"
+      },
+      {
+        "prompt": "You draft a password rule. Word spreads and staff groan. Team lead Aisha says, 'If you make it too painful, people just write them down or find sneaky workarounds.'",
+        "leftChoice": {
+          "text": "Set a moderate, sensible rule",
+          "effects": {
+            "Power": -4,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Demand long passwords, changed monthly",
+          "effects": {
+            "Power": 10,
+            "Wealth": -2,
+            "People": -8,
+            "Knowledge": -10
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
+      },
+      {
+        "prompt": "Sam pitches MFA — a one-time code on your phone when you log in. 'It stops most stolen-password attacks. But people will grumble about the extra step every morning.'",
+        "leftChoice": {
+          "text": "Roll out MFA for everyone",
+          "effects": {
+            "Power": 4,
+            "Wealth": -4,
+            "People": -6,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Postpone it, too much hassle now",
+          "effects": {
+            "Power": -8,
+            "Wealth": 2,
+            "People": 6,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "Visitors keep asking for the Wi-Fi password — which is the same network your staff and systems use. Priya just hands it out to whoever asks.",
+        "leftChoice": {
+          "text": "Set up a separate guest Wi-Fi",
+          "effects": {
+            "Power": 4,
+            "Wealth": -4,
+            "People": 2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Keep sharing the main Wi-Fi",
+          "effects": {
+            "Power": -8,
+            "Wealth": 2,
+            "People": 4,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "Aisha returns, worried. 'Morale's dropping. People are quietly using their own apps and cloud tools to dodge the new rules — shadow IT, you called it. Ease up before it gets worse?'",
+        "leftChoice": {
+          "text": "Ease off on a few controls",
+          "effects": {
+            "Power": -8,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Hold firm on every control",
+          "effects": {
+            "Power": 8,
+            "Wealth": 0,
+            "People": -10,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
+      },
+      {
+        "prompt": "Dave wants a chat about money. 'I reckon we can trim your budget — nothing bad's happened yet, right?' You'd rather invest in the basics you still lack.",
+        "leftChoice": {
+          "text": "Invest sensibly in essentials",
+          "effects": {
+            "Power": 2,
+            "Wealth": -6,
+            "People": 2,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Cut spending to please Dave",
+          "effects": {
+            "Power": -6,
+            "Wealth": 8,
+            "People": -2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
+      },
+      {
+        "prompt": "A staff laptop is nicked from a parked car. Sam asks, 'Do we trigger the remote wipe? The drive's encrypted, so the thief probably can't read it — but wiping means we lose whatever wasn't backed up.'",
+        "leftChoice": {
+          "text": "Remote wipe the stolen laptop",
+          "effects": {
+            "Power": 2,
+            "Wealth": 4,
+            "People": -4,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Do nothing and hope it's fine",
+          "effects": {
+            "Power": -10,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "End of week one. Dave asks you to brief the board. Do you promise them ironclad safety, or tell the honest truth — that no one is unbreachable and the real work is being ready when something slips through?",
+        "leftChoice": {
+          "text": "Tell the honest 'assume breach' story",
+          "effects": {
+            "Power": -2,
+            "Wealth": 4,
+            "People": -2,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Promise the board you're bulletproof",
+          "effects": {
+            "Power": -2,
+            "Wealth": 2,
+            "People": 8,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "chain",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
+      },
+      {
+        "prompt": "Week one is done. You didn't lock the place into a fortress, you didn't leave the doors flung open, and you didn't blow the budget or hoard it. Some things will still go wrong — and now the team's ready to cope when they do. That balance, not perfection, is the job. Welcome aboard.",
+        "leftChoice": {
+          "text": "Pour a Friday drink and start week two",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Jot down what to fix next Monday",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/terminal.webp"
+      }
+    ]
+  }
+}
