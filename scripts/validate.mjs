@@ -19,6 +19,7 @@ function checkCategory(entry, where) {
 }
 const MAX_EFFECT = 50;
 const MAX_CARDS = 50;
+const MAX_BRANCHES = 6;
 const MAX_PROMPT_CHARS = 500;
 const MAX_ENTRY_BYTES = 100 * 1024;
 const ALLOWED_IMAGE_HOSTS = ["images.unsplash.com"];
@@ -66,6 +67,31 @@ function checkChoice(choice, deckSize, where) {
     if (choice.nextCardIndex !== undefined) {
         if (!Number.isInteger(choice.nextCardIndex) || choice.nextCardIndex < 0 || choice.nextCardIndex >= deckSize) {
             fail(`${where}: nextCardIndex ${choice.nextCardIndex} is outside 0-${deckSize - 1}`);
+        }
+    }
+    if (choice.branches !== undefined) {
+        if (!Array.isArray(choice.branches)) fail(`${where}: branches must be an array`);
+        else {
+            if (choice.branches.length > MAX_BRANCHES) fail(`${where}: ${choice.branches.length} branches exceeds the ${MAX_BRANCHES}-branch limit`);
+            choice.branches.forEach((branch, i) => {
+                const bw = `${where}.branches[${i}]`;
+                if (!branch || typeof branch !== "object") return fail(`${bw}: must be an object`);
+                if (!STAT_NAMES.includes(branch.stat)) fail(`${bw}: stat must be one of ${STAT_NAMES.join(", ")}`);
+                if (branch.gte === undefined && branch.lte === undefined) fail(`${bw}: at least one of gte/lte is required`);
+                for (const bound of ["gte", "lte"]) {
+                    if (branch[bound] !== undefined && (!Number.isInteger(branch[bound]) || branch[bound] < 0 || branch[bound] > 100)) {
+                        fail(`${bw}: ${bound} must be an integer between 0 and 100 (got ${JSON.stringify(branch[bound])})`);
+                    }
+                }
+                if (Number.isInteger(branch.gte) && Number.isInteger(branch.lte) && branch.gte > branch.lte) {
+                    fail(`${bw}: gte ${branch.gte} > lte ${branch.lte} can never match`);
+                }
+                if (!Number.isInteger(branch.nextCardIndex) || branch.nextCardIndex < 0 || branch.nextCardIndex >= deckSize) {
+                    fail(`${bw}: nextCardIndex ${branch.nextCardIndex} is outside 0-${deckSize - 1}`);
+                }
+                const unknownKeys = Object.keys(branch).filter(k => !["stat", "gte", "lte", "nextCardIndex"].includes(k));
+                if (unknownKeys.length > 0) fail(`${bw}: unknown key(s): ${unknownKeys.join(", ")}`);
+            });
         }
     }
     checkNoUrl(choice.soundUrl, `${where}.soundUrl`);

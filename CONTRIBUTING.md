@@ -35,6 +35,23 @@ Shapes match the app's `types.ts`:
 }
 ```
 
+Navigation: after a choice's effects apply, play moves to the first matching
+entry in the choice's optional `branches` (stat-conditional jumps), else to
+`nextCardIndex`, else to the next card in sequence. A branch names a stat and
+at least one bound:
+
+```jsonc
+"leftChoice": {
+  "text": "Ask the ship master for passage",
+  "effects": { "Wealth": -5 },
+  "branches": [ { "stat": "Wealth", "gte": 75, "nextCardIndex": 12 } ], // rich enough → aboard
+  "nextCardIndex": 3                                                   // otherwise, back to the docks
+}
+```
+
+Branches let loops be escapable only once a stat is earned, and let the same
+choice land differently for a rich, beloved, or learned character.
+
 Every catalog entry needs a `category`: `"game"` (default expectation —
 built for fun first) or `"education"` (built to teach; listed in the store's
 Education section so players know what they're picking up).
@@ -44,7 +61,9 @@ Education section so players know what they're picking up).
 Automated checks (CI will reject):
 
 - Stat effects must be integers within ±50 (aim for ±35; the game clamps).
-- `nextCardIndex` jumps must land inside the deck.
+- `nextCardIndex` jumps must land inside the deck; `branches` (max 6 per
+  choice) need a valid stat, at least one of `gte`/`lte` (integers 0–100,
+  `gte` ≤ `lte`), and an in-deck `nextCardIndex`.
 - **No external URLs** in decks (`imageUrl`, `soundUrl`) — and no embedded
   `data:`/`blob:` URIs. Card art comes from the archetype defaults or bundled
   scene paths (`/cards/...`). Reality `imageSet` URLs must be from allowlisted
