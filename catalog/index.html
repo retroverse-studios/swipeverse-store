@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwipeVerse Catalog — browse the community decks and realities</title>
+  <meta name="description" content="Browse the SwipeVerse community catalog: curated story decks and realities, each shown with a piece of its card art.">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmNTJlMSI+PHBhdGggZD0iTTEyIDJMMy41IDEyIDEyIDIyIDIwLjUgMTIgMTIgMloiLz48L3N2Zz4=">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --gold:#c9962e; --gold-bright:#f6e4a8; --paper:#e9dfc8; --muted:#9a8db4; --velvet:#0d0718; --velvet2:#120a22; --border:rgba(201,150,46,.35); }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Exo 2',system-ui,sans-serif; color:var(--paper); line-height:1.6;
+      background: radial-gradient(120% 100% at 50% 0%, #1c1030 0%, #0d0718 55%, #060310 100%); background-attachment: fixed; }
+    .container { max-width: 980px; margin:0 auto; padding: 0 1.25rem; }
+    h1,h2,h3 { font-family:'Cinzel',serif; }
+    .hero { padding: 4rem 0 1.5rem; text-align:center; }
+    .hero h1 { font-size: clamp(1.6rem,5vw,2.4rem); font-weight:800;
+      background: linear-gradient(180deg, var(--gold-bright), var(--gold) 60%, #8a6a1c);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+      filter: drop-shadow(0 0 20px rgba(201,150,46,.3)); }
+    .hero p { color: var(--muted); max-width: 62ch; margin: 1rem auto 0; }
+    .hero a { color: var(--gold-bright); }
+    h2.section { color:var(--gold-bright); font-size:1.3rem; margin: 2.2rem 0 .3rem; }
+    p.section-sub { color:var(--muted); font-size:.95rem; margin-bottom: 1rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:1.1rem; }
+    .entry { background:var(--velvet2); border:1px solid var(--border); border-radius:14px; overflow:hidden;
+      display:flex; flex-direction:column; transition: transform .2s, box-shadow .2s; }
+    .entry:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0,0,0,.5); }
+    .entry img { width:100%; aspect-ratio: 16/9; object-fit:cover; display:block; border-bottom:1px solid var(--border); }
+    .entry .body { padding: .9rem 1.1rem 1.1rem; display:flex; flex-direction:column; flex:1; }
+    .entry h3 { color:var(--gold-bright); font-size:1.02rem; line-height:1.35; }
+    .entry .desc { color:var(--muted); font-size:.88rem; margin:.45rem 0 .7rem; flex:1; }
+    .entry .meta { font-size:.72rem; color:var(--muted); display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
+    .badge { display:inline-block; font-size:.62rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+      border:1px solid rgba(80,200,255,.4); color:#9adcff; background:rgba(80,200,255,.12); border-radius:4px; padding:.05rem .4rem; }
+    .badge.series { border-color:var(--border); color:var(--gold-bright); background:rgba(201,150,46,.12); }
+    .cta-row { text-align:center; padding: 2rem 0 0; }
+    .cta { display:inline-block; margin: .3rem .4rem 0; padding:.7rem 1.3rem; border-radius:10px; font-weight:700; text-decoration:none; border:1px solid var(--border); color:var(--paper); }
+    .cta:hover { border-color: var(--gold-bright); }
+    footer { border-top:1px solid var(--border); margin-top:2.5rem; padding:1.5rem 0 2.5rem; text-align:center; color:var(--muted); font-size:.9rem; }
+    footer a { color:var(--muted); }
+    #loading { text-align:center; color:var(--muted); padding:3rem 0; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>THE CATALOG</h1>
+      <p>Every reality and story deck in the community catalog, each wearing a
+        random piece of its own card art. Add them to your collection from the
+        in-game Store — <a href="https://swipeverse.app/app/">open SwipeVerse</a>
+        and tap <strong>Store</strong>. <a href="../">Back to the store</a>.</p>
+    </div>
+  </header>
+  <main class="container">
+    <div id="loading">Unrolling the catalog…</div>
+    <div id="catalog"></div>
+    <div class="cta-row">
+      <a class="cta" href="https://swipeverse.app/app/">▶ Play SwipeVerse</a>
+      <a class="cta" href="../gallery/">Art gallery</a>
+      <a class="cta" href="decks.json">decks.json</a>
+      <a class="cta" href="realities.json">realities.json</a>
+    </div>
+  </main>
+  <footer>
+    <div class="container">SwipeVerse Store — PR-curated; what the app fetches is exactly what you see.</div>
+  </footer>
+  <script>
+    const randomArt = (deck) => {
+      const art = ((deck && deck.cards) || []).map(c => c.imageUrl).filter(Boolean);
+      return art.length ? art[Math.floor(Math.random() * art.length)] : null;
+    };
+    const esc = (s) => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const entryHtml = ({ name, description, category, series, deck }) => {
+      const art = randomArt(deck);
+      const badges = [
+        category === 'education' ? '<span class="badge">Education</span>' : '',
+        series ? `<span class="badge series">${esc(series.name)} · Part ${series.part}</span>` : '',
+      ].join('');
+      const cards = deck && deck.cards ? `${deck.cards.length} cards` : '';
+      return `<article class="entry">
+        ${art ? `<img loading="lazy" src="${esc(art)}" alt="${esc(name)} card art" onerror="this.remove()">` : ''}
+        <div class="body">
+          <h3>${esc(name) || 'Untitled'}</h3>
+          <p class="desc">${esc(description)}</p>
+          <p class="meta">${badges}${cards ? `<span>${cards}</span>` : ''}</p>
+        </div>
+      </article>`;
+    };
+    const section = (root, title, sub, entries) => {
+      if (!entries.length) return;
+      root.insertAdjacentHTML('beforeend',
+        `<h2 class="section">${title}</h2><p class="section-sub">${sub}</p>
+         <div class="grid">${entries.join('')}</div>`);
+    };
+    Promise.all([
+      fetch('realities.json').then(r => r.json()),
+      fetch('decks.json').then(r => r.json()),
+    ]).then(([realities, decks]) => {
+      document.getElementById('loading').remove();
+      const root = document.getElementById('catalog');
+      section(root, 'Realities', 'A full world: theme, stats, colors and a starter story.',
+        realities.map(r => entryHtml({ ...r, deck: r.deck })));
+      section(root, 'Story Decks', 'Standalone stories — load one into any reality you own.',
+        decks.map(d => entryHtml({ name: d.name, description: d.description, category: d.category, series: d.series, deck: d })));
+    }).catch(() => {
+      document.getElementById('loading').textContent = 'The catalog could not be loaded. Try the raw JSON links below.';
+    });
+  </script>
+</body>
+</html>
