@@ -27,6 +27,7 @@
   "deck": {
     "name": "The Defender's Dilemma",
     "description": "You are the brand-new, only security person at a 40-staff Aussie business on a shoestring, and every hallway conversation this week is a trade-off with no clean answer.",
+    "intro": "Day one, 9am, and you're already being walked past the sticky-note password on the front desk. You are the first and only security person at a 40-staff Aussie business, with a shoestring budget and a hallway full of colleagues who liked things the way they were. Every conversation this week is a trade-off with no clean answer — and how you spend your scarce goodwill decides whether security becomes part of the culture or the thing everyone works around.",
     "cards": [
       {
         "prompt": "Day one, 9am. Office manager Priya walks you to the front desk. 'Everyone uses the same login here, and the password's on this sticky note so no one forgets. It just works, love. You're not going to change that on your first morning, are you?'",

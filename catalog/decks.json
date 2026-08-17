@@ -2,6 +2,7 @@
   {
     "name": "The Hollow Crown, Part I: The Exile",
     "description": "Smuggled from the capital the night of the usurpation, the rightful heir must gather loyalists, unmask a lie, and survive the assassin's blade before daring to raise their banner.",
+    "intro": "The palace burns behind you, and the bells tolling across the capital crown a usurper in your place. You are the rightful heir, dragged through the sewer gate with nothing but your name — and even that must stay hidden until you know friend from knife. Somewhere out there are loyalists enough to raise a banner, if you live long enough to find them.",
     "cards": [
       {
         "prompt": "The palace burns behind you. A grizzled guardsman drags you through the sewer gate as bells toll the false king's coronation. 'Ride hard, or ride never, my liege.'",
@@ -511,6 +512,7 @@
   {
     "name": "The Hollow Crown, Part II: The March",
     "description": "Your rebel host marches on the capital through a kingdom forced to choose sides, past sieges, defections, a killing winter, and a foreign prince's poisoned bargain.",
+    "intro": "The old royal sigil flies over the border keep, and the host that gathered to it now looks to you. Between your banner and the capital lies a kingdom forced to choose sides — fortified roads, wavering lords, a killing winter, and a foreign prince whose help carries a price. Every league south will cost you something; the throne waits for whoever is left standing.",
     "cards": [
       {
         "prompt": "The border keep empties behind you as the host takes the road south. Two ways lead to the capital: the King's Road past fortified towns, or the smugglers' tracks through the eastern hills. Your captains await your banner's turn.",
@@ -1020,6 +1022,7 @@
   {
     "name": "The Hollow Crown, Part III: The Reckoning",
     "description": "The capital is yours at last, but a stolen throne must be held against the usurper's ghost, a foreign prince's debt, and the crushing weight of the crown you bled for.",
+    "intro": "The gates splinter and the capital is yours — the march is over, and the man who stole your birthright has nowhere left to run. But taking a throne and holding one are different wars: the usurper's ghost lingers in every loyal-seeming bow, the foreign prince has come to collect, and the crown you bled for is heavier than any sword. History is watching to see what kind of ruler the lost heir becomes.",
     "cards": [
       {
         "prompt": "The gates splinter and your host pours into the capital. Ahead lies the palace and the man who stole your birthright. The March is over; the reckoning begins.",
@@ -1529,6 +1532,7 @@
   {
     "name": "Ashfall: The Burning Valley",
     "description": "Lead a ragtag convoy out of a raider-torched settlement, choosing who rides and what burns, until you break the cordon and reach the open ash roads.",
+    "intro": "Raiders pour over the wall as the fuel depot goes up, and your people are scattering toward the motor pool screaming your name. The settlement is lost — what can be saved must roll out on wheels tonight, and you decide who rides and what burns. Break the cordon, reach the open ash roads, and keep the convoy alive.",
     "cards": [
       {
         "prompt": "Raiders pour over the settlement wall as the fuel depot burns. Your people scatter toward the motor pool, screaming your name. There's no time to save it all.",
@@ -2038,6 +2042,7 @@
   {
     "name": "Ashfall: The Dead Highway",
     "description": "Drive your battered convoy across a ruined continent of toll-bridge warlords, a ghost city full of intact tech and worse, and brutal fuel mathematics, until the rumored green valley finally rises on the horizon.",
+    "intro": "The cordon is behind you, but the fuel gauge is already falling as the ash roads unspool toward a horizon of grey. Between your convoy and the rumored green valley lie toll-bridge warlords, a ghost city full of intact tech and worse, and arithmetic that measures every choice in litres. Somewhere at the end of the dead highway, they say, the grass still grows.",
     "cards": [
       {
         "prompt": "The cordon is behind you, but the fuel gauge hovers near empty as the ash roads unspool toward nothing. Every choice now is measured in litres.",
@@ -2547,6 +2552,7 @@
   {
     "name": "Ashfall: The Green Valley",
     "description": "The convoy reaches the promised valley only to find it already claimed, and must negotiate, integrate, or conquer while the raiders of the dead highway close in for one final reckoning.",
+    "intro": "The convoy idles where ash gives way to grass, and the water below glints real and clean — but riders in patchwork armor watch from the ridge, because the promised valley is already someone's home. Behind you, the raiders of the dead highway are closing for one final reckoning. Whether your people's saga ends in welcome, in walls, or in war is yours to decide.",
     "cards": [
       {
         "prompt": "The convoy idles where ash gives way to grass. Riders in patchwork armor watch from a ridge — the valley is already someone's home, and they have buried convoys before.",
@@ -3056,6 +3062,7 @@
   {
     "name": "Chain of Custody",
     "description": "The ransomware is contained and the company survived — now you must reconstruct the breach, preserve evidence for prosecution and insurance, and brief lawyers and the board while speed and integrity pull against each other.",
+    "intro": "The ransomware is contained, the company survived, and now the harder job begins: yours. The encrypted domain controller is still humming in the server room, the lawyers and the board want answers by Friday, and the insurers will pick apart every step you take. Reconstruct the breach and preserve the evidence — because a case is only as strong as its chain of custody.",
     "cards": [
       {
         "prompt": "The encrypted domain controller is still powered on in the server room. Your imaging window is now — but pulling it offline means another business day of downtime. Leave it live and you risk overwriting the very artifacts you need.",
@@ -3565,6 +3572,7 @@
   {
     "name": "The Table",
     "description": "Having survived its first year, your startup spends twelve months at the negotiating table where every clause trades leverage against trust.",
+    "intro": "Your startup survived its first year; the prize is twelve months at the negotiating table. Term sheets, enterprise contracts, key hires, partnerships — every clause trades leverage against trust, and the other side of the table always has a plan for you. Close the deals that matter without signing away the company you built.",
     "cards": [
       {
         "prompt": "A Series A term sheet lands from your lead VC. Your first move sets the frame for everything that follows: do you anchor high with an aggressive valuation, or open reasonably to protect the relationship?",
