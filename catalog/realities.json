@@ -28,6 +28,7 @@
     "deck": {
       "name": "The Aerodrome: Wings on a Shoestring",
       "description": "Run a threadbare 1930s airline through monsoon skies, poaching rivals, and a government contract that will either lift you to glory or bury you in the mud.",
+      "intro": "The monsoon hammers the tin roof of your hangar, and inside sit two patched biplanes, three unpaid pilots, and the logbook of an airline one bad month from the scrapyard. A rain-soaked postmaster is offering double pay for night airmail, and rumor says a government contract is coming up for grabs. In the 1930s the sky belongs to whoever dares to stay in it — keep your airline flying.",
       "cards": [
         {
           "prompt": "A rain-soaked postmaster slides a night airmail contract across his desk. 'Fly it in the dark and I'll pay double,' he says. 'Fly it late and I'll ruin you.'",
@@ -559,6 +560,7 @@
     "deck": {
       "name": "The Corner Office",
       "description": "Newly promoted amid a hostile takeover, you must survive scheming boards, a whistleblower, a restless union, and a seductive merger without your influence, capital, workforce, or market intel collapsing.",
+      "intro": "The nameplate on the corner office door is yours as of this morning — and so is the hostile takeover threatening to tear the company apart. Board veterans offer their backing at a price, a whistleblower is circling, the union is restless, and a seductive merger glitters on the horizon. Welcome to the top floor; now find out what it costs to stay there.",
       "cards": [
         {
           "prompt": "Your first day in the corner office. The takeover war rages, and board veteran Diane Voss offers you her faction's backing—for a price of loyalty.",
@@ -1063,6 +1065,7 @@
     "deck": {
       "name": "The Year the River Forsook Egypt",
       "description": "As a young Pharaoh facing a failed Nile flood, you must balance grasping priests, foreign threats, and a starving people to see your kingdom survive.",
+      "intro": "The Nile has not risen. The black silt that feeds Egypt lies dry and cracked, and from the temple steps the priests are already murmuring that the gods weigh their young Pharaoh. Your vizier kneels awaiting your first command, foreign envoys smell weakness, and a starving people looks to the throne — see Egypt through the year the river forsook it.",
       "cards": [
         {
           "prompt": "The Nile has not risen. The black silt that feeds Egypt lies dry and cracked. Your vizier kneels, awaiting your first command.",
@@ -1594,6 +1597,7 @@
     "deck": {
       "name": "The House of Ravenmoor",
       "description": "You inherit a cursed gothic estate where ghostly bargains, a resentful village, and a crypt that should have stayed shut test whether you rule by dread, gold, mercy, or forbidden knowledge.",
+      "intro": "The solicitor's hand trembles as he lays the deed to Ravenmoor before you: an estate, a fortune, and conditions he will not speak aloud. The village resents the house, the house remembers its dead, and something in the crypt has been waiting for a new master. Whether you rule by dread, gold, mercy, or forbidden knowledge, Ravenmoor will test what you are willing to become.",
       "cards": [
         {
           "prompt": "The solicitor lays the deed to Ravenmoor before you, his hand trembling. 'The family... conditions... are unusual,' he murmurs, avoiding your eyes.",
@@ -2125,6 +2129,7 @@
     "deck": {
       "name": "The Uneasy Crown",
       "description": "Two winters into a reign born of contested succession, you must survive thin harvests, restless barons, a demanding crusade, and the whispers of advisors who each want your ear and your ruin.",
+      "intro": "Two winters into a reign born of contested succession, and the crown still sits uneasily: the Baron of the Marches collects tolls on your roads as though they were his own, the harvests run thin, and a distant crusade demands men and silver you cannot spare. Every advisor wants your ear, and more than one wants your ruin. Hold the realm together until the crown sits without trembling.",
       "cards": [
         {
           "prompt": "The Baron of the Marches has not renewed his oath since your coronation. His riders now collect tolls on the king's roads as though the crown were a rumor.",
@@ -2656,6 +2661,7 @@
     "deck": {
       "name": "Night Shift: The Ashford General Crisis",
       "description": "As the new medical director of a broke city hospital facing a novel infection, every swipe trades authority, funding, staff trust, and hard science against the clock.",
+      "intro": "It's your first night as medical director of Ashford General, and the ER is already overflowing with a coughing, feverish crowd nobody can put a name to. The hospital is broke, the staff is stretched past breaking, and the board chair wants it all kept quiet. Somewhere between the science, the money, and the sick, you'll find out what kind of director you are.",
       "cards": [
         {
           "prompt": "Your first night. The ER overflows with a coughing, feverish crowd nobody can name yet. The board chair calls: 'Keep it quiet until we understand it.' A resident begs you to declare a public alert.",
@@ -3187,6 +3193,7 @@
     "deck": {
       "name": "Hold the Winter Line",
       "description": "Given a faltering border command, you must juggle enemy night raids, a scheming rival officer, closing mountain passes, and a headquarters hungry for a newspaper victory.",
+      "intro": "The border camp you've been given is crumbling: the men exhausted, the pickets thin, and Colonel Vance already measuring you for failure. The enemy raids by night, the mountain passes are closing, and headquarters wants a newspaper victory more than a defensible line. Take command, and hold the winter line until the snows seal the passes behind a beaten enemy.",
       "cards": [
         {
           "prompt": "You arrive at the crumbling border camp. The men are exhausted, the pickets thin, and Colonel Vance eyes you like a rival. How do you take command?",
@@ -3718,6 +3725,7 @@
     "deck": {
       "name": "Olympus Falling: The Latecomer's Gambit",
       "description": "A newly ascended god scrambles for a throne in a crumbling pantheon while a chained titan wakes and the Fates keep smiling.",
+      "intro": "You are the youngest god on a crumbling Olympus, ascended just as the thrones above you begin to shake. A village priest kneels in your first shrine offering worship for miracles, a chained titan stirs beneath the mountain, and the Fates watch you with knowing smiles. Latecomers have seized pantheons before — but never cheaply.",
       "cards": [
         {
           "prompt": "A gaunt village priest kneels in your first shrine, offering to raise a temple in your name if you will answer his prayers.",
@@ -4249,6 +4257,7 @@
     "deck": {
       "name": "Dead Reckoning: The Merchant's Gamble",
       "description": "Command a merchant sailing ship through naval war, storm seasons, press gangs, and a syndicate's sharp lawyers while balancing your authority, your cargo, your restless crew, and the truth of your charts.",
+      "intro": "Dawn at the quay, and war has thinned the sea lanes while doubling what a bold merchant can earn from them. Your ship is sound, your crew restless, and your charts hold as many hopeful lies as truths; press gangs prowl the harbor and the syndicate's lawyers read every manifest twice. Take her out, bring her home, and keep your name worth trusting.",
       "cards": [
         {
           "prompt": "Dawn at the quay. War has thinned the sea lanes and doubled the risk. A slow navy convoy forms at the harbor mouth, or you can slip out alone on the morning tide.",
@@ -4780,6 +4789,7 @@
     "deck": {
       "name": "Under the Black Flag",
       "description": "An elected pirate captain must juggle a mutinous crew, a tightening navy net, a governor's poisoned pardon, a rival's fleet, and a torn treasure map on the way to a legendary wreck.",
+      "intro": "The crew hauls you onto the barrel and roars your election as captain — and their grins say the vote can turn just as fast. In your pocket is half a torn map to a legendary wreck; between you and it lie a tightening navy net, a governor's poisoned pardon, and a rival's fleet. Under the black flag, captains are made and unmade by the next horizon.",
       "cards": [
         {
           "prompt": "The crew hauls you onto the barrel and cheers your election as captain. Their grins say the vote can go the other way just as fast. What do you swear before them?",
@@ -5311,6 +5321,7 @@
     "deck": {
       "name": "After the Ash: The Hollow Wall",
       "description": "A generation after the collapse, you rule a walled settlement squeezed between circling raiders, a dwindling water table, a spy-riddled caravan, and a humming pre-collapse bunker that promises salvation or ruin.",
+      "intro": "A generation after the collapse, your walled settlement survives on a dwindling water table and the strength of its gate. This morning the dawn watch signals smoke on the eastern ridge: raiders circling again, a caravan riddled with spies at the gates, and beneath it all the hum of a pre-collapse bunker that promises salvation or ruin. The settlers wake soon — the wall needs orders.",
       "cards": [
         {
           "prompt": "Dawn watch signals smoke on the eastern ridge. The gate captain wants orders before the settlers wake and panic.",
@@ -5842,6 +5853,7 @@
     "deck": {
       "name": "First Fire: Keepers of the Ember",
       "description": "At the edge of the endless ice, you lead a tribe that guards a jealous flame while herds shift, rivals circle, and a stranger brings a new way to shape stone.",
+      "intro": "The fire pit gutters as an ice-wind claws down from the glacier, and everyone in the tribe knows what it means if the flame dies: the long dark takes us all. The herds are shifting, rival bands circle the hunting grounds, and a stranger has come carrying a new way to shape stone. You keep the ember — and the ember keeps the tribe.",
       "cards": [
         {
           "prompt": "The fire pit gutters as an ice-wind claws down from the glacier. If it dies, the long dark takes us all.",
@@ -6373,6 +6385,7 @@
     "deck": {
       "name": "The Way of the Blade",
       "description": "As chief retainer to a young daimyo, you must weather a border insult, a short rice tax, gathering ronin, and an early shogunate inspector without shattering your clan.",
+      "intro": "Above the river ford, Lord Kanmori's banners fly a mocking device — a deliberate slur against the young daimyo you serve as chief retainer. The rice tax has come up short, ronin gather in the hills, and word arrives that the shogunate is sending an inspector early. The clan's honor and survival now hang on the same thread, and both are in your hands.",
       "cards": [
         {
           "prompt": "Lord Kanmori's banners fly a mocking device above the river ford — a deliberate slur against your young daimyo. The war-drums of the province wait on your answer.",
@@ -6904,6 +6917,7 @@
     "deck": {
       "name": "Critical Mass: The Discovery Ledger",
       "description": "You steer a research institute toward an industry-shattering breakthrough while funding cliffs, ambitious stars, snooping rivals, and defense contractors test how much truth you can afford.",
+      "intro": "The endowment runs dry in ninety days, and down the hall your scientists are shouting past the accountants — because the lab is tantalizingly close to a breakthrough that could rewrite an industry. Funding cliffs, ambitious stars, snooping rivals, and defense contractors will all test how much truth you can afford. Steer the institute to discovery on its own terms.",
       "cards": [
         {
           "prompt": "The endowment runs dry in ninety days, yet the lab is tantalizingly close. Accountants and scientists shout past each other in the hallway.",
@@ -7435,6 +7449,7 @@
     "deck": {
       "name": "Dead Club Walking",
       "description": "Manage a storied, fading football club through one make-or-break season where every contract, headline, and boardroom betrayal decides whether you and the club survive.",
+      "intro": "The owner slides a dossier across the mahogany: relegation form, empty seats, and your contract's final clause. This club was great once, and you've been hired to make that true again in a single make-or-break season. Every contract, headline, and boardroom whisper now decides whether you and the club survive together.",
       "cards": [
         {
           "prompt": "The owner slides a dossier across the mahogany: relegation form, empty seats, and your contract's final clause. 'Save my club, or I'll find someone who can.'",
@@ -7966,6 +7981,7 @@
     "deck": {
       "name": "The Perpetual Engine: A Brasspunk Chronicle",
       "description": "As the empire's chief artificer you juggle a war-hungry crown, a hoarding inventors' guild, saboteurs in the foundries, and a forbidden blueprint that promises an engine which never stops.",
+      "intro": "The Iron Crown's herald clanks into your workshop demanding a fleet of war engines within the month — and that is only this morning's crisis. As the empire's chief artificer you stand between a war-hungry crown, a hoarding inventors' guild, and saboteurs in the foundries, while in your vault sits a forbidden blueprint for an engine that never stops. What you build next will outlast you.",
       "cards": [
         {
           "prompt": "The Iron Crown's herald clanks into your workshop: 'His Majesty demands a fleet of war engines within the month, Chief Artificer.'",
@@ -8497,6 +8513,7 @@
     "deck": {
       "name": "Fathom Station: The Circling Light",
       "description": "Miles beneath the surface, you command a starving mining station while a shape circles the lights and the trench itself whispers through your instruments.",
+      "intro": "Miles beneath the surface, Fathom Station's resupply sub is six days overdue, the oxygen reserves are thinning, and corporate isn't answering. Outside the viewports something large keeps circling the lights, and the trench itself has begun to whisper through your instruments. Command the station, ration the air, and decide what to believe before the dark decides for you.",
       "cards": [
         {
           "prompt": "The resupply sub is six days overdue. Oxygen reserves are thinning, and the crew keeps glancing at the airlock that stays empty. Corporate hasn't answered your last three pings.",
@@ -9000,6 +9017,7 @@
     "deck": {
       "name": "Chancellor of the Ivory Tower",
       "description": "As the new chancellor of a proud but broke university, you juggle a vain donor, a plagiarism scandal, an occupied quad, and a librarian's astonishing discovery.",
+      "intro": "On your first morning as chancellor, a billionaire donor offers to stop the endowment's bleeding — if you rename the historic Hall of Founders after him. A plagiarism scandal is smoldering, students have occupied the quad, and the librarian keeps insisting she's found something astonishing in the archives. The ivory tower is proud, broke, and yours to steer.",
       "cards": [
         {
           "prompt": "On your first morning, a billionaire donor offers a fortune—if you rename the historic Hall of Founders after him. The endowment is bleeding; his check would stop the bleeding.",
@@ -9531,6 +9549,7 @@
     "deck": {
       "name": "The Long Winter",
       "description": "A jarl must shepherd a divided great hall through the cruelest winter in living memory, weighing renown, silver, kinship, and the old runes against starvation and feud.",
+      "intro": "Snow chokes the fjord, the raid season's spoils were thin, and your steward spreads his hands over half-empty stores as the hall looks to its jarl. This will be the cruelest winter in living memory, and it will weigh renown, silver, kinship, and the old runes against starvation and feud. Shepherd the hall through to meltwater, and the skalds will sing of it.",
       "cards": [
         {
           "prompt": "Snow chokes the fjord and the raid season's spoils were thin. Your steward Halli spreads his hands over the half-empty stores and begs for a decision.",
@@ -10062,6 +10081,7 @@
     "deck": {
       "name": "High Noon at End-of-Track",
       "description": "As the green sheriff of a rail-end boomtown, you juggle the railroad's greed, a cattle baron's private law, a gang wintering in the hills, and a saloon that hears everything first.",
+      "intro": "The stage drops you at End-of-Track, and before your boots hit the mud the saloon owner is offering whiskey and a word about who really runs this town. The railroad wants its cut, a cattle baron enforces his own law, and a gang is wintering in the hills waiting for the thaw. You're the new sheriff of a rail-end boomtown — and the badge is only as heavy as you let it get.",
       "cards": [
         {
           "prompt": "The stage drops you at End-of-Track. Before your boots hit mud, Nellie the saloon owner offers a whiskey and 'a word about who really runs things.'",
@@ -10593,6 +10613,7 @@
     "deck": {
       "name": "Rain City: The Kessler File",
       "description": "A broke private eye takes a missing-husband case from a woman who lies, in a city where the cops owe favors they resent, the papers pay for secrets, and every truth is buried under rain.",
+      "intro": "Neon bleeds through the rain on your office window when she walks in — Mrs. Kessler, all mink and trouble, saying her husband's vanished. Her story has holes, your rent is overdue, and in Rain City the cops resent the favors they owe, the papers pay for secrets, and every truth is buried under water. Take the case; find out which lie matters.",
       "cards": [
         {
           "prompt": "Neon bleeds through the rain on your office window when she walks in—Mrs. Kessler, all mink and trouble, saying her husband's vanished. Her hands don't shake like a worried wife's.",
@@ -11124,6 +11145,7 @@
     "deck": {
       "name": "Runway",
       "description": "Bootstrap a software startup through twelve months of runway, trading founder control, cash, team trust, and hard-won business insight on the road to product-market fit.",
+      "intro": "You've quit your job with twelve months of savings and a software idea you can't stop thinking about. Ahead lies a year of runway where every decision — how you capitalize, who you hire, what you charge, when you say no — trades founder control, cash, team trust, and hard-won insight against each other. Reach product-market fit before the runway runs out.",
       "cards": [
         {
           "prompt": "You've quit your job with twelve months of savings. Before writing a line of code, you must decide how to capitalize the company. Cash buys speed, but every dollar raised costs a slice of ownership.",
@@ -11659,6 +11681,7 @@
     "deck": {
       "name": "Zero Hour",
       "description": "As a mid-size company's new security lead, steer a single escalating incident from a suspicious phishing email through lateral movement, ransomware detonation, and the messy aftermath — balancing your team's authority, budget, organizational trust, and threat intelligence.",
+      "intro": "Day one as the company's new security lead, and an accountant has just forwarded a slick invoice email with a login link that doesn't match your domain — and others may have clicked. What starts as one suspicious phish will escalate through lateral movement, ransomware, and the messy aftermath. How you spend your authority, budget, and trust decides how the story ends.",
       "cards": [
         {
           "prompt": "Day one. An accountant forwards a slick invoice email with a login link that doesn't match your domain. Others may have clicked. What's your first move?",
@@ -12194,6 +12217,7 @@
     "deck": {
       "name": "Merge Conflict: From Prototype to Production",
       "description": "As the new tech lead of a scrappy team, every swipe trades your influence, your deadline slack, your team's health, and the codebase's quality on the road from demo to launch.",
+      "intro": "Day one as tech lead. The prototype dazzles in the demo, but the repo is a minefield of TODOs with no tests, and the founder wants a launch date by Friday. Between demo and production lies a road paved with trade-offs — your influence, your deadline slack, your team's health, and the codebase itself. Ship it without breaking any of them beyond repair.",
       "cards": [
         {
           "prompt": "Day one as tech lead. The prototype works in the demo but the repo is a minefield of TODOs and no tests. The founder wants a launch date by Friday.",
@@ -12725,6 +12749,7 @@
     "deck": {
       "name": "The Defender's Dilemma",
       "description": "You are the brand-new, only security person at a 40-staff Aussie business on a shoestring, and every hallway conversation this week is a trade-off with no clean answer.",
+      "intro": "Day one, 9am, and you're already being walked past the sticky-note password on the front desk. You are the first and only security person at a 40-staff Aussie business, with a shoestring budget and a hallway full of colleagues who liked things the way they were. Every conversation this week is a trade-off with no clean answer — and how you spend your scarce goodwill decides whether security becomes part of the culture or the thing everyone works around.",
       "cards": [
         {
           "prompt": "Day one, 9am. Office manager Priya walks you to the front desk. 'Everyone uses the same login here, and the password's on this sticky note so no one forgets. It just works, love. You're not going to change that on your first morning, are you?'",
