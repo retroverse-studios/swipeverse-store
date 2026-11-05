@@ -13253,9 +13253,9 @@
     }
   },
   {
-    "id": "edu-isys2008-estate-operator",
+    "id": "edu-estate-operator",
     "name": "The Estate Operator",
-    "description": "A five-minute trade-off game for ISYS2008. You run one CloudCore service pod. Every operational choice costs uptime, security, budget or team trust. Keep the estate alive without maxing out any one meter.",
+    "description": "A five-minute trade-off game about running an enterprise estate. You run one CloudCore service pod. Every operational choice costs uptime, security, budget or team trust. Keep the estate alive without maxing out any one meter.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Estate Operator\". The stats are Uptime, Budget, Team Trust, Security.",
     "statNames": {
@@ -13785,9 +13785,9 @@
     }
   },
   {
-    "id": "edu-isys3004-client-website-dilemma",
+    "id": "edu-client-website-dilemma",
     "name": "The Client Website Dilemma",
-    "description": "A five-minute trade-off game for ISYS3004. You are the web contractor for Harbour & Hearth. Every choice trades client trust, quality, budget or schedule.",
+    "description": "A five-minute trade-off game about building a client website. You are the web contractor for Harbour & Hearth. Every choice trades client trust, quality, budget or schedule.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Client Website Dilemma\". The stats are Client Trust, Budget, Quality, Schedule.",
     "statNames": {
@@ -14317,9 +14317,9 @@
     }
   },
   {
-    "id": "edu-isys6020-ai-strategy-table",
+    "id": "edu-ai-strategy-table",
     "name": "The AI Strategy Table",
-    "description": "A five-minute trade-off game for ISYS6020. You are CloudCore's new AI strategy lead. Every choice trades value, risk, trust or capability.",
+    "description": "A five-minute trade-off game about AI strategy. You are CloudCore's new AI strategy lead. Every choice trades value, risk, trust or capability.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The AI Strategy Table\". The stats are Value, Risk, Trust, Capability.",
     "statNames": {

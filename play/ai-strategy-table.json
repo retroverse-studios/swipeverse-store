@@ -1,7 +1,7 @@
 {
-  "id": "edu-isys6020-ai-strategy-table",
+  "id": "edu-ai-strategy-table",
   "name": "The AI Strategy Table",
-  "description": "A five-minute trade-off game for ISYS6020. You are CloudCore's new AI strategy lead. Every choice trades value, risk, trust or capability.",
+  "description": "A five-minute trade-off game about AI strategy. You are CloudCore's new AI strategy lead. Every choice trades value, risk, trust or capability.",
   "font": "font-exo",
   "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The AI Strategy Table\". The stats are Value, Risk, Trust, Capability.",
   "statNames": {

@@ -1,7 +1,7 @@
 {
-  "id": "edu-isys2008-estate-operator",
+  "id": "edu-estate-operator",
   "name": "The Estate Operator",
-  "description": "A five-minute trade-off game for ISYS2008. You run one CloudCore service pod. Every operational choice costs uptime, security, budget or team trust. Keep the estate alive without maxing out any one meter.",
+  "description": "A five-minute trade-off game about running an enterprise estate. You run one CloudCore service pod. Every operational choice costs uptime, security, budget or team trust. Keep the estate alive without maxing out any one meter.",
   "font": "font-exo",
   "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Estate Operator\". The stats are Uptime, Budget, Team Trust, Security.",
   "statNames": {

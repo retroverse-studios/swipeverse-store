@@ -1,7 +1,7 @@
 {
-  "id": "edu-isys3004-client-website-dilemma",
+  "id": "edu-client-website-dilemma",
   "name": "The Client Website Dilemma",
-  "description": "A five-minute trade-off game for ISYS3004. You are the web contractor for Harbour & Hearth. Every choice trades client trust, quality, budget or schedule.",
+  "description": "A five-minute trade-off game about building a client website. You are the web contractor for Harbour & Hearth. Every choice trades client trust, quality, budget or schedule.",
   "font": "font-exo",
   "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Client Website Dilemma\". The stats are Client Trust, Budget, Quality, Schedule.",
   "statNames": {
