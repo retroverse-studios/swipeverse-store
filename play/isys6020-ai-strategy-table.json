@@ -1,0 +1,532 @@
+{
+  "id": "edu-isys6020-ai-strategy-table",
+  "name": "The AI Strategy Table",
+  "description": "A five-minute trade-off game for ISYS6020. You are CloudCore's new AI strategy lead. Every choice trades value, risk, trust or capability.",
+  "font": "font-exo",
+  "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The AI Strategy Table\". The stats are Value, Risk, Trust, Capability.",
+  "statNames": {
+    "Power": "Value",
+    "Wealth": "Risk",
+    "People": "Trust",
+    "Knowledge": "Capability"
+  },
+  "statIconNames": {
+    "Power": "PowerIconCyber",
+    "Wealth": "WealthIconCyber",
+    "People": "PeopleIconCyber",
+    "Knowledge": "KnowledgeIconCyber"
+  },
+  "imageSet": [],
+  "colors": {
+    "primary": "text-emerald-400",
+    "secondary": "text-amber-300",
+    "background": "bg-gradient-to-br from-slate-950 via-emerald-950 to-zinc-950",
+    "accent": "border-emerald-400"
+  },
+  "category": "education",
+  "deck": {
+    "name": "The AI Strategy Table",
+    "description": "You are CloudCore's new AI strategy lead. The CEO wants a win, the CFO wants ROI, the CISO wants control, and the board wants a decision. Every choice trades value, risk, trust and capability.",
+    "intro": "The board has given you a seat at the table and a mandate that is one sentence long: make AI pay off without betting the company. The CEO has seen a competitor's chatbot, the CFO has a spreadsheet, the CISO has a risk register, and the workforce has questions. Every meeting this quarter is a trade-off with no clean answer. Name your assumptions, own the risk, and keep the organisation able to change its mind.",
+    "cards": [
+      {
+        "prompt": "The CEO wants a customer chatbot because a competitor has one.",
+        "leftChoice": {
+          "text": "Build it",
+          "effects": {
+            "Power": 6,
+            "Wealth": -6,
+            "People": 2,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Run a needs assessment first",
+          "effects": {
+            "Power": -4,
+            "Wealth": 6,
+            "People": 4,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 1
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+      },
+      {
+        "prompt": "The CFO demands a six-month ROI. The business case is a range, not a point.",
+        "leftChoice": {
+          "text": "Promise the ROI",
+          "effects": {
+            "Power": 8,
+            "Wealth": -4,
+            "People": -6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 2
+        },
+        "rightChoice": {
+          "text": "Present the range and assumptions",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+      },
+      {
+        "prompt": "The CISO worries about data leakage. The vendor's residency is unclear.",
+        "leftChoice": {
+          "text": "Use the vendor anyway",
+          "effects": {
+            "Power": 6,
+            "Wealth": -8,
+            "People": -4,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Choose a sovereign host",
+          "effects": {
+            "Power": -4,
+            "Wealth": 6,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 3
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "The COO wants to cut 20% of the affected team.",
+        "leftChoice": {
+          "text": "Support the cut",
+          "effects": {
+            "Power": 6,
+            "Wealth": -2,
+            "People": -8,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 4
+        },
+        "rightChoice": {
+          "text": "Propose redeployment",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/business/faction.webp"
+      },
+      {
+        "prompt": "A vendor offers a strong model with unclear training-data provenance.",
+        "leftChoice": {
+          "text": "Sign the contract",
+          "effects": {
+            "Power": 6,
+            "Wealth": -6,
+            "People": -4,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Demand provenance",
+          "effects": {
+            "Power": -4,
+            "Wealth": 6,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+      },
+      {
+        "prompt": "A regulator asks whether the system is high-risk. You do not have the evidence yet.",
+        "leftChoice": {
+          "text": "Say it is low-risk",
+          "effects": {
+            "Power": 4,
+            "Wealth": -8,
+            "People": -6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 6
+        },
+        "rightChoice": {
+          "text": "Classify and document it",
+          "effects": {
+            "Power": -4,
+            "Wealth": 8,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+      },
+      {
+        "prompt": "The board wants a quick win. The data foundations are weak.",
+        "leftChoice": {
+          "text": "Ship a fast pilot",
+          "effects": {
+            "Power": 8,
+            "Wealth": -6,
+            "People": 0,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Invest in the data first",
+          "effects": {
+            "Power": -6,
+            "Wealth": 4,
+            "People": 0,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+      },
+      {
+        "prompt": "The pilot fails. The board wants to know whether to cancel the programme.",
+        "leftChoice": {
+          "text": "Cancel it",
+          "effects": {
+            "Power": -8,
+            "Wealth": 4,
+            "People": -6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Post-mortem and iterate",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "Staff are using shadow AI because the approved tool is slow.",
+        "leftChoice": {
+          "text": "Ban it",
+          "effects": {
+            "Power": 0,
+            "Wealth": 4,
+            "People": -6,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Provide a sanctioned tool",
+          "effects": {
+            "Power": 4,
+            "Wealth": -4,
+            "People": 6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+      },
+      {
+        "prompt": "The vendor changes its pricing. The pilot's business case is now marginal.",
+        "leftChoice": {
+          "text": "Absorb the cost",
+          "effects": {
+            "Power": -6,
+            "Wealth": 4,
+            "People": 2,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Renegotiate",
+          "effects": {
+            "Power": 4,
+            "Wealth": -4,
+            "People": -4,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+      },
+      {
+        "prompt": "The model you built on is being deprecated.",
+        "leftChoice": {
+          "text": "Migrate quickly",
+          "effects": {
+            "Power": 6,
+            "Wealth": -4,
+            "People": 0,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Run a controlled migration",
+          "effects": {
+            "Power": -4,
+            "Wealth": 6,
+            "People": 0,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "The CEO wants to announce AGI readiness at the next investor day.",
+        "leftChoice": {
+          "text": "Support the announcement",
+          "effects": {
+            "Power": 6,
+            "Wealth": -4,
+            "People": -6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Name the assumptions instead",
+          "effects": {
+            "Power": -4,
+            "Wealth": 6,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+      },
+      {
+        "prompt": "The board asks for a governance framework. A generic template is available.",
+        "leftChoice": {
+          "text": "Adopt the template",
+          "effects": {
+            "Power": 0,
+            "Wealth": 4,
+            "People": -6,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Design a proportionate framework",
+          "effects": {
+            "Power": -4,
+            "Wealth": 0,
+            "People": 6,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+      },
+      {
+        "prompt": "A business unit wants to bypass procurement for an AI tool.",
+        "leftChoice": {
+          "text": "Let them move fast",
+          "effects": {
+            "Power": 6,
+            "Wealth": -6,
+            "People": -4,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Enforce the process",
+          "effects": {
+            "Power": -4,
+            "Wealth": 6,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/business/faction.webp"
+      },
+      {
+        "prompt": "A competitor launches a similar AI feature.",
+        "leftChoice": {
+          "text": "Copy the feature",
+          "effects": {
+            "Power": 6,
+            "Wealth": -4,
+            "People": 0,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Focus on the customer problem",
+          "effects": {
+            "Power": -4,
+            "Wealth": 0,
+            "People": 4,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+      },
+      {
+        "prompt": "The data quality is poor. The pilot can still launch on a narrow slice.",
+        "leftChoice": {
+          "text": "Launch anyway",
+          "effects": {
+            "Power": 6,
+            "Wealth": -6,
+            "People": -6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Fix the data first",
+          "effects": {
+            "Power": -6,
+            "Wealth": 6,
+            "People": 0,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "The workforce is anxious about AI and job losses.",
+        "leftChoice": {
+          "text": "Announce efficiency gains",
+          "effects": {
+            "Power": 6,
+            "Wealth": -2,
+            "People": -8,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Co-design the transition",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": 8,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/business/faction.webp"
+      },
+      {
+        "prompt": "A vendor offers a fully autonomous agent. It would remove the human checkpoint.",
+        "leftChoice": {
+          "text": "Deploy it",
+          "effects": {
+            "Power": 8,
+            "Wealth": -8,
+            "People": -4,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Keep the human in the loop",
+          "effects": {
+            "Power": -4,
+            "Wealth": 8,
+            "People": 6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+      },
+      {
+        "prompt": "The board asks for a three-year AI strategy.",
+        "leftChoice": {
+          "text": "Promise a fixed roadmap",
+          "effects": {
+            "Power": 6,
+            "Wealth": -4,
+            "People": -6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Present scenarios and assumptions",
+          "effects": {
+            "Power": -4,
+            "Wealth": 6,
+            "People": 8,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+      },
+      {
+        "prompt": "The board meeting ends. The strategy is not certain, but the assumptions are named, the risks are owned, and the organisation can adapt. That balance is the job.",
+        "leftChoice": {
+          "text": "Leave with the decision and the assumptions",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Stay to write the risk register",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/business/terminal.webp"
+      }
+    ]
+  }
+}

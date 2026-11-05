@@ -1,0 +1,532 @@
+{
+  "id": "edu-isys3004-client-website-dilemma",
+  "name": "The Client Website Dilemma",
+  "description": "A five-minute trade-off game for ISYS3004. You are the web contractor for Harbour & Hearth. Every choice trades client trust, quality, budget or schedule.",
+  "font": "font-exo",
+  "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Client Website Dilemma\". The stats are Client Trust, Budget, Quality, Schedule.",
+  "statNames": {
+    "Power": "Client Trust",
+    "Wealth": "Budget",
+    "People": "Quality",
+    "Knowledge": "Schedule"
+  },
+  "statIconNames": {
+    "Power": "PowerIconCyber",
+    "Wealth": "WealthIconCyber",
+    "People": "PeopleIconCyber",
+    "Knowledge": "KnowledgeIconCyber"
+  },
+  "imageSet": [],
+  "colors": {
+    "primary": "text-amber-400",
+    "secondary": "text-cyan-300",
+    "background": "bg-gradient-to-br from-slate-950 via-amber-950 to-zinc-950",
+    "accent": "border-amber-400"
+  },
+  "category": "education",
+  "deck": {
+    "name": "The Client Website Dilemma",
+    "description": "You are the web contractor for one Harbour & Hearth franchise. Maria wants a launch, Dev wants to update the menu, Sam needs to book on his phone, and Alex keeps asking who will maintain it.",
+    "intro": "The franchise has no website, a launch date in the local paper, and a laminated menu that changes every Monday. Maria is the owner, Dev is the office manager, Sam is the customer who books on his phone, and Alex is the IT vendor who has seen too many abandoned sites. Every conversation this month is a trade-off between what the client wants, what the site needs, what it costs and when it can ship.",
+    "cards": [
+      {
+        "prompt": "Maria wants a gallery animation for the launch. It is not in the brief.",
+        "leftChoice": {
+          "text": "Build it for the launch",
+          "effects": {
+            "Power": 6,
+            "Wealth": -2,
+            "People": 2,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Explain the trade-off and defer",
+          "effects": {
+            "Power": -6,
+            "Wealth": 2,
+            "People": 4,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 1
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+      },
+      {
+        "prompt": "Dev wants to update the menu every Monday without calling you.",
+        "leftChoice": {
+          "text": "Build a CMS",
+          "effects": {
+            "Power": 4,
+            "Wealth": -6,
+            "People": 6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 2
+        },
+        "rightChoice": {
+          "text": "Keep static HTML",
+          "effects": {
+            "Power": -2,
+            "Wealth": 6,
+            "People": -6,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+      },
+      {
+        "prompt": "Sam cannot complete a booking on his phone. The button is below the fold.",
+        "leftChoice": {
+          "text": "Fix the mobile booking now",
+          "effects": {
+            "Power": 6,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Add it to the backlog",
+          "effects": {
+            "Power": -6,
+            "Wealth": 2,
+            "People": -6,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 3
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "Alex warns that every new feature is another plugin to maintain.",
+        "leftChoice": {
+          "text": "Remove the unnecessary plugins",
+          "effects": {
+            "Power": -4,
+            "Wealth": 2,
+            "People": 6,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 4
+        },
+        "rightChoice": {
+          "text": "Keep them for the feature set",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": -6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "advisor",
+        "imageUrl": "https://store.swipeverse.app/art/business/advisor.webp"
+      },
+      {
+        "prompt": "The AI agent suggests rebuilding the front end in React. The site is four pages.",
+        "leftChoice": {
+          "text": "Use React",
+          "effects": {
+            "Power": 2,
+            "Wealth": -4,
+            "People": 4,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Stay with the simple stack",
+          "effects": {
+            "Power": -2,
+            "Wealth": 4,
+            "People": -4,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+      },
+      {
+        "prompt": "Lighthouse fails accessibility. The launch is in three days.",
+        "leftChoice": {
+          "text": "Fix accessibility now",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": 8,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 6
+        },
+        "rightChoice": {
+          "text": "Launch and fix later",
+          "effects": {
+            "Power": -4,
+            "Wealth": 2,
+            "People": -8,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+      },
+      {
+        "prompt": "A plugin has a security issue. The site uses it on the booking page.",
+        "leftChoice": {
+          "text": "Patch and test it",
+          "effects": {
+            "Power": 2,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Disable the plugin",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": -4,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "The client wants to launch before the audit. The audit may find real issues.",
+        "leftChoice": {
+          "text": "Launch on the promised date",
+          "effects": {
+            "Power": 6,
+            "Wealth": 2,
+            "People": -6,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Delay for the audit",
+          "effects": {
+            "Power": -6,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+      },
+      {
+        "prompt": "The menu changed on Monday and the site is already wrong. Dev is frustrated.",
+        "leftChoice": {
+          "text": "Automate the menu update",
+          "effects": {
+            "Power": 2,
+            "Wealth": -6,
+            "People": 6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Keep updating it manually",
+          "effects": {
+            "Power": -2,
+            "Wealth": 4,
+            "People": -6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+      },
+      {
+        "prompt": "The booking form posts to the wrong endpoint. It 404s on the static host.",
+        "leftChoice": {
+          "text": "Fix the endpoint",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Swap in a third-party form",
+          "effects": {
+            "Power": -4,
+            "Wealth": -4,
+            "People": -2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "Maria wants a custom brand font. It is large and licensed.",
+        "leftChoice": {
+          "text": "Add the font",
+          "effects": {
+            "Power": 4,
+            "Wealth": -4,
+            "People": 4,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Use a system font",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": -4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+      },
+      {
+        "prompt": "The site is slow on mobile. The images are the main cause.",
+        "leftChoice": {
+          "text": "Optimise the images",
+          "effects": {
+            "Power": 4,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Upgrade the hosting",
+          "effects": {
+            "Power": 2,
+            "Wealth": -6,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "A stakeholder asks for one more feature the day before launch.",
+        "leftChoice": {
+          "text": "Say yes",
+          "effects": {
+            "Power": 6,
+            "Wealth": -2,
+            "People": -4,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Say no and protect the date",
+          "effects": {
+            "Power": -6,
+            "Wealth": 2,
+            "People": 4,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+      },
+      {
+        "prompt": "There is no analytics. The client wants to know what customers do.",
+        "leftChoice": {
+          "text": "Add privacy-friendly analytics",
+          "effects": {
+            "Power": 2,
+            "Wealth": -4,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Skip it for now",
+          "effects": {
+            "Power": -2,
+            "Wealth": 4,
+            "People": -4,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+      },
+      {
+        "prompt": "The brand colours fail contrast. Changing them weakens the brand.",
+        "leftChoice": {
+          "text": "Adjust the palette for access",
+          "effects": {
+            "Power": -4,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Keep the brand colours",
+          "effects": {
+            "Power": 4,
+            "Wealth": 2,
+            "People": -6,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+      },
+      {
+        "prompt": "The team is behind schedule. Scope is the only lever left.",
+        "leftChoice": {
+          "text": "Cut scope",
+          "effects": {
+            "Power": -6,
+            "Wealth": 2,
+            "People": 4,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Work overtime",
+          "effects": {
+            "Power": 2,
+            "Wealth": -4,
+            "People": -4,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+      },
+      {
+        "prompt": "The AI agent wrote code you cannot explain. It works, for now.",
+        "leftChoice": {
+          "text": "Stop and learn it",
+          "effects": {
+            "Power": 2,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Ship it",
+          "effects": {
+            "Power": -4,
+            "Wealth": 2,
+            "People": -6,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+      },
+      {
+        "prompt": "The client asks for a chatbot. The site has five FAQs and one phone number.",
+        "leftChoice": {
+          "text": "Build a small FAQ bot",
+          "effects": {
+            "Power": 4,
+            "Wealth": -4,
+            "People": -2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Recommend a contact form",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": 4,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+      },
+      {
+        "prompt": "The launch date is fixed. There are known issues you cannot fix in time.",
+        "leftChoice": {
+          "text": "Launch with a documented register",
+          "effects": {
+            "Power": 2,
+            "Wealth": 2,
+            "People": -4,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Delay the launch",
+          "effects": {
+            "Power": -6,
+            "Wealth": -2,
+            "People": 6,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+      },
+      {
+        "prompt": "Launch day. The site is not perfect, but it is accessible, maintainable and honest about what remains. That balance is the job.",
+        "leftChoice": {
+          "text": "Publish the critique and open the champagne",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Book the next review",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/business/terminal.webp"
+      }
+    ]
+  }
+}

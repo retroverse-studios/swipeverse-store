@@ -1,0 +1,532 @@
+{
+  "id": "edu-isys2008-estate-operator",
+  "name": "The Estate Operator",
+  "description": "A five-minute trade-off game for ISYS2008. You run one CloudCore service pod. Every operational choice costs uptime, security, budget or team trust. Keep the estate alive without maxing out any one meter.",
+  "font": "font-exo",
+  "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Estate Operator\". The stats are Uptime, Budget, Team Trust, Security.",
+  "statNames": {
+    "Power": "Uptime",
+    "Wealth": "Budget",
+    "People": "Team Trust",
+    "Knowledge": "Security"
+  },
+  "statIconNames": {
+    "Power": "PowerIconCyber",
+    "Wealth": "WealthIconCyber",
+    "People": "PeopleIconCyber",
+    "Knowledge": "KnowledgeIconCyber"
+  },
+  "imageSet": [],
+  "colors": {
+    "primary": "text-cyan-400",
+    "secondary": "text-amber-300",
+    "background": "bg-gradient-to-br from-slate-950 via-cyan-950 to-zinc-950",
+    "accent": "border-cyan-400"
+  },
+  "category": "education",
+  "deck": {
+    "name": "The Estate Operator",
+    "description": "You are the new operator of CloudCore's service pod. The estate is live, the pager is on, and every choice this month trades uptime, security, budget and team trust.",
+    "intro": "The handover is one page long and the previous operator has already left the building. You now run one CloudCore service pod: a Linux host, containers, a web tier, identity, storage and a pager that does not care what time it is. Nothing here is free. Every choice you make this month protects one thing by spending another.",
+    "cards": [
+      {
+        "prompt": "2am. The web tier is down. The on-call engineer has already worked a full day.",
+        "leftChoice": {
+          "text": "Wake the on-call engineer",
+          "effects": {
+            "Power": 8,
+            "Wealth": -2,
+            "People": -6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 1
+        },
+        "rightChoice": {
+          "text": "Wait until the morning",
+          "effects": {
+            "Power": -8,
+            "Wealth": 2,
+            "People": 4,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 1
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "The TLS certificate for the portal expires in 48 hours. The renewal needs a change window.",
+        "leftChoice": {
+          "text": "Renew now and disrupt the window",
+          "effects": {
+            "Power": 2,
+            "Wealth": -4,
+            "People": -2,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 2
+        },
+        "rightChoice": {
+          "text": "Defer to next sprint",
+          "effects": {
+            "Power": -2,
+            "Wealth": 4,
+            "People": 2,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 2
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
+      },
+      {
+        "prompt": "A container is OOM-killed every few hours. The team can raise the limit or find the leak.",
+        "leftChoice": {
+          "text": "Raise the memory limit",
+          "effects": {
+            "Power": 6,
+            "Wealth": -4,
+            "People": 2,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 3
+        },
+        "rightChoice": {
+          "text": "Profile and fix the leak",
+          "effects": {
+            "Power": -4,
+            "Wealth": 2,
+            "People": 2,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 3
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "A developer wants root on the host to install a tool. The estate uses containers for a reason.",
+        "leftChoice": {
+          "text": "Grant root for now",
+          "effects": {
+            "Power": 2,
+            "Wealth": 0,
+            "People": 6,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 4
+        },
+        "rightChoice": {
+          "text": "Refuse and provide a container",
+          "effects": {
+            "Power": -2,
+            "Wealth": -2,
+            "People": -4,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 4
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "The backup job failed last night. The next retry is not until Monday.",
+        "leftChoice": {
+          "text": "Skip it and retry Monday",
+          "effects": {
+            "Power": -2,
+            "Wealth": 4,
+            "People": 2,
+            "Knowledge": -8
+          },
+          "nextCardIndex": 5
+        },
+        "rightChoice": {
+          "text": "Investigate and rerun now",
+          "effects": {
+            "Power": -4,
+            "Wealth": -2,
+            "People": 4,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 5
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "A vendor offers a monitoring platform. It is good, and it is not cheap.",
+        "leftChoice": {
+          "text": "Buy the platform",
+          "effects": {
+            "Power": 6,
+            "Wealth": -8,
+            "People": 2,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 6
+        },
+        "rightChoice": {
+          "text": "Build a basic check first",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 6
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
+      },
+      {
+        "prompt": "A security patch breaks the web tier. Roll back, or fix forward under pressure.",
+        "leftChoice": {
+          "text": "Roll back the patch",
+          "effects": {
+            "Power": 6,
+            "Wealth": 0,
+            "People": 2,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 7
+        },
+        "rightChoice": {
+          "text": "Fix forward and keep the patch",
+          "effects": {
+            "Power": -6,
+            "Wealth": -2,
+            "People": -2,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 7
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
+      },
+      {
+        "prompt": "A team member wants to skip the runbook for a quick fix. It will probably work.",
+        "leftChoice": {
+          "text": "Allow the shortcut",
+          "effects": {
+            "Power": 4,
+            "Wealth": 0,
+            "People": 6,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 8
+        },
+        "rightChoice": {
+          "text": "Follow the runbook",
+          "effects": {
+            "Power": -2,
+            "Wealth": 0,
+            "People": -4,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 8
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "Friday 4:45. The client wants a change deployed now, not Monday.",
+        "leftChoice": {
+          "text": "Deploy now",
+          "effects": {
+            "Power": -6,
+            "Wealth": 2,
+            "People": 6,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 9
+        },
+        "rightChoice": {
+          "text": "Defer to Monday",
+          "effects": {
+            "Power": 6,
+            "Wealth": 0,
+            "People": -6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 9
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/gamble.webp"
+      },
+      {
+        "prompt": "The cloud bill spikes. Finance wants the run rate down this month.",
+        "leftChoice": {
+          "text": "Cut resources now",
+          "effects": {
+            "Power": -6,
+            "Wealth": 8,
+            "People": -2,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 10
+        },
+        "rightChoice": {
+          "text": "Absorb the cost and investigate",
+          "effects": {
+            "Power": 4,
+            "Wealth": -8,
+            "People": 2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 10
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "The DNS record for the portal points at the wrong address. A quick manual fix is available.",
+        "leftChoice": {
+          "text": "Fix it manually now",
+          "effects": {
+            "Power": 6,
+            "Wealth": 0,
+            "People": 2,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 11
+        },
+        "rightChoice": {
+          "text": "Fix it in code and review the zone",
+          "effects": {
+            "Power": -4,
+            "Wealth": -2,
+            "People": 2,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 11
+        },
+        "archetype": "opportunity",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
+      },
+      {
+        "prompt": "The database host is out of disk. The logs are large and not all of them are needed.",
+        "leftChoice": {
+          "text": "Delete old logs",
+          "effects": {
+            "Power": 6,
+            "Wealth": 2,
+            "People": 0,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 12
+        },
+        "rightChoice": {
+          "text": "Add storage and keep the logs",
+          "effects": {
+            "Power": 4,
+            "Wealth": -6,
+            "People": 2,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 12
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "A team member leaves. The estate still needs an owner.",
+        "leftChoice": {
+          "text": "Hire a replacement",
+          "effects": {
+            "Power": 2,
+            "Wealth": -8,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 13
+        },
+        "rightChoice": {
+          "text": "Redistribute the work",
+          "effects": {
+            "Power": -4,
+            "Wealth": 4,
+            "People": -6,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 13
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
+      },
+      {
+        "prompt": "The client wants a new service by Friday. The team is already at capacity.",
+        "leftChoice": {
+          "text": "Say yes and absorb it",
+          "effects": {
+            "Power": -6,
+            "Wealth": -2,
+            "People": 8,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 14
+        },
+        "rightChoice": {
+          "text": "Negotiate the scope",
+          "effects": {
+            "Power": 4,
+            "Wealth": 4,
+            "People": -6,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 14
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "A penetration test finds a medium-severity issue. It is not exploitable today.",
+        "leftChoice": {
+          "text": "Fix it now",
+          "effects": {
+            "Power": -4,
+            "Wealth": -2,
+            "People": 0,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 15
+        },
+        "rightChoice": {
+          "text": "Add it to the backlog",
+          "effects": {
+            "Power": 2,
+            "Wealth": 4,
+            "People": 2,
+            "Knowledge": -6
+          },
+          "nextCardIndex": 15
+        },
+        "archetype": "judgement",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
+      },
+      {
+        "prompt": "The on-call engineer is burned out. Next week is already full.",
+        "leftChoice": {
+          "text": "Give them a break",
+          "effects": {
+            "Power": -4,
+            "Wealth": -2,
+            "People": 8,
+            "Knowledge": 0
+          },
+          "nextCardIndex": 16
+        },
+        "rightChoice": {
+          "text": "Push through the week",
+          "effects": {
+            "Power": 6,
+            "Wealth": 0,
+            "People": -8,
+            "Knowledge": -2
+          },
+          "nextCardIndex": 16
+        },
+        "archetype": "petitioner",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+      },
+      {
+        "prompt": "A vendor offers a three-year lock-in discount. It is a good price and a long commitment.",
+        "leftChoice": {
+          "text": "Sign the lock-in",
+          "effects": {
+            "Power": 2,
+            "Wealth": 8,
+            "People": 0,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 17
+        },
+        "rightChoice": {
+          "text": "Stay flexible",
+          "effects": {
+            "Power": -2,
+            "Wealth": -4,
+            "People": 4,
+            "Knowledge": 2
+          },
+          "nextCardIndex": 17
+        },
+        "archetype": "gamble",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/gamble.webp"
+      },
+      {
+        "prompt": "A container image has a critical CVE. The service is internal but reachable.",
+        "leftChoice": {
+          "text": "Rebuild and redeploy now",
+          "effects": {
+            "Power": -4,
+            "Wealth": -2,
+            "People": -2,
+            "Knowledge": 8
+          },
+          "nextCardIndex": 18
+        },
+        "rightChoice": {
+          "text": "Isolate the service and patch later",
+          "effects": {
+            "Power": 2,
+            "Wealth": -4,
+            "People": 2,
+            "Knowledge": 4
+          },
+          "nextCardIndex": 18
+        },
+        "archetype": "crisis",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+      },
+      {
+        "prompt": "The board wants an AI assistant to watch the estate. It sounds impressive.",
+        "leftChoice": {
+          "text": "Pilot the AI tool",
+          "effects": {
+            "Power": 4,
+            "Wealth": -4,
+            "People": 2,
+            "Knowledge": -4
+          },
+          "nextCardIndex": 19
+        },
+        "rightChoice": {
+          "text": "Fix the basics first",
+          "effects": {
+            "Power": -2,
+            "Wealth": 2,
+            "People": 4,
+            "Knowledge": 6
+          },
+          "nextCardIndex": 19
+        },
+        "archetype": "faction",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
+      },
+      {
+        "prompt": "End of the first month. The estate is not perfect, but it is documented, monitored and recoverable. That balance is the job.",
+        "leftChoice": {
+          "text": "Pour a coffee and write the runbook",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "rightChoice": {
+          "text": "Start the next incident review",
+          "effects": {
+            "Power": 0,
+            "Wealth": 0,
+            "People": 0,
+            "Knowledge": 0
+          }
+        },
+        "archetype": "terminal",
+        "imageUrl": "https://store.swipeverse.app/art/cybersecurity/terminal.webp"
+      }
+    ]
+  }
+}

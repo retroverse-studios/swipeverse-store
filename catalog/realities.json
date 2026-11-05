@@ -28,7 +28,7 @@
     "deck": {
       "name": "The Aerodrome: Wings on a Shoestring",
       "description": "Run a threadbare 1930s airline through monsoon skies, poaching rivals, and a government contract that will either lift you to glory or bury you in the mud.",
-      "intro": "The monsoon hammers the tin roof of your hangar, and inside sit two patched biplanes, three unpaid pilots, and the logbook of an airline one bad month from the scrapyard. A rain-soaked postmaster is offering double pay for night airmail, and rumor says a government contract is coming up for grabs. In the 1930s the sky belongs to whoever dares to stay in it — keep your airline flying.",
+      "intro": "The monsoon hammers the tin roof of your hangar, and inside sit two patched biplanes, three unpaid pilots, and the logbook of an airline one bad month from the scrapyard. A rain-soaked postmaster is offering double pay for night airmail, and rumor says a government contract is coming up for grabs. In the 1930s the sky belongs to whoever dares to stay in it \u2014 keep your airline flying.",
       "cards": [
         {
           "prompt": "A rain-soaked postmaster slides a night airmail contract across his desk. 'Fly it in the dark and I'll pay double,' he says. 'Fly it late and I'll ruin you.'",
@@ -81,7 +81,7 @@
           "imageUrl": "https://store.swipeverse.app/art/aviation/crisis.webp"
         },
         {
-          "prompt": "A cigarette firm offers to sponsor a coast-to-coast speed record in your name. Glory sells tickets — but records kill airmen.",
+          "prompt": "A cigarette firm offers to sponsor a coast-to-coast speed record in your name. Glory sells tickets \u2014 but records kill airmen.",
           "leftChoice": {
             "text": "Chase the record",
             "effects": {
@@ -206,7 +206,7 @@
           "imageUrl": "https://store.swipeverse.app/art/aviation/chain.webp"
         },
         {
-          "prompt": "A snowbound pass could cut three hours off the run — if the downdrafts don't cut your wings first.",
+          "prompt": "A snowbound pass could cut three hours off the run \u2014 if the downdrafts don't cut your wings first.",
           "leftChoice": {
             "text": "Thread the mountain shortcut",
             "effects": {
@@ -456,7 +456,7 @@
           "imageUrl": "https://store.swipeverse.app/art/aviation/petitioner.webp"
         },
         {
-          "prompt": "A meteorologist offers you exclusive access to his new pressure charts — for a fee. 'Guess the weather, and you bury your pilots.'",
+          "prompt": "A meteorologist offers you exclusive access to his new pressure charts \u2014 for a fee. 'Guess the weather, and you bury your pilots.'",
           "leftChoice": {
             "text": "Buy the forecasts",
             "effects": {
@@ -481,7 +481,7 @@
           "imageUrl": "https://store.swipeverse.app/art/aviation/advisor.webp"
         },
         {
-          "prompt": "The contract is on the table at last. Sign exclusively to the government and lose your freedom — or stay independent and keep flying your own way.",
+          "prompt": "The contract is on the table at last. Sign exclusively to the government and lose your freedom \u2014 or stay independent and keep flying your own way.",
           "leftChoice": {
             "text": "Sign the exclusive government deal",
             "effects": {
@@ -506,7 +506,7 @@
           "imageUrl": "https://store.swipeverse.app/art/aviation/chain.webp"
         },
         {
-          "prompt": "Dawn breaks over the aerodrome. Engines cough, warm, and roar — your battered airline still owns the sky it fought for. The pilots salute as the mail lifts off on time.",
+          "prompt": "Dawn breaks over the aerodrome. Engines cough, warm, and roar \u2014 your battered airline still owns the sky it fought for. The pilots salute as the mail lifts off on time.",
           "leftChoice": {
             "text": "Raise a toast to the crews",
             "effects": {
@@ -560,10 +560,10 @@
     "deck": {
       "name": "The Corner Office",
       "description": "Newly promoted amid a hostile takeover, you must survive scheming boards, a whistleblower, a restless union, and a seductive merger without your influence, capital, workforce, or market intel collapsing.",
-      "intro": "The nameplate on the corner office door is yours as of this morning — and so is the hostile takeover threatening to tear the company apart. Board veterans offer their backing at a price, a whistleblower is circling, the union is restless, and a seductive merger glitters on the horizon. Welcome to the top floor; now find out what it costs to stay there.",
+      "intro": "The nameplate on the corner office door is yours as of this morning \u2014 and so is the hostile takeover threatening to tear the company apart. Board veterans offer their backing at a price, a whistleblower is circling, the union is restless, and a seductive merger glitters on the horizon. Welcome to the top floor; now find out what it costs to stay there.",
       "cards": [
         {
-          "prompt": "Your first day in the corner office. The takeover war rages, and board veteran Diane Voss offers you her faction's backing—for a price of loyalty.",
+          "prompt": "Your first day in the corner office. The takeover war rages, and board veteran Diane Voss offers you her faction's backing\u2014for a price of loyalty.",
           "leftChoice": {
             "text": "Pledge loyalty to Voss",
             "effects": {
@@ -713,7 +713,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/advisor.webp"
         },
         {
-          "prompt": "An anonymous tip reaches you: the raider's financing is shaky. If true, a short squeeze could ruin them—but the tip could be a trap.",
+          "prompt": "An anonymous tip reaches you: the raider's financing is shaky. If true, a short squeeze could ruin them\u2014but the tip could be a trap.",
           "leftChoice": {
             "text": "Bet company capital on the squeeze",
             "effects": {
@@ -813,7 +813,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
         },
         {
-          "prompt": "A hedge fund offers to buy a large stake and vote with you against the raider—if you give them a board seat.",
+          "prompt": "A hedge fund offers to buy a large stake and vote with you against the raider\u2014if you give them a board seat.",
           "leftChoice": {
             "text": "Grant the board seat",
             "effects": {
@@ -888,7 +888,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/chain.webp"
         },
         {
-          "prompt": "Voss reappears—furious or grateful, depending on your choices—and calls a snap vote to decide the company's leadership.",
+          "prompt": "Voss reappears\u2014furious or grateful, depending on your choices\u2014and calls a snap vote to decide the company's leadership.",
           "leftChoice": {
             "text": "Rally your allies",
             "effects": {
@@ -1011,7 +1011,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
         },
         {
-          "prompt": "The votes are counted. The takeover is repelled, and you stand at the head of the table—your choices etched into the company's future. The corner office is yours to keep.",
+          "prompt": "The votes are counted. The takeover is repelled, and you stand at the head of the table\u2014your choices etched into the company's future. The corner office is yours to keep.",
           "leftChoice": {
             "text": "Consolidate your reign",
             "effects": {
@@ -1065,7 +1065,7 @@
     "deck": {
       "name": "The Year the River Forsook Egypt",
       "description": "As a young Pharaoh facing a failed Nile flood, you must balance grasping priests, foreign threats, and a starving people to see your kingdom survive.",
-      "intro": "The Nile has not risen. The black silt that feeds Egypt lies dry and cracked, and from the temple steps the priests are already murmuring that the gods weigh their young Pharaoh. Your vizier kneels awaiting your first command, foreign envoys smell weakness, and a starving people looks to the throne — see Egypt through the year the river forsook it.",
+      "intro": "The Nile has not risen. The black silt that feeds Egypt lies dry and cracked, and from the temple steps the priests are already murmuring that the gods weigh their young Pharaoh. Your vizier kneels awaiting your first command, foreign envoys smell weakness, and a starving people looks to the throne \u2014 see Egypt through the year the river forsook it.",
       "cards": [
         {
           "prompt": "The Nile has not risen. The black silt that feeds Egypt lies dry and cracked. Your vizier kneels, awaiting your first command.",
@@ -1105,7 +1105,7 @@
             "nextCardIndex": 3
           },
           "rightChoice": {
-            "text": "Refuse — the people need that grain.",
+            "text": "Refuse \u2014 the people need that grain.",
             "effects": {
               "Power": -20,
               "Wealth": 0,
@@ -1143,7 +1143,7 @@
           "imageUrl": "https://store.swipeverse.app/art/egypt/advisor.webp"
         },
         {
-          "prompt": "The double count reveals a shortfall — ten thousand measures of grain, vanished.",
+          "prompt": "The double count reveals a shortfall \u2014 ten thousand measures of grain, vanished.",
           "leftChoice": {
             "text": "Investigate the overseers personally.",
             "effects": {
@@ -1243,7 +1243,7 @@
           "imageUrl": "https://store.swipeverse.app/art/egypt/petitioner.webp"
         },
         {
-          "prompt": "The temple crowds swell into a riot at the palace gates. The priests hold back — for now.",
+          "prompt": "The temple crowds swell into a riot at the palace gates. The priests hold back \u2014 for now.",
           "leftChoice": {
             "text": "Address the mob from the balcony yourself.",
             "effects": {
@@ -1268,7 +1268,7 @@
           "imageUrl": "https://store.swipeverse.app/art/egypt/faction.webp"
         },
         {
-          "prompt": "A Hittite envoy arrives bearing a chest of gold — and a warning that his king's armies march near your northern forts.",
+          "prompt": "A Hittite envoy arrives bearing a chest of gold \u2014 and a warning that his king's armies march near your northern forts.",
           "leftChoice": {
             "text": "Accept the gold and hear his terms.",
             "effects": {
@@ -1343,7 +1343,7 @@
           "imageUrl": "https://store.swipeverse.app/art/egypt/crisis.webp"
         },
         {
-          "prompt": "The Hittite envoy offers a royal marriage to seal peace — his princess for your court.",
+          "prompt": "The Hittite envoy offers a royal marriage to seal peace \u2014 his princess for your court.",
           "leftChoice": {
             "text": "Accept the marriage alliance.",
             "effects": {
@@ -1468,7 +1468,7 @@
           "imageUrl": "https://store.swipeverse.app/art/egypt/opportunity.webp"
         },
         {
-          "prompt": "At the source shrine, the priests await your word to begin a rite that has never been recorded as failing — or succeeding.",
+          "prompt": "At the source shrine, the priests await your word to begin a rite that has never been recorded as failing \u2014 or succeeding.",
           "leftChoice": {
             "text": "Perform the rite and stake your name on it.",
             "effects": {
@@ -1850,9 +1850,9 @@
           "imageUrl": "https://store.swipeverse.app/art/gothic/crisis.webp"
         },
         {
-          "prompt": "A travelling medium offers to hold a séance in the great hall, promising answers — for a price, and with no guarantees.",
+          "prompt": "A travelling medium offers to hold a s\u00e9ance in the great hall, promising answers \u2014 for a price, and with no guarantees.",
           "leftChoice": {
-            "text": "Fund the séance and take part.",
+            "text": "Fund the s\u00e9ance and take part.",
             "effects": {
               "Power": 5,
               "Wealth": -10,
@@ -1875,7 +1875,7 @@
           "imageUrl": "https://store.swipeverse.app/art/gothic/gamble.webp"
         },
         {
-          "prompt": "A disinherited cousin arrives, claiming the true right to Ravenmoor and hinting he knows how to lift — or worsen — the curse.",
+          "prompt": "A disinherited cousin arrives, claiming the true right to Ravenmoor and hinting he knows how to lift \u2014 or worsen \u2014 the curse.",
           "leftChoice": {
             "text": "Pay him handsomely to vanish.",
             "effects": {
@@ -2000,7 +2000,7 @@
           "imageUrl": "https://store.swipeverse.app/art/gothic/crisis.webp"
         },
         {
-          "prompt": "An ailing villager, marked by the curse, begs you for release — either mercy, or a place in whatever dark rite might save the rest.",
+          "prompt": "An ailing villager, marked by the curse, begs you for release \u2014 either mercy, or a place in whatever dark rite might save the rest.",
           "leftChoice": {
             "text": "Grant a peaceful last wish.",
             "effects": {
@@ -2075,7 +2075,7 @@
           "imageUrl": "https://store.swipeverse.app/art/gothic/chain.webp"
         },
         {
-          "prompt": "Dawn breaks over Ravenmoor. The house still stands, changed — and so are you. Whether feared, revered, or merely endured, you are its master now, and the crypt is quiet at last.",
+          "prompt": "Dawn breaks over Ravenmoor. The house still stands, changed \u2014 and so are you. Whether feared, revered, or merely endured, you are its master now, and the crypt is quiet at last.",
           "leftChoice": {
             "text": "Rule as the enlightened lord of Ravenmoor.",
             "effects": {
@@ -2282,7 +2282,7 @@
           "imageUrl": "https://store.swipeverse.app/art/kingdom/crisis.webp"
         },
         {
-          "prompt": "Your spymaster slides a ledger across the table. 'The Chancellor skims from every levy,' she whispers. 'I can prove it—or make it disappear for the right coin.'",
+          "prompt": "Your spymaster slides a ledger across the table. 'The Chancellor skims from every levy,' she whispers. 'I can prove it\u2014or make it disappear for the right coin.'",
           "leftChoice": {
             "text": "Order a full investigation",
             "effects": {
@@ -2507,7 +2507,7 @@
           "imageUrl": "https://store.swipeverse.app/art/kingdom/judgement.webp"
         },
         {
-          "prompt": "Your victorious general returns to cheering crowds. He is beloved now—perhaps too beloved—and lingers near the throne.",
+          "prompt": "Your victorious general returns to cheering crowds. He is beloved now\u2014perhaps too beloved\u2014and lingers near the throne.",
           "leftChoice": {
             "text": "Honor him richly and pension him off",
             "effects": {
@@ -2839,7 +2839,7 @@
           "imageUrl": "https://store.swipeverse.app/art/medical/gamble.webp"
         },
         {
-          "prompt": "Without the trial money, payroll is tight. A wealthy donor offers a large gift—if you name the new ward after his failed pharmaceutical company.",
+          "prompt": "Without the trial money, payroll is tight. A wealthy donor offers a large gift\u2014if you name the new ward after his failed pharmaceutical company.",
           "leftChoice": {
             "text": "Take the donation and the name",
             "effects": {
@@ -2951,7 +2951,7 @@
             "nextCardIndex": 13
           },
           "rightChoice": {
-            "text": "Refuse—liability too high",
+            "text": "Refuse\u2014liability too high",
             "effects": {
               "Power": 10,
               "Wealth": 5,
@@ -2989,7 +2989,7 @@
           "imageUrl": "https://store.swipeverse.app/art/medical/faction.webp"
         },
         {
-          "prompt": "A national broadcaster wants a live tour of your hospital tonight—a chance to attract funding, or a disaster if things look chaotic.",
+          "prompt": "A national broadcaster wants a live tour of your hospital tonight\u2014a chance to attract funding, or a disaster if things look chaotic.",
           "leftChoice": {
             "text": "Open the doors to cameras",
             "effects": {
@@ -3139,7 +3139,7 @@
           "imageUrl": "https://store.swipeverse.app/art/medical/chain.webp"
         },
         {
-          "prompt": "The surge has broken. Ashford General still stands—understaffed, scarred, but open. Whether they call you a reformer or a survivor, the lights stayed on and the doors never closed. The night shift is over.",
+          "prompt": "The surge has broken. Ashford General still stands\u2014understaffed, scarred, but open. Whether they call you a reformer or a survivor, the lights stayed on and the doors never closed. The night shift is over.",
           "leftChoice": {
             "text": "Sign off the final report",
             "effects": {
@@ -3725,7 +3725,7 @@
     "deck": {
       "name": "Olympus Falling: The Latecomer's Gambit",
       "description": "A newly ascended god scrambles for a throne in a crumbling pantheon while a chained titan wakes and the Fates keep smiling.",
-      "intro": "You are the youngest god on a crumbling Olympus, ascended just as the thrones above you begin to shake. A village priest kneels in your first shrine offering worship for miracles, a chained titan stirs beneath the mountain, and the Fates watch you with knowing smiles. Latecomers have seized pantheons before — but never cheaply.",
+      "intro": "You are the youngest god on a crumbling Olympus, ascended just as the thrones above you begin to shake. A village priest kneels in your first shrine offering worship for miracles, a chained titan stirs beneath the mountain, and the Fates watch you with knowing smiles. Latecomers have seized pantheons before \u2014 but never cheaply.",
       "cards": [
         {
           "prompt": "A gaunt village priest kneels in your first shrine, offering to raise a temple in your name if you will answer his prayers.",
@@ -4078,7 +4078,7 @@
           "imageUrl": "https://store.swipeverse.app/art/mythology/petitioner.webp"
         },
         {
-          "prompt": "An elder god's forgotten relic lies unguarded — a font of raw power that could vault you above your station, if you dare thieve from your betters.",
+          "prompt": "An elder god's forgotten relic lies unguarded \u2014 a font of raw power that could vault you above your station, if you dare thieve from your betters.",
           "leftChoice": {
             "text": "Steal the relic",
             "effects": {
@@ -4178,7 +4178,7 @@
           "imageUrl": "https://store.swipeverse.app/art/mythology/crisis.webp"
         },
         {
-          "prompt": "With the titan subdued, the pantheon offers you a throne — a subordinate one, unless you take a greater seat by force.",
+          "prompt": "With the titan subdued, the pantheon offers you a throne \u2014 a subordinate one, unless you take a greater seat by force.",
           "leftChoice": {
             "text": "Accept the offered throne",
             "effects": {
@@ -4203,7 +4203,7 @@
           "imageUrl": "https://store.swipeverse.app/art/mythology/faction.webp"
         },
         {
-          "prompt": "The elders bow, the mortals chant your name, and the Fates smile one last knowing smile as your thread is woven gold into the heart of Olympus. You have your seat — for now.",
+          "prompt": "The elders bow, the mortals chant your name, and the Fates smile one last knowing smile as your thread is woven gold into the heart of Olympus. You have your seat \u2014 for now.",
           "leftChoice": {
             "text": "Rule with an open hand",
             "effects": {
@@ -4460,7 +4460,7 @@
           "imageUrl": "https://store.swipeverse.app/art/nautical/petitioner.webp"
         },
         {
-          "prompt": "A raked black sail crests the swell astern — a privateer hunting stragglers. She has the weather gauge and gains fast.",
+          "prompt": "A raked black sail crests the swell astern \u2014 a privateer hunting stragglers. She has the weather gauge and gains fast.",
           "leftChoice": {
             "text": "Clear for action and fight",
             "effects": {
@@ -4485,7 +4485,7 @@
           "imageUrl": "https://store.swipeverse.app/art/nautical/crisis.webp"
         },
         {
-          "prompt": "In a quiet cove, a shore-runner offers to load untaxed brandy for a fat commission — no questions, no manifest, no syndicate's cut.",
+          "prompt": "In a quiet cove, a shore-runner offers to load untaxed brandy for a fat commission \u2014 no questions, no manifest, no syndicate's cut.",
           "leftChoice": {
             "text": "Take the smuggling deal",
             "effects": {
@@ -4510,7 +4510,7 @@
           "imageUrl": "https://store.swipeverse.app/art/nautical/opportunity.webp"
         },
         {
-          "prompt": "The shortcut betrays you — the keel grinds on an unmarked bar and the hull groans. The tide is falling fast.",
+          "prompt": "The shortcut betrays you \u2014 the keel grinds on an unmarked bar and the hull groans. The tide is falling fast.",
           "leftChoice": {
             "text": "Work all hands to kedge off",
             "effects": {
@@ -4535,7 +4535,7 @@
           "imageUrl": "https://store.swipeverse.app/art/nautical/crisis.webp"
         },
         {
-          "prompt": "Two crewmen come to blows over salvaged plunder — a gunner and the helmsman, each swearing the other lies. The deck falls silent for your verdict.",
+          "prompt": "Two crewmen come to blows over salvaged plunder \u2014 a gunner and the helmsman, each swearing the other lies. The deck falls silent for your verdict.",
           "leftChoice": {
             "text": "Side with the gunner",
             "effects": {
@@ -4585,7 +4585,7 @@
           "imageUrl": "https://store.swipeverse.app/art/nautical/faction.webp"
         },
         {
-          "prompt": "A wandering chart-maker in a port tavern offers freshly corrected coastal charts and tide tables — dear, but signed by a master pilot.",
+          "prompt": "A wandering chart-maker in a port tavern offers freshly corrected coastal charts and tide tables \u2014 dear, but signed by a master pilot.",
           "leftChoice": {
             "text": "Buy the new charts",
             "effects": {
@@ -4710,7 +4710,7 @@
           "imageUrl": "https://store.swipeverse.app/art/nautical/crisis.webp"
         },
         {
-          "prompt": "The home harbor opens ahead — but the syndicate's clerks are already tallying your losses against the policy. Settle their dues honestly, or contest every farthing in court?",
+          "prompt": "The home harbor opens ahead \u2014 but the syndicate's clerks are already tallying your losses against the policy. Settle their dues honestly, or contest every farthing in court?",
           "leftChoice": {
             "text": "Settle the dues honestly",
             "effects": {
@@ -4735,7 +4735,7 @@
           "imageUrl": "https://store.swipeverse.app/art/nautical/chain.webp"
         },
         {
-          "prompt": "Warps ashore, sails furled, the ship rides safe at her moorings. The crew is paid, the manifest closed, the charts marked with hard-won truth. You made port against the odds — the ledger and the loyalty are yours to weigh.",
+          "prompt": "Warps ashore, sails furled, the ship rides safe at her moorings. The crew is paid, the manifest closed, the charts marked with hard-won truth. You made port against the odds \u2014 the ledger and the loyalty are yours to weigh.",
           "leftChoice": {
             "text": "Toast the crew and the voyage",
             "effects": {
@@ -4789,7 +4789,7 @@
     "deck": {
       "name": "Under the Black Flag",
       "description": "An elected pirate captain must juggle a mutinous crew, a tightening navy net, a governor's poisoned pardon, a rival's fleet, and a torn treasure map on the way to a legendary wreck.",
-      "intro": "The crew hauls you onto the barrel and roars your election as captain — and their grins say the vote can turn just as fast. In your pocket is half a torn map to a legendary wreck; between you and it lie a tightening navy net, a governor's poisoned pardon, and a rival's fleet. Under the black flag, captains are made and unmade by the next horizon.",
+      "intro": "The crew hauls you onto the barrel and roars your election as captain \u2014 and their grins say the vote can turn just as fast. In your pocket is half a torn map to a legendary wreck; between you and it lie a tightening navy net, a governor's poisoned pardon, and a rival's fleet. Under the black flag, captains are made and unmade by the next horizon.",
       "cards": [
         {
           "prompt": "The crew hauls you onto the barrel and cheers your election as captain. Their grins say the vote can go the other way just as fast. What do you swear before them?",
@@ -4917,7 +4917,7 @@
           "imageUrl": "https://store.swipeverse.app/art/pirate/chain.webp"
         },
         {
-          "prompt": "Red Isabel, captain of the Carrion Rose, hails you. She proposes a joint fleet — twice the guns, twice the terror, split the seas between you.",
+          "prompt": "Red Isabel, captain of the Carrion Rose, hails you. She proposes a joint fleet \u2014 twice the guns, twice the terror, split the seas between you.",
           "leftChoice": {
             "text": "Sign the fleet articles with her",
             "effects": {
@@ -4992,7 +4992,7 @@
           "imageUrl": "https://store.swipeverse.app/art/pirate/gamble.webp"
         },
         {
-          "prompt": "A lone merchantman wallows off the reef, low and heavy in the water. Easy prey — but her captain claims to know secret channels.",
+          "prompt": "A lone merchantman wallows off the reef, low and heavy in the water. Easy prey \u2014 but her captain claims to know secret channels.",
           "leftChoice": {
             "text": "Take her hold and let her burn",
             "effects": {
@@ -5017,7 +5017,7 @@
           "imageUrl": "https://store.swipeverse.app/art/pirate/opportunity.webp"
         },
         {
-          "prompt": "You unroll the fabled map to the wreck of the San Cristobal — and its lower corner, the corner bearing the final bearings, has been torn away.",
+          "prompt": "You unroll the fabled map to the wreck of the San Cristobal \u2014 and its lower corner, the corner bearing the final bearings, has been torn away.",
           "leftChoice": {
             "text": "Comb the port taverns for the missing corner",
             "effects": {
@@ -5192,7 +5192,7 @@
           "imageUrl": "https://store.swipeverse.app/art/pirate/gamble.webp"
         },
         {
-          "prompt": "As the treasure comes aboard, sails appear — Red Isabel and a navy sloop both, each meaning to claim your prize.",
+          "prompt": "As the treasure comes aboard, sails appear \u2014 Red Isabel and a navy sloop both, each meaning to claim your prize.",
           "leftChoice": {
             "text": "Clear for action and fight them off",
             "effects": {
@@ -5242,7 +5242,7 @@
           "imageUrl": "https://store.swipeverse.app/art/pirate/chain.webp"
         },
         {
-          "prompt": "The governor's pardon still waits, sealed and valid. You could die rich and forgiven ashore — or die a legend beneath the black flag.",
+          "prompt": "The governor's pardon still waits, sealed and valid. You could die rich and forgiven ashore \u2014 or die a legend beneath the black flag.",
           "leftChoice": {
             "text": "Take the pardon and swallow the anchor",
             "effects": {
@@ -5267,7 +5267,7 @@
           "imageUrl": "https://store.swipeverse.app/art/pirate/faction.webp"
         },
         {
-          "prompt": "Whichever wind you chose, the ballads are already being sung in a hundred ports. Your name is spoken with a lowered voice and a raised cup — the captain who kept the black flag flying and lived to answer for it.",
+          "prompt": "Whichever wind you chose, the ballads are already being sung in a hundred ports. Your name is spoken with a lowered voice and a raised cup \u2014 the captain who kept the black flag flying and lived to answer for it.",
           "leftChoice": {
             "text": "Raise a final toast to the crew",
             "effects": {
@@ -5321,7 +5321,7 @@
     "deck": {
       "name": "After the Ash: The Hollow Wall",
       "description": "A generation after the collapse, you rule a walled settlement squeezed between circling raiders, a dwindling water table, a spy-riddled caravan, and a humming pre-collapse bunker that promises salvation or ruin.",
-      "intro": "A generation after the collapse, your walled settlement survives on a dwindling water table and the strength of its gate. This morning the dawn watch signals smoke on the eastern ridge: raiders circling again, a caravan riddled with spies at the gates, and beneath it all the hum of a pre-collapse bunker that promises salvation or ruin. The settlers wake soon — the wall needs orders.",
+      "intro": "A generation after the collapse, your walled settlement survives on a dwindling water table and the strength of its gate. This morning the dawn watch signals smoke on the eastern ridge: raiders circling again, a caravan riddled with spies at the gates, and beneath it all the hum of a pre-collapse bunker that promises salvation or ruin. The settlers wake soon \u2014 the wall needs orders.",
       "cards": [
         {
           "prompt": "Dawn watch signals smoke on the eastern ridge. The gate captain wants orders before the settlers wake and panic.",
@@ -5424,7 +5424,7 @@
           "imageUrl": "https://store.swipeverse.app/art/postapoc/advisor.webp"
         },
         {
-          "prompt": "Beneath the collapsed hospital, diggers uncover a sealed hatch. A low hum vibrates through the stone—a pre-collapse bunker, still powered.",
+          "prompt": "Beneath the collapsed hospital, diggers uncover a sealed hatch. A low hum vibrates through the stone\u2014a pre-collapse bunker, still powered.",
           "leftChoice": {
             "text": "Descend and explore the bunker",
             "effects": {
@@ -5649,7 +5649,7 @@
           "imageUrl": "https://store.swipeverse.app/art/postapoc/crisis.webp"
         },
         {
-          "prompt": "Scavengers stumble on a buried fuel cache beneath a toppled tanker—still sealed, still precious.",
+          "prompt": "Scavengers stumble on a buried fuel cache beneath a toppled tanker\u2014still sealed, still precious.",
           "leftChoice": {
             "text": "Hoard the fuel for the militia",
             "effects": {
@@ -5749,7 +5749,7 @@
           "imageUrl": "https://store.swipeverse.app/art/postapoc/gamble.webp"
         },
         {
-          "prompt": "The scattered raider clans have united under one warlord. Torches ring your walls at dusk—a true siege begins.",
+          "prompt": "The scattered raider clans have united under one warlord. Torches ring your walls at dusk\u2014a true siege begins.",
           "leftChoice": {
             "text": "Sally out to break their line",
             "effects": {
@@ -5799,7 +5799,7 @@
           "imageUrl": "https://store.swipeverse.app/art/postapoc/chain.webp"
         },
         {
-          "prompt": "Dawn breaks over broken siege-ladders. The warlord's banner burns, the wells run clear from the deep pumps, and children play in the ash-gardens. Your settlement endures into a new generation—still walled, still watchful, but alive.",
+          "prompt": "Dawn breaks over broken siege-ladders. The warlord's banner burns, the wells run clear from the deep pumps, and children play in the ash-gardens. Your settlement endures into a new generation\u2014still walled, still watchful, but alive.",
           "leftChoice": {
             "text": "Carve the fallen's names into the gate",
             "effects": {
@@ -5853,7 +5853,7 @@
     "deck": {
       "name": "First Fire: Keepers of the Ember",
       "description": "At the edge of the endless ice, you lead a tribe that guards a jealous flame while herds shift, rivals circle, and a stranger brings a new way to shape stone.",
-      "intro": "The fire pit gutters as an ice-wind claws down from the glacier, and everyone in the tribe knows what it means if the flame dies: the long dark takes us all. The herds are shifting, rival bands circle the hunting grounds, and a stranger has come carrying a new way to shape stone. You keep the ember — and the ember keeps the tribe.",
+      "intro": "The fire pit gutters as an ice-wind claws down from the glacier, and everyone in the tribe knows what it means if the flame dies: the long dark takes us all. The herds are shifting, rival bands circle the hunting grounds, and a stranger has come carrying a new way to shape stone. You keep the ember \u2014 and the ember keeps the tribe.",
       "cards": [
         {
           "prompt": "The fire pit gutters as an ice-wind claws down from the glacier. If it dies, the long dark takes us all.",
@@ -6081,7 +6081,7 @@
           "imageUrl": "https://store.swipeverse.app/art/prehistoric/chain.webp"
         },
         {
-          "prompt": "A great tusked beast wallows in a frozen ravine — meat for a whole moon, if it can be taken.",
+          "prompt": "A great tusked beast wallows in a frozen ravine \u2014 meat for a whole moon, if it can be taken.",
           "leftChoice": {
             "text": "Charge it with spears",
             "effects": {
@@ -6106,7 +6106,7 @@
           "imageUrl": "https://store.swipeverse.app/art/prehistoric/gamble.webp"
         },
         {
-          "prompt": "Two hunters both claim the killing blow — and thus the hide and honor.",
+          "prompt": "Two hunters both claim the killing blow \u2014 and thus the hide and honor.",
           "leftChoice": {
             "text": "Award it to the seasoned elder",
             "effects": {
@@ -6256,7 +6256,7 @@
           "imageUrl": "https://store.swipeverse.app/art/prehistoric/petitioner.webp"
         },
         {
-          "prompt": "With the stranger's teaching, you could reshape all the tribe's tools — but it will cost hunting days.",
+          "prompt": "With the stranger's teaching, you could reshape all the tribe's tools \u2014 but it will cost hunting days.",
           "leftChoice": {
             "text": "Spend the moon training everyone",
             "effects": {
@@ -6385,10 +6385,10 @@
     "deck": {
       "name": "The Way of the Blade",
       "description": "As chief retainer to a young daimyo, you must weather a border insult, a short rice tax, gathering ronin, and an early shogunate inspector without shattering your clan.",
-      "intro": "Above the river ford, Lord Kanmori's banners fly a mocking device — a deliberate slur against the young daimyo you serve as chief retainer. The rice tax has come up short, ronin gather in the hills, and word arrives that the shogunate is sending an inspector early. The clan's honor and survival now hang on the same thread, and both are in your hands.",
+      "intro": "Above the river ford, Lord Kanmori's banners fly a mocking device \u2014 a deliberate slur against the young daimyo you serve as chief retainer. The rice tax has come up short, ronin gather in the hills, and word arrives that the shogunate is sending an inspector early. The clan's honor and survival now hang on the same thread, and both are in your hands.",
       "cards": [
         {
-          "prompt": "Lord Kanmori's banners fly a mocking device above the river ford — a deliberate slur against your young daimyo. The war-drums of the province wait on your answer.",
+          "prompt": "Lord Kanmori's banners fly a mocking device above the river ford \u2014 a deliberate slur against your young daimyo. The war-drums of the province wait on your answer.",
           "leftChoice": {
             "text": "Demand a duel to answer the insult",
             "effects": {
@@ -6488,7 +6488,7 @@
           "imageUrl": "https://store.swipeverse.app/art/samurai/crisis.webp"
         },
         {
-          "prompt": "Masterless men — ronin — gather in the pine hills above the pass, robbing pilgrims and eyeing the harvest. Their captain sends word he is for hire.",
+          "prompt": "Masterless men \u2014 ronin \u2014 gather in the pine hills above the pass, robbing pilgrims and eyeing the harvest. Their captain sends word he is for hire.",
           "leftChoice": {
             "text": "Hire the ronin as auxiliaries",
             "effects": {
@@ -6538,7 +6538,7 @@
           "imageUrl": "https://store.swipeverse.app/art/samurai/crisis.webp"
         },
         {
-          "prompt": "A rice merchant of Sakai offers coin against next year's crop — enough to fill the granaries now, if you will bend your pride to a townsman's terms.",
+          "prompt": "A rice merchant of Sakai offers coin against next year's crop \u2014 enough to fill the granaries now, if you will bend your pride to a townsman's terms.",
           "leftChoice": {
             "text": "Accept the merchant's loan",
             "effects": {
@@ -6613,7 +6613,7 @@
           "imageUrl": "https://store.swipeverse.app/art/samurai/opportunity.webp"
         },
         {
-          "prompt": "A scribe in your lord's household is unmasked as Kanmori's ear — his brushes carry your secrets over the border.",
+          "prompt": "A scribe in your lord's household is unmasked as Kanmori's ear \u2014 his brushes carry your secrets over the border.",
           "leftChoice": {
             "text": "Execute the spy publicly",
             "effects": {
@@ -6663,7 +6663,7 @@
           "imageUrl": "https://store.swipeverse.app/art/samurai/petitioner.webp"
         },
         {
-          "prompt": "Kanmori, wary of the inspector's eye, proposes peace sealed by his daughter's marriage to your daimyo — and a generous dowry of rice-land.",
+          "prompt": "Kanmori, wary of the inspector's eye, proposes peace sealed by his daughter's marriage to your daimyo \u2014 and a generous dowry of rice-land.",
           "leftChoice": {
             "text": "Accept the marriage alliance",
             "effects": {
@@ -6738,7 +6738,7 @@
           "imageUrl": "https://store.swipeverse.app/art/samurai/judgement.webp"
         },
         {
-          "prompt": "Alone in the keep, your young daimyo confesses he fears he is a puppet — that the clan follows you, not him. His eyes search yours for the truth.",
+          "prompt": "Alone in the keep, your young daimyo confesses he fears he is a puppet \u2014 that the clan follows you, not him. His eyes search yours for the truth.",
           "leftChoice": {
             "text": "Steady the young lord's nerve",
             "effects": {
@@ -6838,7 +6838,7 @@
           "imageUrl": "https://store.swipeverse.app/art/samurai/crisis.webp"
         },
         {
-          "prompt": "Word reaches you that a senior vassal has been dealing with the enemy behind your back — the rot is inside your own hall.",
+          "prompt": "Word reaches you that a senior vassal has been dealing with the enemy behind your back \u2014 the rot is inside your own hall.",
           "leftChoice": {
             "text": "Root out the traitor ruthlessly",
             "effects": {
@@ -6863,7 +6863,7 @@
           "imageUrl": "https://store.swipeverse.app/art/samurai/chain.webp"
         },
         {
-          "prompt": "The snows melt. The inspector's palanquin departs with a report, Kanmori's banners withdraw, and the young daimyo — grown taller in a hard winter — turns to his karo for the shape of the peace.",
+          "prompt": "The snows melt. The inspector's palanquin departs with a report, Kanmori's banners withdraw, and the young daimyo \u2014 grown taller in a hard winter \u2014 turns to his karo for the shape of the peace.",
           "leftChoice": {
             "text": "Broker a lasting peace and secure the young lord's rule",
             "effects": {
@@ -6917,7 +6917,7 @@
     "deck": {
       "name": "Critical Mass: The Discovery Ledger",
       "description": "You steer a research institute toward an industry-shattering breakthrough while funding cliffs, ambitious stars, snooping rivals, and defense contractors test how much truth you can afford.",
-      "intro": "The endowment runs dry in ninety days, and down the hall your scientists are shouting past the accountants — because the lab is tantalizingly close to a breakthrough that could rewrite an industry. Funding cliffs, ambitious stars, snooping rivals, and defense contractors will all test how much truth you can afford. Steer the institute to discovery on its own terms.",
+      "intro": "The endowment runs dry in ninety days, and down the hall your scientists are shouting past the accountants \u2014 because the lab is tantalizingly close to a breakthrough that could rewrite an industry. Funding cliffs, ambitious stars, snooping rivals, and defense contractors will all test how much truth you can afford. Steer the institute to discovery on its own terms.",
       "cards": [
         {
           "prompt": "The endowment runs dry in ninety days, yet the lab is tantalizingly close. Accountants and scientists shout past each other in the hallway.",
@@ -7502,7 +7502,7 @@
           "imageUrl": "https://store.swipeverse.app/art/sport/petitioner.webp"
         },
         {
-          "prompt": "Deep in the academy, a scout waves a folder of underage gems. Investing now could bear fruit—eventually.",
+          "prompt": "Deep in the academy, a scout waves a folder of underage gems. Investing now could bear fruit\u2014eventually.",
           "leftChoice": {
             "text": "Fund the youth pipeline properly.",
             "effects": {
@@ -7777,7 +7777,7 @@
           "imageUrl": "https://store.swipeverse.app/art/sport/judgement.webp"
         },
         {
-          "prompt": "A tech firm offers sponsorship—if you let their analysts embed in your scouting room.",
+          "prompt": "A tech firm offers sponsorship\u2014if you let their analysts embed in your scouting room.",
           "leftChoice": {
             "text": "Accept the data-analytics partnership.",
             "effects": {
@@ -7802,7 +7802,7 @@
           "imageUrl": "https://store.swipeverse.app/art/sport/opportunity.webp"
         },
         {
-          "prompt": "Deadline day, minutes left. A wonderkid is available on loan—or a proven veteran for a fee.",
+          "prompt": "Deadline day, minutes left. A wonderkid is available on loan\u2014or a proven veteran for a fee.",
           "leftChoice": {
             "text": "Bet on the unproven wonderkid.",
             "effects": {
@@ -7902,7 +7902,7 @@
           "imageUrl": "https://store.swipeverse.app/art/sport/chain.webp"
         },
         {
-          "prompt": "At the pre-final presser, a reporter offers you the narrative—hero or scapegoat—if you'll play along.",
+          "prompt": "At the pre-final presser, a reporter offers you the narrative\u2014hero or scapegoat\u2014if you'll play along.",
           "leftChoice": {
             "text": "Give them the fairy-tale line.",
             "effects": {
@@ -7927,7 +7927,7 @@
           "imageUrl": "https://store.swipeverse.app/art/sport/advisor.webp"
         },
         {
-          "prompt": "The final whistle blows on your season. Whatever the scoreline, the club's fate—and yours—is sealed by the choices that carried you here.",
+          "prompt": "The final whistle blows on your season. Whatever the scoreline, the club's fate\u2014and yours\u2014is sealed by the choices that carried you here.",
           "leftChoice": {
             "text": "Walk the touchline one last time, head held high.",
             "effects": {
@@ -7981,7 +7981,7 @@
     "deck": {
       "name": "The Perpetual Engine: A Brasspunk Chronicle",
       "description": "As the empire's chief artificer you juggle a war-hungry crown, a hoarding inventors' guild, saboteurs in the foundries, and a forbidden blueprint that promises an engine which never stops.",
-      "intro": "The Iron Crown's herald clanks into your workshop demanding a fleet of war engines within the month — and that is only this morning's crisis. As the empire's chief artificer you stand between a war-hungry crown, a hoarding inventors' guild, and saboteurs in the foundries, while in your vault sits a forbidden blueprint for an engine that never stops. What you build next will outlast you.",
+      "intro": "The Iron Crown's herald clanks into your workshop demanding a fleet of war engines within the month \u2014 and that is only this morning's crisis. As the empire's chief artificer you stand between a war-hungry crown, a hoarding inventors' guild, and saboteurs in the foundries, while in your vault sits a forbidden blueprint for an engine that never stops. What you build next will outlast you.",
       "cards": [
         {
           "prompt": "The Iron Crown's herald clanks into your workshop: 'His Majesty demands a fleet of war engines within the month, Chief Artificer.'",
@@ -8641,7 +8641,7 @@
           "imageUrl": "https://store.swipeverse.app/art/underwater/crisis.webp"
         },
         {
-          "prompt": "A survey drone maps a mineral vein richer than anything on the manifest. Corporate would kill for it — but it lies beneath the trench edge where the instruments always fail.",
+          "prompt": "A survey drone maps a mineral vein richer than anything on the manifest. Corporate would kill for it \u2014 but it lies beneath the trench edge where the instruments always fail.",
           "leftChoice": {
             "text": "Reroute mining to the vein",
             "effects": {
@@ -8691,7 +8691,7 @@
           "imageUrl": "https://store.swipeverse.app/art/underwater/advisor.webp"
         },
         {
-          "prompt": "A young technician requests emergency evacuation on the next sub — if it ever comes. 'I can hear it at night, Commander. It's calling the pressure hull.' Others are listening to her.",
+          "prompt": "A young technician requests emergency evacuation on the next sub \u2014 if it ever comes. 'I can hear it at night, Commander. It's calling the pressure hull.' Others are listening to her.",
           "leftChoice": {
             "text": "Promise her a seat and calm the deck",
             "effects": {
@@ -8716,7 +8716,7 @@
           "imageUrl": "https://store.swipeverse.app/art/underwater/petitioner.webp"
         },
         {
-          "prompt": "You send the ROV over the trench lip to scout the vein. Its feed floods with static — then, for one frame, something vast and geometric, before the tether goes taut and screaming.",
+          "prompt": "You send the ROV over the trench lip to scout the vein. Its feed floods with static \u2014 then, for one frame, something vast and geometric, before the tether goes taut and screaming.",
           "leftChoice": {
             "text": "Reel it in fast, whatever the cost",
             "effects": {
@@ -8791,7 +8791,7 @@
           "imageUrl": "https://store.swipeverse.app/art/underwater/chain.webp"
         },
         {
-          "prompt": "The station doctor reports three crew with pressure-sickness tremors — or something like it. She needs the med bay's power and your authority to quarantine them.",
+          "prompt": "The station doctor reports three crew with pressure-sickness tremors \u2014 or something like it. She needs the med bay's power and your authority to quarantine them.",
           "leftChoice": {
             "text": "Authorize full quarantine",
             "effects": {
@@ -8866,7 +8866,7 @@
           "imageUrl": "https://store.swipeverse.app/art/underwater/advisor.webp"
         },
         {
-          "prompt": "You order a manned dive to the trench floor to end the mystery. The pressure suits can survive it — probably. The crew waits on your word, sweat fogging their visors.",
+          "prompt": "You order a manned dive to the trench floor to end the mystery. The pressure suits can survive it \u2014 probably. The crew waits on your word, sweat fogging their visors.",
           "leftChoice": {
             "text": "Dive to the source yourself",
             "effects": {
@@ -8940,7 +8940,7 @@
           "imageUrl": "https://store.swipeverse.app/art/underwater/crisis.webp"
         },
         {
-          "prompt": "Sonar finally identifies the contact: not a creature, but a derelict autonomous rig — and behind it, the resupply sub, disabled and adrift, its crew alive inside. Your instruments clear as the interference peaks and fades.",
+          "prompt": "Sonar finally identifies the contact: not a creature, but a derelict autonomous rig \u2014 and behind it, the resupply sub, disabled and adrift, its crew alive inside. Your instruments clear as the interference peaks and fades.",
           "leftChoice": {
             "text": "Spend your last air venting to nudge them to your dock",
             "effects": {
@@ -8963,7 +8963,7 @@
           "imageUrl": "https://store.swipeverse.app/art/underwater/chain.webp"
         },
         {
-          "prompt": "The interference lifts like a held breath released. The trench falls silent, the resupply airlock cycles green, and dawn-blue light from the surface elevators floods the dark corridors of Fathom Station. You held the deep at bay — and understood a little of what it was saying.",
+          "prompt": "The interference lifts like a held breath released. The trench falls silent, the resupply airlock cycles green, and dawn-blue light from the surface elevators floods the dark corridors of Fathom Station. You held the deep at bay \u2014 and understood a little of what it was saying.",
           "leftChoice": {
             "text": "Log the anomaly and request rotation home",
             "effects": {
@@ -9017,10 +9017,10 @@
     "deck": {
       "name": "Chancellor of the Ivory Tower",
       "description": "As the new chancellor of a proud but broke university, you juggle a vain donor, a plagiarism scandal, an occupied quad, and a librarian's astonishing discovery.",
-      "intro": "On your first morning as chancellor, a billionaire donor offers to stop the endowment's bleeding — if you rename the historic Hall of Founders after him. A plagiarism scandal is smoldering, students have occupied the quad, and the librarian keeps insisting she's found something astonishing in the archives. The ivory tower is proud, broke, and yours to steer.",
+      "intro": "On your first morning as chancellor, a billionaire donor offers to stop the endowment's bleeding \u2014 if you rename the historic Hall of Founders after him. A plagiarism scandal is smoldering, students have occupied the quad, and the librarian keeps insisting she's found something astonishing in the archives. The ivory tower is proud, broke, and yours to steer.",
       "cards": [
         {
-          "prompt": "On your first morning, a billionaire donor offers a fortune—if you rename the historic Hall of Founders after him. The endowment is bleeding; his check would stop the bleeding.",
+          "prompt": "On your first morning, a billionaire donor offers a fortune\u2014if you rename the historic Hall of Founders after him. The endowment is bleeding; his check would stop the bleeding.",
           "leftChoice": {
             "text": "Accept the gift, rename the hall",
             "effects": {
@@ -9045,7 +9045,7 @@
           "imageUrl": "https://store.swipeverse.app/art/university/petitioner.webp"
         },
         {
-          "prompt": "The renamed hall triggers uproar—the donor made his fortune in ways alumni find distasteful. Reporters ask if you vetted him.",
+          "prompt": "The renamed hall triggers uproar\u2014the donor made his fortune in ways alumni find distasteful. Reporters ask if you vetted him.",
           "leftChoice": {
             "text": "Defend the naming defiantly",
             "effects": {
@@ -9295,7 +9295,7 @@
           "imageUrl": "https://store.swipeverse.app/art/university/faction.webp"
         },
         {
-          "prompt": "Whispers spread that the miraculous folio might be a clever forgery. A definitive test would be costly—and could humiliate you.",
+          "prompt": "Whispers spread that the miraculous folio might be a clever forgery. A definitive test would be costly\u2014and could humiliate you.",
           "leftChoice": {
             "text": "Commission the full authentication",
             "effects": {
@@ -9445,7 +9445,7 @@
           "imageUrl": "https://store.swipeverse.app/art/university/advisor.webp"
         },
         {
-          "prompt": "A national foundation offers a transformative grant—but demands control over what your researchers may publish.",
+          "prompt": "A national foundation offers a transformative grant\u2014but demands control over what your researchers may publish.",
           "leftChoice": {
             "text": "Take the money, accept the leash",
             "effects": {
@@ -9495,7 +9495,7 @@
           "imageUrl": "https://store.swipeverse.app/art/university/judgement.webp"
         },
         {
-          "prompt": "At convocation, you rise before students, faculty, trustees, and press. The ancient university has survived your first year—now you tell them what it stands for.",
+          "prompt": "At convocation, you rise before students, faculty, trustees, and press. The ancient university has survived your first year\u2014now you tell them what it stands for.",
           "leftChoice": {
             "text": "Pledge scholarship above all else",
             "effects": {
@@ -9523,7 +9523,7 @@
   {
     "id": "viking",
     "name": "The Long Winter",
-    "description": "Rule as jarl through a winter that will be remembered — the only question is in which saga.",
+    "description": "Rule as jarl through a winter that will be remembered \u2014 the only question is in which saga.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Long Winter\". The stats are Renown, Silver, The Clan, The Runes.",
     "statNames": {
@@ -9602,7 +9602,7 @@
           "imageUrl": "https://store.swipeverse.app/art/viking/faction.webp"
         },
         {
-          "prompt": "The völva scatters bone-runes across a hide and goes pale. 'Blood on the snow before the thaw,' she whispers.",
+          "prompt": "The v\u00f6lva scatters bone-runes across a hide and goes pale. 'Blood on the snow before the thaw,' she whispers.",
           "leftChoice": {
             "text": "Heed her and prepare",
             "effects": {
@@ -9814,7 +9814,7 @@
             "nextCardIndex": 11
           },
           "rightChoice": {
-            "text": "Let the völva tend them",
+            "text": "Let the v\u00f6lva tend them",
             "effects": {
               "Power": 0,
               "Wealth": -10,
@@ -9827,7 +9827,7 @@
           "imageUrl": "https://store.swipeverse.app/art/viking/crisis.webp"
         },
         {
-          "prompt": "The völva says the old ways demand a midwinter blót to feed the gods through the dark.",
+          "prompt": "The v\u00f6lva says the old ways demand a midwinter bl\u00f3t to feed the gods through the dark.",
           "leftChoice": {
             "text": "Sacrifice livestock to Odin",
             "effects": {
@@ -9852,7 +9852,7 @@
           "imageUrl": "https://store.swipeverse.app/art/viking/advisor.webp"
         },
         {
-          "prompt": "Some of your kin, swayed by the missionary, now refuse to join the blót and pray to a nailed god.",
+          "prompt": "Some of your kin, swayed by the missionary, now refuse to join the bl\u00f3t and pray to a nailed god.",
           "leftChoice": {
             "text": "Tolerate the new faith",
             "effects": {
@@ -10002,7 +10002,7 @@
           "imageUrl": "https://store.swipeverse.app/art/viking/chain.webp"
         },
         {
-          "prompt": "On the last long night of winter the völva casts the runes a final time, asking how the hall shall be remembered.",
+          "prompt": "On the last long night of winter the v\u00f6lva casts the runes a final time, asking how the hall shall be remembered.",
           "leftChoice": {
             "text": "Trust the runes and hold a great feast",
             "effects": {
@@ -10081,7 +10081,7 @@
     "deck": {
       "name": "High Noon at End-of-Track",
       "description": "As the green sheriff of a rail-end boomtown, you juggle the railroad's greed, a cattle baron's private law, a gang wintering in the hills, and a saloon that hears everything first.",
-      "intro": "The stage drops you at End-of-Track, and before your boots hit the mud the saloon owner is offering whiskey and a word about who really runs this town. The railroad wants its cut, a cattle baron enforces his own law, and a gang is wintering in the hills waiting for the thaw. You're the new sheriff of a rail-end boomtown — and the badge is only as heavy as you let it get.",
+      "intro": "The stage drops you at End-of-Track, and before your boots hit the mud the saloon owner is offering whiskey and a word about who really runs this town. The railroad wants its cut, a cattle baron enforces his own law, and a gang is wintering in the hills waiting for the thaw. You're the new sheriff of a rail-end boomtown \u2014 and the badge is only as heavy as you let it get.",
       "cards": [
         {
           "prompt": "The stage drops you at End-of-Track. Before your boots hit mud, Nellie the saloon owner offers a whiskey and 'a word about who really runs things.'",
@@ -10109,7 +10109,7 @@
           "imageUrl": "https://store.swipeverse.app/art/western/petitioner.webp"
         },
         {
-          "prompt": "Nellie leans close over the bar. 'The railroad man rides in tomorrow. I know his weaknesses — for a price.'",
+          "prompt": "Nellie leans close over the bar. 'The railroad man rides in tomorrow. I know his weaknesses \u2014 for a price.'",
           "leftChoice": {
             "text": "Pay for her gossip",
             "effects": {
@@ -10171,7 +10171,7 @@
             "nextCardIndex": 6
           },
           "rightChoice": {
-            "text": "Refuse — the law answers to the town",
+            "text": "Refuse \u2014 the law answers to the town",
             "effects": {
               "Power": -5,
               "Wealth": -10,
@@ -10259,7 +10259,7 @@
           "imageUrl": "https://store.swipeverse.app/art/western/judgement.webp"
         },
         {
-          "prompt": "A fresh bounty poster names Cole Rourke, the gang's leader — five hundred in gold, dead or alive.",
+          "prompt": "A fresh bounty poster names Cole Rourke, the gang's leader \u2014 five hundred in gold, dead or alive.",
           "leftChoice": {
             "text": "Organize a proper bounty hunt",
             "effects": {
@@ -10613,10 +10613,10 @@
     "deck": {
       "name": "Rain City: The Kessler File",
       "description": "A broke private eye takes a missing-husband case from a woman who lies, in a city where the cops owe favors they resent, the papers pay for secrets, and every truth is buried under rain.",
-      "intro": "Neon bleeds through the rain on your office window when she walks in — Mrs. Kessler, all mink and trouble, saying her husband's vanished. Her story has holes, your rent is overdue, and in Rain City the cops resent the favors they owe, the papers pay for secrets, and every truth is buried under water. Take the case; find out which lie matters.",
+      "intro": "Neon bleeds through the rain on your office window when she walks in \u2014 Mrs. Kessler, all mink and trouble, saying her husband's vanished. Her story has holes, your rent is overdue, and in Rain City the cops resent the favors they owe, the papers pay for secrets, and every truth is buried under water. Take the case; find out which lie matters.",
       "cards": [
         {
-          "prompt": "Neon bleeds through the rain on your office window when she walks in—Mrs. Kessler, all mink and trouble, saying her husband's vanished. Her hands don't shake like a worried wife's.",
+          "prompt": "Neon bleeds through the rain on your office window when she walks in\u2014Mrs. Kessler, all mink and trouble, saying her husband's vanished. Her hands don't shake like a worried wife's.",
           "leftChoice": {
             "text": "Take the retainer and the case.",
             "effects": {
@@ -10628,7 +10628,7 @@
             "nextCardIndex": 1
           },
           "rightChoice": {
-            "text": "Turn her away—something's rotten.",
+            "text": "Turn her away\u2014something's rotten.",
             "effects": {
               "Power": 10,
               "Wealth": -10,
@@ -10766,7 +10766,7 @@
           "imageUrl": "https://store.swipeverse.app/art/noir/advisor.webp"
         },
         {
-          "prompt": "Uniforms boot in the door of the Blue Parrot mid-question. A raid—and you're in the middle of it.",
+          "prompt": "Uniforms boot in the door of the Blue Parrot mid-question. A raid\u2014and you're in the middle of it.",
           "leftChoice": {
             "text": "Slip out the kitchen door.",
             "effects": {
@@ -10816,7 +10816,7 @@
           "imageUrl": "https://store.swipeverse.app/art/noir/petitioner.webp"
         },
         {
-          "prompt": "A black sedan noses out of the alley and rolls slow through the downpour. No plates you can read from here—not yet.",
+          "prompt": "A black sedan noses out of the alley and rolls slow through the downpour. No plates you can read from here\u2014not yet.",
           "leftChoice": {
             "text": "Tail it down to the docks.",
             "effects": {
@@ -10841,7 +10841,7 @@
           "imageUrl": "https://store.swipeverse.app/art/noir/gamble.webp"
         },
         {
-          "prompt": "You find him at last—Kessler, face-down in a warehouse, two days dead. This was never about a runaway husband.",
+          "prompt": "You find him at last\u2014Kessler, face-down in a warehouse, two days dead. This was never about a runaway husband.",
           "leftChoice": {
             "text": "Phone it in to Brannigan.",
             "effects": {
@@ -10891,7 +10891,7 @@
           "imageUrl": "https://store.swipeverse.app/art/noir/judgement.webp"
         },
         {
-          "prompt": "They're waiting in the alley—two of them with pipes. 'Drop the case, gumshoe,' one grunts as the rain runs pink.",
+          "prompt": "They're waiting in the alley\u2014two of them with pipes. 'Drop the case, gumshoe,' one grunts as the rain runs pink.",
           "leftChoice": {
             "text": "Swing first and swing hard.",
             "effects": {
@@ -10916,7 +10916,7 @@
           "imageUrl": "https://store.swipeverse.app/art/noir/crisis.webp"
         },
         {
-          "prompt": "In Kessler's coat lining: a safe-deposit key, numbered 217. Somebody would kill to get it—maybe already did.",
+          "prompt": "In Kessler's coat lining: a safe-deposit key, numbered 217. Somebody would kill to get it\u2014maybe already did.",
           "leftChoice": {
             "text": "Open the box at the bank.",
             "effects": {
@@ -10991,7 +10991,7 @@
           "imageUrl": "https://store.swipeverse.app/art/noir/advisor.webp"
         },
         {
-          "prompt": "You've got the crooked official cold—ledgers, payoffs, the works. He mops his brow across the desk from you.",
+          "prompt": "You've got the crooked official cold\u2014ledgers, payoffs, the works. He mops his brow across the desk from you.",
           "leftChoice": {
             "text": "Threaten to blow it all open.",
             "effects": {
@@ -11091,7 +11091,7 @@
           "imageUrl": "https://store.swipeverse.app/art/noir/chain.webp"
         },
         {
-          "prompt": "Dawn finally cracks grey over the wet city. The Kessler file is closed—one way or another—and the rain, at last, begins to ease.",
+          "prompt": "Dawn finally cracks grey over the wet city. The Kessler file is closed\u2014one way or another\u2014and the rain, at last, begins to ease.",
           "leftChoice": {
             "text": "Pour a drink and let the case rest.",
             "effects": {
@@ -11119,7 +11119,7 @@
   {
     "id": "edu-founders-gambit",
     "name": "The Ledger",
-    "description": "The business world. Deck 1 — Runway: twelve months of cash, one company, no safety net. Every card is a real founder's trade-off.",
+    "description": "The business world. Deck 1 \u2014 Runway: twelve months of cash, one company, no safety net. Every card is a real founder's trade-off.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Ledger\". The stats are Control, Runway, The Team, Insight.",
     "statNames": {
@@ -11145,7 +11145,7 @@
     "deck": {
       "name": "Runway",
       "description": "Bootstrap a software startup through twelve months of runway, trading founder control, cash, team trust, and hard-won business insight on the road to product-market fit.",
-      "intro": "You've quit your job with twelve months of savings and a software idea you can't stop thinking about. Ahead lies a year of runway where every decision — how you capitalize, who you hire, what you charge, when you say no — trades founder control, cash, team trust, and hard-won insight against each other. Reach product-market fit before the runway runs out.",
+      "intro": "You've quit your job with twelve months of savings and a software idea you can't stop thinking about. Ahead lies a year of runway where every decision \u2014 how you capitalize, who you hire, what you charge, when you say no \u2014 trades founder control, cash, team trust, and hard-won insight against each other. Reach product-market fit before the runway runs out.",
       "cards": [
         {
           "prompt": "You've quit your job with twelve months of savings. Before writing a line of code, you must decide how to capitalize the company. Cash buys speed, but every dollar raised costs a slice of ownership.",
@@ -11198,7 +11198,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/advisor.webp"
         },
         {
-          "prompt": "Growth is slow. Your instinct is to buy attention, but your product still has rough edges. Spending on marketing an unfinished product just amplifies churn — the opportunity cost is the fix you didn't ship.",
+          "prompt": "Growth is slow. Your instinct is to buy attention, but your product still has rough edges. Spending on marketing an unfinished product just amplifies churn \u2014 the opportunity cost is the fix you didn't ship.",
           "leftChoice": {
             "text": "Pour cash into paid acquisition",
             "effects": {
@@ -11298,7 +11298,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
         },
         {
-          "prompt": "Your biggest customer offers a fat contract — but demands exclusivity, locking you out of their competitors. The revenue is real, yet customer-concentration risk means one client could soon own your fate.",
+          "prompt": "Your biggest customer offers a fat contract \u2014 but demands exclusivity, locking you out of their competitors. The revenue is real, yet customer-concentration risk means one client could soon own your fate.",
           "leftChoice": {
             "text": "Sign the lucrative exclusive deal",
             "effects": {
@@ -11348,7 +11348,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
         },
         {
-          "prompt": "You're profitable on paper, but customers pay net-90 while payroll is due Friday. Profit isn't cash — and cash is what keeps the lights on. A factor will advance you money for a fee.",
+          "prompt": "You're profitable on paper, but customers pay net-90 while payroll is due Friday. Profit isn't cash \u2014 and cash is what keeps the lights on. A factor will advance you money for a fee.",
           "leftChoice": {
             "text": "Factor receivables to free up cash",
             "effects": {
@@ -11448,7 +11448,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
         },
         {
-          "prompt": "A rival poaches your lead engineer with a huge offer. You can counter with a raise and more equity — draining runway — or let them go and redistribute the work across the team.",
+          "prompt": "A rival poaches your lead engineer with a huge offer. You can counter with a raise and more equity \u2014 draining runway \u2014 or let them go and redistribute the work across the team.",
           "leftChoice": {
             "text": "Counter to keep them",
             "effects": {
@@ -11473,7 +11473,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
         },
         {
-          "prompt": "A whale customer will renew — if you build a custom feature that isn't on your roadmap. Bespoke work pays the bills but fragments the product and steals focus from your core users.",
+          "prompt": "A whale customer will renew \u2014 if you build a custom feature that isn't on your roadmap. Bespoke work pays the bills but fragments the product and steals focus from your core users.",
           "leftChoice": {
             "text": "Build the custom feature",
             "effects": {
@@ -11498,7 +11498,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
         },
         {
-          "prompt": "A major tech publication offers a splashy launch feature. It could send a flood of traffic — or expose your infrastructure and reputation to a wave your servers can't handle.",
+          "prompt": "A major tech publication offers a splashy launch feature. It could send a flood of traffic \u2014 or expose your infrastructure and reputation to a wave your servers can't handle.",
           "leftChoice": {
             "text": "Go for the big, risky launch",
             "effects": {
@@ -11548,7 +11548,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
         },
         {
-          "prompt": "Sales are trickling in and you're tempted to hire a whole sales team to scale. But premature scaling before real product-market fit is a classic startup killer — you'd be pouring fuel on an unproven engine.",
+          "prompt": "Sales are trickling in and you're tempted to hire a whole sales team to scale. But premature scaling before real product-market fit is a classic startup killer \u2014 you'd be pouring fuel on an unproven engine.",
           "leftChoice": {
             "text": "Scale the sales org aggressively",
             "effects": {
@@ -11623,7 +11623,7 @@
           "imageUrl": "https://store.swipeverse.app/art/business/chain.webp"
         },
         {
-          "prompt": "Twelve months on, your startup has outlived its original runway. You've learned the hard truths: profit isn't cash, dilution is forever, customer concentration is fragility, and product-market fit is everything. The gambit paid off — the company stands on its own.",
+          "prompt": "Twelve months on, your startup has outlived its original runway. You've learned the hard truths: profit isn't cash, dilution is forever, customer concentration is fragility, and product-market fit is everything. The gambit paid off \u2014 the company stands on its own.",
           "leftChoice": {
             "text": "Toast the team and plan the next chapter",
             "effects": {
@@ -11655,7 +11655,7 @@
   {
     "id": "edu-zero-day",
     "name": "The Perimeter",
-    "description": "The security world. Deck 1 — Zero Hour: run security for a company under live attack. Contain or investigate, patch or keep uptime, disclose or dig deeper.",
+    "description": "The security world. Deck 1 \u2014 Zero Hour: run security for a company under live attack. Contain or investigate, patch or keep uptime, disclose or dig deeper.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Perimeter\". The stats are Clearance, Budget, Trust, Threat Intel.",
     "statNames": {
@@ -11680,8 +11680,8 @@
     "category": "education",
     "deck": {
       "name": "Zero Hour",
-      "description": "As a mid-size company's new security lead, steer a single escalating incident from a suspicious phishing email through lateral movement, ransomware detonation, and the messy aftermath — balancing your team's authority, budget, organizational trust, and threat intelligence.",
-      "intro": "Day one as the company's new security lead, and an accountant has just forwarded a slick invoice email with a login link that doesn't match your domain — and others may have clicked. What starts as one suspicious phish will escalate through lateral movement, ransomware, and the messy aftermath. How you spend your authority, budget, and trust decides how the story ends.",
+      "description": "As a mid-size company's new security lead, steer a single escalating incident from a suspicious phishing email through lateral movement, ransomware detonation, and the messy aftermath \u2014 balancing your team's authority, budget, organizational trust, and threat intelligence.",
+      "intro": "Day one as the company's new security lead, and an accountant has just forwarded a slick invoice email with a login link that doesn't match your domain \u2014 and others may have clicked. What starts as one suspicious phish will escalate through lateral movement, ransomware, and the messy aftermath. How you spend your authority, budget, and trust decides how the story ends.",
       "cards": [
         {
           "prompt": "Day one. An accountant forwards a slick invoice email with a login link that doesn't match your domain. Others may have clicked. What's your first move?",
@@ -11711,7 +11711,7 @@
         {
           "prompt": "Your scanner flags a critical remote-code-execution vuln on the app server. A patch exists, but the box runs production. Patch or wait?",
           "leftChoice": {
-            "text": "Patch now and eat the downtime — the exposure is too dangerous",
+            "text": "Patch now and eat the downtime \u2014 the exposure is too dangerous",
             "effects": {
               "Power": 10,
               "Wealth": -10,
@@ -11736,7 +11736,7 @@
         {
           "prompt": "You have leftover budget for exactly one thing: a third-party penetration test to find gaps, or an EDR tool for continuous endpoint visibility.",
           "leftChoice": {
-            "text": "Commission the pentest — find the holes before attackers do",
+            "text": "Commission the pentest \u2014 find the holes before attackers do",
             "effects": {
               "Power": 0,
               "Wealth": -15,
@@ -11746,7 +11746,7 @@
             "nextCardIndex": 3
           },
           "rightChoice": {
-            "text": "Deploy the EDR — you need eyes on every endpoint now",
+            "text": "Deploy the EDR \u2014 you need eyes on every endpoint now",
             "effects": {
               "Power": 10,
               "Wealth": -20,
@@ -11784,7 +11784,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
         },
         {
-          "prompt": "An access review shows a shared service account with domain-admin rights used by half the ops team — a least-privilege nightmare. How aggressively do you fix it?",
+          "prompt": "An access review shows a shared service account with domain-admin rights used by half the ops team \u2014 a least-privilege nightmare. How aggressively do you fix it?",
           "leftChoice": {
             "text": "Revoke and re-scope everything today, business be damned",
             "effects": {
@@ -11836,7 +11836,7 @@
         {
           "prompt": "A vendor offers a premium threat-intelligence feed with fresh IOCs matching this actor. Your open-source feeds are free but slower.",
           "leftChoice": {
-            "text": "Buy the premium feed — attribution and IOCs matter now",
+            "text": "Buy the premium feed \u2014 attribution and IOCs matter now",
             "effects": {
               "Power": 5,
               "Wealth": -20,
@@ -11961,7 +11961,7 @@
         {
           "prompt": "Too late to prevent it: ransomware detonates. Files across shares are encrypting in real time and a ransom note appears. Every second counts.",
           "leftChoice": {
-            "text": "Pull the plug — power down and disconnect everything now",
+            "text": "Pull the plug \u2014 power down and disconnect everything now",
             "effects": {
               "Power": 10,
               "Wealth": -10,
@@ -11986,7 +11986,7 @@
         {
           "prompt": "The operators open a chat: pay in crypto for the decryptor, or lose the data and see it leaked. Your backups are uncertain.",
           "leftChoice": {
-            "text": "Negotiate and pay — you can't risk the leak or downtime",
+            "text": "Negotiate and pay \u2014 you can't risk the leak or downtime",
             "effects": {
               "Power": -10,
               "Wealth": -30,
@@ -12009,7 +12009,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/gamble.webp"
         },
         {
-          "prompt": "Recovery time. Your backups predate the intrusion by weeks — but the attacker may have been dormant inside them. Restore or rebuild?",
+          "prompt": "Recovery time. Your backups predate the intrusion by weeks \u2014 but the attacker may have been dormant inside them. Restore or rebuild?",
           "leftChoice": {
             "text": "Restore from backups after scanning them in a clean-room",
             "effects": {
@@ -12059,7 +12059,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
         },
         {
-          "prompt": "The board convenes an emergency session. They want accountability — and to know whether to fund security properly or cut losses.",
+          "prompt": "The board convenes an emergency session. They want accountability \u2014 and to know whether to fund security properly or cut losses.",
           "leftChoice": {
             "text": "Make the case for a real security budget and mandate",
             "effects": {
@@ -12159,9 +12159,9 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
         },
         {
-          "prompt": "Six months later, the company is still standing — and hardened by hard lessons. As you write the retrospective, what note do you leave for your successor?",
+          "prompt": "Six months later, the company is still standing \u2014 and hardened by hard lessons. As you write the retrospective, what note do you leave for your successor?",
           "leftChoice": {
-            "text": "'Security is a process, not a purchase — assume breach and keep testing.'",
+            "text": "'Security is a process, not a purchase \u2014 assume breach and keep testing.'",
             "effects": {
               "Power": 5,
               "Wealth": 0,
@@ -12191,7 +12191,7 @@
   {
     "id": "edu-merge-conflict",
     "name": "Merge Conflict",
-    "description": "Lead a dev team from prototype to production. Tech debt, testing, rewrites and deadlines — the judgment calls that make or break software.",
+    "description": "Lead a dev team from prototype to production. Tech debt, testing, rewrites and deadlines \u2014 the judgment calls that make or break software.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"Merge Conflict\". The stats are Influence, Deadline, The Team, Code Quality.",
     "statNames": {
@@ -12217,7 +12217,7 @@
     "deck": {
       "name": "Merge Conflict: From Prototype to Production",
       "description": "As the new tech lead of a scrappy team, every swipe trades your influence, your deadline slack, your team's health, and the codebase's quality on the road from demo to launch.",
-      "intro": "Day one as tech lead. The prototype dazzles in the demo, but the repo is a minefield of TODOs with no tests, and the founder wants a launch date by Friday. Between demo and production lies a road paved with trade-offs — your influence, your deadline slack, your team's health, and the codebase itself. Ship it without breaking any of them beyond repair.",
+      "intro": "Day one as tech lead. The prototype dazzles in the demo, but the repo is a minefield of TODOs with no tests, and the founder wants a launch date by Friday. Between demo and production lies a road paved with trade-offs \u2014 your influence, your deadline slack, your team's health, and the codebase itself. Ship it without breaking any of them beyond repair.",
       "cards": [
         {
           "prompt": "Day one as tech lead. The prototype works in the demo but the repo is a minefield of TODOs and no tests. The founder wants a launch date by Friday.",
@@ -12470,7 +12470,7 @@
           "imageUrl": "https://store.swipeverse.app/art/university/opportunity.webp"
         },
         {
-          "prompt": "Only one engineer understands the billing engine — a bus factor of one. Pairing a junior with him would slow delivery but spread the knowledge.",
+          "prompt": "Only one engineer understands the billing engine \u2014 a bus factor of one. Pairing a junior with him would slow delivery but spread the knowledge.",
           "leftChoice": {
             "text": "Pair the junior in to spread knowledge",
             "effects": {
@@ -12520,7 +12520,7 @@
           "imageUrl": "https://store.swipeverse.app/art/university/crisis.webp"
         },
         {
-          "prompt": "An engineer points out you have no dashboards or alerts — you only learn of outages from angry tweets. Observability work is invisible to stakeholders.",
+          "prompt": "An engineer points out you have no dashboards or alerts \u2014 you only learn of outages from angry tweets. Observability work is invisible to stakeholders.",
           "leftChoice": {
             "text": "Invest in monitoring and tracing now",
             "effects": {
@@ -12570,7 +12570,7 @@
           "imageUrl": "https://store.swipeverse.app/art/university/gamble.webp"
         },
         {
-          "prompt": "A key stakeholder 'just needs one more feature' before launch — the classic scope creep. Saying yes torches your timeline; saying no risks your standing.",
+          "prompt": "A key stakeholder 'just needs one more feature' before launch \u2014 the classic scope creep. Saying yes torches your timeline; saying no risks your standing.",
           "leftChoice": {
             "text": "Accept the extra feature",
             "effects": {
@@ -12723,7 +12723,7 @@
   {
     "id": "edu-defenders-dilemma",
     "name": "The Defender's Dilemma",
-    "description": "Day one as the sole security lead at a small business. Every choice trades safety, productivity, budget and trust against each other — push any meter too far and you lose. A five-minute 'assume breach' icebreaker: you can't win, only balance.",
+    "description": "Day one as the sole security lead at a small business. Every choice trades safety, productivity, budget and trust against each other \u2014 push any meter too far and you lose. A five-minute 'assume breach' icebreaker: you can't win, only balance.",
     "font": "font-exo",
     "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Defender's Dilemma\". The stats are Security, Budget, Trust, Productivity.",
     "statNames": {
@@ -12749,7 +12749,7 @@
     "deck": {
       "name": "The Defender's Dilemma",
       "description": "You are the brand-new, only security person at a 40-staff Aussie business on a shoestring, and every hallway conversation this week is a trade-off with no clean answer.",
-      "intro": "Day one, 9am, and you're already being walked past the sticky-note password on the front desk. You are the first and only security person at a 40-staff Aussie business, with a shoestring budget and a hallway full of colleagues who liked things the way they were. Every conversation this week is a trade-off with no clean answer — and how you spend your scarce goodwill decides whether security becomes part of the culture or the thing everyone works around.",
+      "intro": "Day one, 9am, and you're already being walked past the sticky-note password on the front desk. You are the first and only security person at a 40-staff Aussie business, with a shoestring budget and a hallway full of colleagues who liked things the way they were. Every conversation this week is a trade-off with no clean answer \u2014 and how you spend your scarce goodwill decides whether security becomes part of the culture or the thing everyone works around.",
       "cards": [
         {
           "prompt": "Day one, 9am. Office manager Priya walks you to the front desk. 'Everyone uses the same login here, and the password's on this sticky note so no one forgets. It just works, love. You're not going to change that on your first morning, are you?'",
@@ -12777,7 +12777,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
         },
         {
-          "prompt": "CEO Dave pokes his head in. 'New sales hire starts in an hour. Just give her access to everything so she can hit the ground running — no need for all the checking-people-out business. We're a small mob, we trust each other.'",
+          "prompt": "CEO Dave pokes his head in. 'New sales hire starts in an hour. Just give her access to everything so she can hit the ground running \u2014 no need for all the checking-people-out business. We're a small mob, we trust each other.'",
           "leftChoice": {
             "text": "Do a quick basic check first",
             "effects": {
@@ -12802,7 +12802,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
         },
         {
-          "prompt": "IT junior Sam shows you a list. 'These admin accounts belong to people who left ages ago — but they still work. I wasn't sure if we're allowed to touch them, so I left them alone.'",
+          "prompt": "IT junior Sam shows you a list. 'These admin accounts belong to people who left ages ago \u2014 but they still work. I wasn't sure if we're allowed to touch them, so I left them alone.'",
           "leftChoice": {
             "text": "Disable the old accounts today",
             "effects": {
@@ -12827,7 +12827,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
         },
         {
-          "prompt": "Sales lead Marco corners you. 'I close deals from my personal Gmail — it's fast and clients love it. The company email is clunky and I don't have time to relearn everything this quarter.'",
+          "prompt": "Sales lead Marco corners you. 'I close deals from my personal Gmail \u2014 it's fast and clients love it. The company email is clunky and I don't have time to relearn everything this quarter.'",
           "leftChoice": {
             "text": "Tolerate his Gmail for now",
             "effects": {
@@ -12902,7 +12902,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
         },
         {
-          "prompt": "Auditor Lena arrives for a scheduled review. 'I need your security documentation — policies, records, that sort of thing.' You've been here four days and have almost none of it.",
+          "prompt": "Auditor Lena arrives for a scheduled review. 'I need your security documentation \u2014 policies, records, that sort of thing.' You've been here four days and have almost none of it.",
           "leftChoice": {
             "text": "Be honest and admit the gaps",
             "effects": {
@@ -12927,7 +12927,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
         },
         {
-          "prompt": "Friday, 4:45pm. Journalist Jordan rings. 'I've heard your company may have leaked customer details. I'm filing in an hour — got a comment before the weekend?' Your whole team is halfway out the door.",
+          "prompt": "Friday, 4:45pm. Journalist Jordan rings. 'I've heard your company may have leaked customer details. I'm filing in an hour \u2014 got a comment before the weekend?' Your whole team is halfway out the door.",
           "leftChoice": {
             "text": "Give an honest, short statement",
             "effects": {
@@ -12977,7 +12977,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
         },
         {
-          "prompt": "An email pretending to be Dave lands in a dozen inboxes: 'Urgent — buy $500 of gift cards and send me the codes.' It's a scam. Sam asks whether to warn everyone or keep it quiet.",
+          "prompt": "An email pretending to be Dave lands in a dozen inboxes: 'Urgent \u2014 buy $500 of gift cards and send me the codes.' It's a scam. Sam asks whether to warn everyone or keep it quiet.",
           "leftChoice": {
             "text": "Alert all staff straight away",
             "effects": {
@@ -13077,7 +13077,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
         },
         {
-          "prompt": "Sam pitches MFA — a one-time code on your phone when you log in. 'It stops most stolen-password attacks. But people will grumble about the extra step every morning.'",
+          "prompt": "Sam pitches MFA \u2014 a one-time code on your phone when you log in. 'It stops most stolen-password attacks. But people will grumble about the extra step every morning.'",
           "leftChoice": {
             "text": "Roll out MFA for everyone",
             "effects": {
@@ -13102,7 +13102,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
         },
         {
-          "prompt": "Visitors keep asking for the Wi-Fi password — which is the same network your staff and systems use. Priya just hands it out to whoever asks.",
+          "prompt": "Visitors keep asking for the Wi-Fi password \u2014 which is the same network your staff and systems use. Priya just hands it out to whoever asks.",
           "leftChoice": {
             "text": "Set up a separate guest Wi-Fi",
             "effects": {
@@ -13127,7 +13127,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
         },
         {
-          "prompt": "Aisha returns, worried. 'Morale's dropping. People are quietly using their own apps and cloud tools to dodge the new rules — shadow IT, you called it. Ease up before it gets worse?'",
+          "prompt": "Aisha returns, worried. 'Morale's dropping. People are quietly using their own apps and cloud tools to dodge the new rules \u2014 shadow IT, you called it. Ease up before it gets worse?'",
           "leftChoice": {
             "text": "Ease off on a few controls",
             "effects": {
@@ -13152,7 +13152,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
         },
         {
-          "prompt": "Dave wants a chat about money. 'I reckon we can trim your budget — nothing bad's happened yet, right?' You'd rather invest in the basics you still lack.",
+          "prompt": "Dave wants a chat about money. 'I reckon we can trim your budget \u2014 nothing bad's happened yet, right?' You'd rather invest in the basics you still lack.",
           "leftChoice": {
             "text": "Invest sensibly in essentials",
             "effects": {
@@ -13177,7 +13177,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
         },
         {
-          "prompt": "A staff laptop is nicked from a parked car. Sam asks, 'Do we trigger the remote wipe? The drive's encrypted, so the thief probably can't read it — but wiping means we lose whatever wasn't backed up.'",
+          "prompt": "A staff laptop is nicked from a parked car. Sam asks, 'Do we trigger the remote wipe? The drive's encrypted, so the thief probably can't read it \u2014 but wiping means we lose whatever wasn't backed up.'",
           "leftChoice": {
             "text": "Remote wipe the stolen laptop",
             "effects": {
@@ -13202,7 +13202,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
         },
         {
-          "prompt": "End of week one. Dave asks you to brief the board. Do you promise them ironclad safety, or tell the honest truth — that no one is unbreachable and the real work is being ready when something slips through?",
+          "prompt": "End of week one. Dave asks you to brief the board. Do you promise them ironclad safety, or tell the honest truth \u2014 that no one is unbreachable and the real work is being ready when something slips through?",
           "leftChoice": {
             "text": "Tell the honest 'assume breach' story",
             "effects": {
@@ -13227,7 +13227,7 @@
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/chain.webp"
         },
         {
-          "prompt": "Week one is done. You didn't lock the place into a fortress, you didn't leave the doors flung open, and you didn't blow the budget or hoard it. Some things will still go wrong — and now the team's ready to cope when they do. That balance, not perfection, is the job. Welcome aboard.",
+          "prompt": "Week one is done. You didn't lock the place into a fortress, you didn't leave the doors flung open, and you didn't blow the budget or hoard it. Some things will still go wrong \u2014 and now the team's ready to cope when they do. That balance, not perfection, is the job. Welcome aboard.",
           "leftChoice": {
             "text": "Pour a Friday drink and start week two",
             "effects": {
@@ -13248,6 +13248,1602 @@
           },
           "archetype": "terminal",
           "imageUrl": "https://store.swipeverse.app/art/cybersecurity/terminal.webp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "edu-isys2008-estate-operator",
+    "name": "The Estate Operator",
+    "description": "A five-minute trade-off game for ISYS2008. You run one CloudCore service pod. Every operational choice costs uptime, security, budget or team trust. Keep the estate alive without maxing out any one meter.",
+    "font": "font-exo",
+    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Estate Operator\". The stats are Uptime, Budget, Team Trust, Security.",
+    "statNames": {
+      "Power": "Uptime",
+      "Wealth": "Budget",
+      "People": "Team Trust",
+      "Knowledge": "Security"
+    },
+    "statIconNames": {
+      "Power": "PowerIconCyber",
+      "Wealth": "WealthIconCyber",
+      "People": "PeopleIconCyber",
+      "Knowledge": "KnowledgeIconCyber"
+    },
+    "imageSet": [],
+    "colors": {
+      "primary": "text-cyan-400",
+      "secondary": "text-amber-300",
+      "background": "bg-gradient-to-br from-slate-950 via-cyan-950 to-zinc-950",
+      "accent": "border-cyan-400"
+    },
+    "category": "education",
+    "deck": {
+      "name": "The Estate Operator",
+      "description": "You are the new operator of CloudCore's service pod. The estate is live, the pager is on, and every choice this month trades uptime, security, budget and team trust.",
+      "intro": "The handover is one page long and the previous operator has already left the building. You now run one CloudCore service pod: a Linux host, containers, a web tier, identity, storage and a pager that does not care what time it is. Nothing here is free. Every choice you make this month protects one thing by spending another.",
+      "cards": [
+        {
+          "prompt": "2am. The web tier is down. The on-call engineer has already worked a full day.",
+          "leftChoice": {
+            "text": "Wake the on-call engineer",
+            "effects": {
+              "Power": 8,
+              "Wealth": -2,
+              "People": -6,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 1
+          },
+          "rightChoice": {
+            "text": "Wait until the morning",
+            "effects": {
+              "Power": -8,
+              "Wealth": 2,
+              "People": 4,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 1
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+        },
+        {
+          "prompt": "The TLS certificate for the portal expires in 48 hours. The renewal needs a change window.",
+          "leftChoice": {
+            "text": "Renew now and disrupt the window",
+            "effects": {
+              "Power": 2,
+              "Wealth": -4,
+              "People": -2,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 2
+          },
+          "rightChoice": {
+            "text": "Defer to next sprint",
+            "effects": {
+              "Power": -2,
+              "Wealth": 4,
+              "People": 2,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 2
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
+        },
+        {
+          "prompt": "A container is OOM-killed every few hours. The team can raise the limit or find the leak.",
+          "leftChoice": {
+            "text": "Raise the memory limit",
+            "effects": {
+              "Power": 6,
+              "Wealth": -4,
+              "People": 2,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 3
+          },
+          "rightChoice": {
+            "text": "Profile and fix the leak",
+            "effects": {
+              "Power": -4,
+              "Wealth": 2,
+              "People": 2,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 3
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+        },
+        {
+          "prompt": "A developer wants root on the host to install a tool. The estate uses containers for a reason.",
+          "leftChoice": {
+            "text": "Grant root for now",
+            "effects": {
+              "Power": 2,
+              "Wealth": 0,
+              "People": 6,
+              "Knowledge": -8
+            },
+            "nextCardIndex": 4
+          },
+          "rightChoice": {
+            "text": "Refuse and provide a container",
+            "effects": {
+              "Power": -2,
+              "Wealth": -2,
+              "People": -4,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 4
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+        },
+        {
+          "prompt": "The backup job failed last night. The next retry is not until Monday.",
+          "leftChoice": {
+            "text": "Skip it and retry Monday",
+            "effects": {
+              "Power": -2,
+              "Wealth": 4,
+              "People": 2,
+              "Knowledge": -8
+            },
+            "nextCardIndex": 5
+          },
+          "rightChoice": {
+            "text": "Investigate and rerun now",
+            "effects": {
+              "Power": -4,
+              "Wealth": -2,
+              "People": 4,
+              "Knowledge": 8
+            },
+            "nextCardIndex": 5
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+        },
+        {
+          "prompt": "A vendor offers a monitoring platform. It is good, and it is not cheap.",
+          "leftChoice": {
+            "text": "Buy the platform",
+            "effects": {
+              "Power": 6,
+              "Wealth": -8,
+              "People": 2,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 6
+          },
+          "rightChoice": {
+            "text": "Build a basic check first",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": 4,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 6
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
+        },
+        {
+          "prompt": "A security patch breaks the web tier. Roll back, or fix forward under pressure.",
+          "leftChoice": {
+            "text": "Roll back the patch",
+            "effects": {
+              "Power": 6,
+              "Wealth": 0,
+              "People": 2,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 7
+          },
+          "rightChoice": {
+            "text": "Fix forward and keep the patch",
+            "effects": {
+              "Power": -6,
+              "Wealth": -2,
+              "People": -2,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 7
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
+        },
+        {
+          "prompt": "A team member wants to skip the runbook for a quick fix. It will probably work.",
+          "leftChoice": {
+            "text": "Allow the shortcut",
+            "effects": {
+              "Power": 4,
+              "Wealth": 0,
+              "People": 6,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 8
+          },
+          "rightChoice": {
+            "text": "Follow the runbook",
+            "effects": {
+              "Power": -2,
+              "Wealth": 0,
+              "People": -4,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 8
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+        },
+        {
+          "prompt": "Friday 4:45. The client wants a change deployed now, not Monday.",
+          "leftChoice": {
+            "text": "Deploy now",
+            "effects": {
+              "Power": -6,
+              "Wealth": 2,
+              "People": 6,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 9
+          },
+          "rightChoice": {
+            "text": "Defer to Monday",
+            "effects": {
+              "Power": 6,
+              "Wealth": 0,
+              "People": -6,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 9
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/gamble.webp"
+        },
+        {
+          "prompt": "The cloud bill spikes. Finance wants the run rate down this month.",
+          "leftChoice": {
+            "text": "Cut resources now",
+            "effects": {
+              "Power": -6,
+              "Wealth": 8,
+              "People": -2,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 10
+          },
+          "rightChoice": {
+            "text": "Absorb the cost and investigate",
+            "effects": {
+              "Power": 4,
+              "Wealth": -8,
+              "People": 2,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 10
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+        },
+        {
+          "prompt": "The DNS record for the portal points at the wrong address. A quick manual fix is available.",
+          "leftChoice": {
+            "text": "Fix it manually now",
+            "effects": {
+              "Power": 6,
+              "Wealth": 0,
+              "People": 2,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 11
+          },
+          "rightChoice": {
+            "text": "Fix it in code and review the zone",
+            "effects": {
+              "Power": -4,
+              "Wealth": -2,
+              "People": 2,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 11
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/opportunity.webp"
+        },
+        {
+          "prompt": "The database host is out of disk. The logs are large and not all of them are needed.",
+          "leftChoice": {
+            "text": "Delete old logs",
+            "effects": {
+              "Power": 6,
+              "Wealth": 2,
+              "People": 0,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 12
+          },
+          "rightChoice": {
+            "text": "Add storage and keep the logs",
+            "effects": {
+              "Power": 4,
+              "Wealth": -6,
+              "People": 2,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 12
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+        },
+        {
+          "prompt": "A team member leaves. The estate still needs an owner.",
+          "leftChoice": {
+            "text": "Hire a replacement",
+            "effects": {
+              "Power": 2,
+              "Wealth": -8,
+              "People": 4,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 13
+          },
+          "rightChoice": {
+            "text": "Redistribute the work",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": -6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 13
+          },
+          "archetype": "faction",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
+        },
+        {
+          "prompt": "The client wants a new service by Friday. The team is already at capacity.",
+          "leftChoice": {
+            "text": "Say yes and absorb it",
+            "effects": {
+              "Power": -6,
+              "Wealth": -2,
+              "People": 8,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 14
+          },
+          "rightChoice": {
+            "text": "Negotiate the scope",
+            "effects": {
+              "Power": 4,
+              "Wealth": 4,
+              "People": -6,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 14
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+        },
+        {
+          "prompt": "A penetration test finds a medium-severity issue. It is not exploitable today.",
+          "leftChoice": {
+            "text": "Fix it now",
+            "effects": {
+              "Power": -4,
+              "Wealth": -2,
+              "People": 0,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 15
+          },
+          "rightChoice": {
+            "text": "Add it to the backlog",
+            "effects": {
+              "Power": 2,
+              "Wealth": 4,
+              "People": 2,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 15
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/judgement.webp"
+        },
+        {
+          "prompt": "The on-call engineer is burned out. Next week is already full.",
+          "leftChoice": {
+            "text": "Give them a break",
+            "effects": {
+              "Power": -4,
+              "Wealth": -2,
+              "People": 8,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 16
+          },
+          "rightChoice": {
+            "text": "Push through the week",
+            "effects": {
+              "Power": 6,
+              "Wealth": 0,
+              "People": -8,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 16
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/petitioner.webp"
+        },
+        {
+          "prompt": "A vendor offers a three-year lock-in discount. It is a good price and a long commitment.",
+          "leftChoice": {
+            "text": "Sign the lock-in",
+            "effects": {
+              "Power": 2,
+              "Wealth": 8,
+              "People": 0,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 17
+          },
+          "rightChoice": {
+            "text": "Stay flexible",
+            "effects": {
+              "Power": -2,
+              "Wealth": -4,
+              "People": 4,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 17
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/gamble.webp"
+        },
+        {
+          "prompt": "A container image has a critical CVE. The service is internal but reachable.",
+          "leftChoice": {
+            "text": "Rebuild and redeploy now",
+            "effects": {
+              "Power": -4,
+              "Wealth": -2,
+              "People": -2,
+              "Knowledge": 8
+            },
+            "nextCardIndex": 18
+          },
+          "rightChoice": {
+            "text": "Isolate the service and patch later",
+            "effects": {
+              "Power": 2,
+              "Wealth": -4,
+              "People": 2,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 18
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/crisis.webp"
+        },
+        {
+          "prompt": "The board wants an AI assistant to watch the estate. It sounds impressive.",
+          "leftChoice": {
+            "text": "Pilot the AI tool",
+            "effects": {
+              "Power": 4,
+              "Wealth": -4,
+              "People": 2,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 19
+          },
+          "rightChoice": {
+            "text": "Fix the basics first",
+            "effects": {
+              "Power": -2,
+              "Wealth": 2,
+              "People": 4,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 19
+          },
+          "archetype": "faction",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/faction.webp"
+        },
+        {
+          "prompt": "End of the first month. The estate is not perfect, but it is documented, monitored and recoverable. That balance is the job.",
+          "leftChoice": {
+            "text": "Pour a coffee and write the runbook",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "rightChoice": {
+            "text": "Start the next incident review",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "archetype": "terminal",
+          "imageUrl": "https://store.swipeverse.app/art/cybersecurity/terminal.webp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "edu-isys3004-client-website-dilemma",
+    "name": "The Client Website Dilemma",
+    "description": "A five-minute trade-off game for ISYS3004. You are the web contractor for Harbour & Hearth. Every choice trades client trust, quality, budget or schedule.",
+    "font": "font-exo",
+    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The Client Website Dilemma\". The stats are Client Trust, Budget, Quality, Schedule.",
+    "statNames": {
+      "Power": "Client Trust",
+      "Wealth": "Budget",
+      "People": "Quality",
+      "Knowledge": "Schedule"
+    },
+    "statIconNames": {
+      "Power": "PowerIconCyber",
+      "Wealth": "WealthIconCyber",
+      "People": "PeopleIconCyber",
+      "Knowledge": "KnowledgeIconCyber"
+    },
+    "imageSet": [],
+    "colors": {
+      "primary": "text-amber-400",
+      "secondary": "text-cyan-300",
+      "background": "bg-gradient-to-br from-slate-950 via-amber-950 to-zinc-950",
+      "accent": "border-amber-400"
+    },
+    "category": "education",
+    "deck": {
+      "name": "The Client Website Dilemma",
+      "description": "You are the web contractor for one Harbour & Hearth franchise. Maria wants a launch, Dev wants to update the menu, Sam needs to book on his phone, and Alex keeps asking who will maintain it.",
+      "intro": "The franchise has no website, a launch date in the local paper, and a laminated menu that changes every Monday. Maria is the owner, Dev is the office manager, Sam is the customer who books on his phone, and Alex is the IT vendor who has seen too many abandoned sites. Every conversation this month is a trade-off between what the client wants, what the site needs, what it costs and when it can ship.",
+      "cards": [
+        {
+          "prompt": "Maria wants a gallery animation for the launch. It is not in the brief.",
+          "leftChoice": {
+            "text": "Build it for the launch",
+            "effects": {
+              "Power": 6,
+              "Wealth": -2,
+              "People": 2,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 1
+          },
+          "rightChoice": {
+            "text": "Explain the trade-off and defer",
+            "effects": {
+              "Power": -6,
+              "Wealth": 2,
+              "People": 4,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 1
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+        },
+        {
+          "prompt": "Dev wants to update the menu every Monday without calling you.",
+          "leftChoice": {
+            "text": "Build a CMS",
+            "effects": {
+              "Power": 4,
+              "Wealth": -6,
+              "People": 6,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 2
+          },
+          "rightChoice": {
+            "text": "Keep static HTML",
+            "effects": {
+              "Power": -2,
+              "Wealth": 6,
+              "People": -6,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 2
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+        },
+        {
+          "prompt": "Sam cannot complete a booking on his phone. The button is below the fold.",
+          "leftChoice": {
+            "text": "Fix the mobile booking now",
+            "effects": {
+              "Power": 6,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 3
+          },
+          "rightChoice": {
+            "text": "Add it to the backlog",
+            "effects": {
+              "Power": -6,
+              "Wealth": 2,
+              "People": -6,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 3
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "Alex warns that every new feature is another plugin to maintain.",
+          "leftChoice": {
+            "text": "Remove the unnecessary plugins",
+            "effects": {
+              "Power": -4,
+              "Wealth": 2,
+              "People": 6,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 4
+          },
+          "rightChoice": {
+            "text": "Keep them for the feature set",
+            "effects": {
+              "Power": 4,
+              "Wealth": -2,
+              "People": -6,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 4
+          },
+          "archetype": "advisor",
+          "imageUrl": "https://store.swipeverse.app/art/business/advisor.webp"
+        },
+        {
+          "prompt": "The AI agent suggests rebuilding the front end in React. The site is four pages.",
+          "leftChoice": {
+            "text": "Use React",
+            "effects": {
+              "Power": 2,
+              "Wealth": -4,
+              "People": 4,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 5
+          },
+          "rightChoice": {
+            "text": "Stay with the simple stack",
+            "effects": {
+              "Power": -2,
+              "Wealth": 4,
+              "People": -4,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 5
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+        },
+        {
+          "prompt": "Lighthouse fails accessibility. The launch is in three days.",
+          "leftChoice": {
+            "text": "Fix accessibility now",
+            "effects": {
+              "Power": 4,
+              "Wealth": -2,
+              "People": 8,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 6
+          },
+          "rightChoice": {
+            "text": "Launch and fix later",
+            "effects": {
+              "Power": -4,
+              "Wealth": 2,
+              "People": -8,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 6
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+        },
+        {
+          "prompt": "A plugin has a security issue. The site uses it on the booking page.",
+          "leftChoice": {
+            "text": "Patch and test it",
+            "effects": {
+              "Power": 2,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 7
+          },
+          "rightChoice": {
+            "text": "Disable the plugin",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": -4,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 7
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "The client wants to launch before the audit. The audit may find real issues.",
+          "leftChoice": {
+            "text": "Launch on the promised date",
+            "effects": {
+              "Power": 6,
+              "Wealth": 2,
+              "People": -6,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 8
+          },
+          "rightChoice": {
+            "text": "Delay for the audit",
+            "effects": {
+              "Power": -6,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 8
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+        },
+        {
+          "prompt": "The menu changed on Monday and the site is already wrong. Dev is frustrated.",
+          "leftChoice": {
+            "text": "Automate the menu update",
+            "effects": {
+              "Power": 2,
+              "Wealth": -6,
+              "People": 6,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 9
+          },
+          "rightChoice": {
+            "text": "Keep updating it manually",
+            "effects": {
+              "Power": -2,
+              "Wealth": 4,
+              "People": -6,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 9
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+        },
+        {
+          "prompt": "The booking form posts to the wrong endpoint. It 404s on the static host.",
+          "leftChoice": {
+            "text": "Fix the endpoint",
+            "effects": {
+              "Power": 4,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 10
+          },
+          "rightChoice": {
+            "text": "Swap in a third-party form",
+            "effects": {
+              "Power": -4,
+              "Wealth": -4,
+              "People": -2,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 10
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "Maria wants a custom brand font. It is large and licensed.",
+          "leftChoice": {
+            "text": "Add the font",
+            "effects": {
+              "Power": 4,
+              "Wealth": -4,
+              "People": 4,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 11
+          },
+          "rightChoice": {
+            "text": "Use a system font",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": -4,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 11
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+        },
+        {
+          "prompt": "The site is slow on mobile. The images are the main cause.",
+          "leftChoice": {
+            "text": "Optimise the images",
+            "effects": {
+              "Power": 4,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 12
+          },
+          "rightChoice": {
+            "text": "Upgrade the hosting",
+            "effects": {
+              "Power": 2,
+              "Wealth": -6,
+              "People": 4,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 12
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "A stakeholder asks for one more feature the day before launch.",
+          "leftChoice": {
+            "text": "Say yes",
+            "effects": {
+              "Power": 6,
+              "Wealth": -2,
+              "People": -4,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 13
+          },
+          "rightChoice": {
+            "text": "Say no and protect the date",
+            "effects": {
+              "Power": -6,
+              "Wealth": 2,
+              "People": 4,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 13
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+        },
+        {
+          "prompt": "There is no analytics. The client wants to know what customers do.",
+          "leftChoice": {
+            "text": "Add privacy-friendly analytics",
+            "effects": {
+              "Power": 2,
+              "Wealth": -4,
+              "People": 4,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 14
+          },
+          "rightChoice": {
+            "text": "Skip it for now",
+            "effects": {
+              "Power": -2,
+              "Wealth": 4,
+              "People": -4,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 14
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+        },
+        {
+          "prompt": "The brand colours fail contrast. Changing them weakens the brand.",
+          "leftChoice": {
+            "text": "Adjust the palette for access",
+            "effects": {
+              "Power": -4,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 15
+          },
+          "rightChoice": {
+            "text": "Keep the brand colours",
+            "effects": {
+              "Power": 4,
+              "Wealth": 2,
+              "People": -6,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 15
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+        },
+        {
+          "prompt": "The team is behind schedule. Scope is the only lever left.",
+          "leftChoice": {
+            "text": "Cut scope",
+            "effects": {
+              "Power": -6,
+              "Wealth": 2,
+              "People": 4,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 16
+          },
+          "rightChoice": {
+            "text": "Work overtime",
+            "effects": {
+              "Power": 2,
+              "Wealth": -4,
+              "People": -4,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 16
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "The AI agent wrote code you cannot explain. It works, for now.",
+          "leftChoice": {
+            "text": "Stop and learn it",
+            "effects": {
+              "Power": 2,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 17
+          },
+          "rightChoice": {
+            "text": "Ship it",
+            "effects": {
+              "Power": -4,
+              "Wealth": 2,
+              "People": -6,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 17
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+        },
+        {
+          "prompt": "The client asks for a chatbot. The site has five FAQs and one phone number.",
+          "leftChoice": {
+            "text": "Build a small FAQ bot",
+            "effects": {
+              "Power": 4,
+              "Wealth": -4,
+              "People": -2,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 18
+          },
+          "rightChoice": {
+            "text": "Recommend a contact form",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": 4,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 18
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+        },
+        {
+          "prompt": "The launch date is fixed. There are known issues you cannot fix in time.",
+          "leftChoice": {
+            "text": "Launch with a documented register",
+            "effects": {
+              "Power": 2,
+              "Wealth": 2,
+              "People": -4,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 19
+          },
+          "rightChoice": {
+            "text": "Delay the launch",
+            "effects": {
+              "Power": -6,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 19
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+        },
+        {
+          "prompt": "Launch day. The site is not perfect, but it is accessible, maintainable and honest about what remains. That balance is the job.",
+          "leftChoice": {
+            "text": "Publish the critique and open the champagne",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "rightChoice": {
+            "text": "Book the next review",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "archetype": "terminal",
+          "imageUrl": "https://store.swipeverse.app/art/business/terminal.webp"
+        }
+      ]
+    }
+  },
+  {
+    "id": "edu-isys6020-ai-strategy-table",
+    "name": "The AI Strategy Table",
+    "description": "A five-minute trade-off game for ISYS6020. You are CloudCore's new AI strategy lead. Every choice trades value, risk, trust or capability.",
+    "font": "font-exo",
+    "systemInstruction": "You are a creative storyteller for the interactive fiction game \"SwipeVerse\". You create challenging scenarios themed as \"The AI Strategy Table\". The stats are Value, Risk, Trust, Capability.",
+    "statNames": {
+      "Power": "Value",
+      "Wealth": "Risk",
+      "People": "Trust",
+      "Knowledge": "Capability"
+    },
+    "statIconNames": {
+      "Power": "PowerIconCyber",
+      "Wealth": "WealthIconCyber",
+      "People": "PeopleIconCyber",
+      "Knowledge": "KnowledgeIconCyber"
+    },
+    "imageSet": [],
+    "colors": {
+      "primary": "text-emerald-400",
+      "secondary": "text-amber-300",
+      "background": "bg-gradient-to-br from-slate-950 via-emerald-950 to-zinc-950",
+      "accent": "border-emerald-400"
+    },
+    "category": "education",
+    "deck": {
+      "name": "The AI Strategy Table",
+      "description": "You are CloudCore's new AI strategy lead. The CEO wants a win, the CFO wants ROI, the CISO wants control, and the board wants a decision. Every choice trades value, risk, trust and capability.",
+      "intro": "The board has given you a seat at the table and a mandate that is one sentence long: make AI pay off without betting the company. The CEO has seen a competitor's chatbot, the CFO has a spreadsheet, the CISO has a risk register, and the workforce has questions. Every meeting this quarter is a trade-off with no clean answer. Name your assumptions, own the risk, and keep the organisation able to change its mind.",
+      "cards": [
+        {
+          "prompt": "The CEO wants a customer chatbot because a competitor has one.",
+          "leftChoice": {
+            "text": "Build it",
+            "effects": {
+              "Power": 6,
+              "Wealth": -6,
+              "People": 2,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 1
+          },
+          "rightChoice": {
+            "text": "Run a needs assessment first",
+            "effects": {
+              "Power": -4,
+              "Wealth": 6,
+              "People": 4,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 1
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+        },
+        {
+          "prompt": "The CFO demands a six-month ROI. The business case is a range, not a point.",
+          "leftChoice": {
+            "text": "Promise the ROI",
+            "effects": {
+              "Power": 8,
+              "Wealth": -4,
+              "People": -6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 2
+          },
+          "rightChoice": {
+            "text": "Present the range and assumptions",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 2
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+        },
+        {
+          "prompt": "The CISO worries about data leakage. The vendor's residency is unclear.",
+          "leftChoice": {
+            "text": "Use the vendor anyway",
+            "effects": {
+              "Power": 6,
+              "Wealth": -8,
+              "People": -4,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 3
+          },
+          "rightChoice": {
+            "text": "Choose a sovereign host",
+            "effects": {
+              "Power": -4,
+              "Wealth": 6,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 3
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "The COO wants to cut 20% of the affected team.",
+          "leftChoice": {
+            "text": "Support the cut",
+            "effects": {
+              "Power": 6,
+              "Wealth": -2,
+              "People": -8,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 4
+          },
+          "rightChoice": {
+            "text": "Propose redeployment",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 4
+          },
+          "archetype": "faction",
+          "imageUrl": "https://store.swipeverse.app/art/business/faction.webp"
+        },
+        {
+          "prompt": "A vendor offers a strong model with unclear training-data provenance.",
+          "leftChoice": {
+            "text": "Sign the contract",
+            "effects": {
+              "Power": 6,
+              "Wealth": -6,
+              "People": -4,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 5
+          },
+          "rightChoice": {
+            "text": "Demand provenance",
+            "effects": {
+              "Power": -4,
+              "Wealth": 6,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 5
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+        },
+        {
+          "prompt": "A regulator asks whether the system is high-risk. You do not have the evidence yet.",
+          "leftChoice": {
+            "text": "Say it is low-risk",
+            "effects": {
+              "Power": 4,
+              "Wealth": -8,
+              "People": -6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 6
+          },
+          "rightChoice": {
+            "text": "Classify and document it",
+            "effects": {
+              "Power": -4,
+              "Wealth": 8,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 6
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+        },
+        {
+          "prompt": "The board wants a quick win. The data foundations are weak.",
+          "leftChoice": {
+            "text": "Ship a fast pilot",
+            "effects": {
+              "Power": 8,
+              "Wealth": -6,
+              "People": 0,
+              "Knowledge": -4
+            },
+            "nextCardIndex": 7
+          },
+          "rightChoice": {
+            "text": "Invest in the data first",
+            "effects": {
+              "Power": -6,
+              "Wealth": 4,
+              "People": 0,
+              "Knowledge": 8
+            },
+            "nextCardIndex": 7
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+        },
+        {
+          "prompt": "The pilot fails. The board wants to know whether to cancel the programme.",
+          "leftChoice": {
+            "text": "Cancel it",
+            "effects": {
+              "Power": -8,
+              "Wealth": 4,
+              "People": -6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 8
+          },
+          "rightChoice": {
+            "text": "Post-mortem and iterate",
+            "effects": {
+              "Power": 4,
+              "Wealth": -2,
+              "People": 6,
+              "Knowledge": 4
+            },
+            "nextCardIndex": 8
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "Staff are using shadow AI because the approved tool is slow.",
+          "leftChoice": {
+            "text": "Ban it",
+            "effects": {
+              "Power": 0,
+              "Wealth": 4,
+              "People": -6,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 9
+          },
+          "rightChoice": {
+            "text": "Provide a sanctioned tool",
+            "effects": {
+              "Power": 4,
+              "Wealth": -4,
+              "People": 6,
+              "Knowledge": 2
+            },
+            "nextCardIndex": 9
+          },
+          "archetype": "petitioner",
+          "imageUrl": "https://store.swipeverse.app/art/business/petitioner.webp"
+        },
+        {
+          "prompt": "The vendor changes its pricing. The pilot's business case is now marginal.",
+          "leftChoice": {
+            "text": "Absorb the cost",
+            "effects": {
+              "Power": -6,
+              "Wealth": 4,
+              "People": 2,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 10
+          },
+          "rightChoice": {
+            "text": "Renegotiate",
+            "effects": {
+              "Power": 4,
+              "Wealth": -4,
+              "People": -4,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 10
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+        },
+        {
+          "prompt": "The model you built on is being deprecated.",
+          "leftChoice": {
+            "text": "Migrate quickly",
+            "effects": {
+              "Power": 6,
+              "Wealth": -4,
+              "People": 0,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 11
+          },
+          "rightChoice": {
+            "text": "Run a controlled migration",
+            "effects": {
+              "Power": -4,
+              "Wealth": 6,
+              "People": 0,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 11
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "The CEO wants to announce AGI readiness at the next investor day.",
+          "leftChoice": {
+            "text": "Support the announcement",
+            "effects": {
+              "Power": 6,
+              "Wealth": -4,
+              "People": -6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 12
+          },
+          "rightChoice": {
+            "text": "Name the assumptions instead",
+            "effects": {
+              "Power": -4,
+              "Wealth": 6,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 12
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+        },
+        {
+          "prompt": "The board asks for a governance framework. A generic template is available.",
+          "leftChoice": {
+            "text": "Adopt the template",
+            "effects": {
+              "Power": 0,
+              "Wealth": 4,
+              "People": -6,
+              "Knowledge": -2
+            },
+            "nextCardIndex": 13
+          },
+          "rightChoice": {
+            "text": "Design a proportionate framework",
+            "effects": {
+              "Power": -4,
+              "Wealth": 0,
+              "People": 6,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 13
+          },
+          "archetype": "opportunity",
+          "imageUrl": "https://store.swipeverse.app/art/business/opportunity.webp"
+        },
+        {
+          "prompt": "A business unit wants to bypass procurement for an AI tool.",
+          "leftChoice": {
+            "text": "Let them move fast",
+            "effects": {
+              "Power": 6,
+              "Wealth": -6,
+              "People": -4,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 14
+          },
+          "rightChoice": {
+            "text": "Enforce the process",
+            "effects": {
+              "Power": -4,
+              "Wealth": 6,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 14
+          },
+          "archetype": "faction",
+          "imageUrl": "https://store.swipeverse.app/art/business/faction.webp"
+        },
+        {
+          "prompt": "A competitor launches a similar AI feature.",
+          "leftChoice": {
+            "text": "Copy the feature",
+            "effects": {
+              "Power": 6,
+              "Wealth": -4,
+              "People": 0,
+              "Knowledge": -6
+            },
+            "nextCardIndex": 15
+          },
+          "rightChoice": {
+            "text": "Focus on the customer problem",
+            "effects": {
+              "Power": -4,
+              "Wealth": 0,
+              "People": 4,
+              "Knowledge": 6
+            },
+            "nextCardIndex": 15
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+        },
+        {
+          "prompt": "The data quality is poor. The pilot can still launch on a narrow slice.",
+          "leftChoice": {
+            "text": "Launch anyway",
+            "effects": {
+              "Power": 6,
+              "Wealth": -6,
+              "People": -6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 16
+          },
+          "rightChoice": {
+            "text": "Fix the data first",
+            "effects": {
+              "Power": -6,
+              "Wealth": 6,
+              "People": 0,
+              "Knowledge": 8
+            },
+            "nextCardIndex": 16
+          },
+          "archetype": "crisis",
+          "imageUrl": "https://store.swipeverse.app/art/business/crisis.webp"
+        },
+        {
+          "prompt": "The workforce is anxious about AI and job losses.",
+          "leftChoice": {
+            "text": "Announce efficiency gains",
+            "effects": {
+              "Power": 6,
+              "Wealth": -2,
+              "People": -8,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 17
+          },
+          "rightChoice": {
+            "text": "Co-design the transition",
+            "effects": {
+              "Power": -4,
+              "Wealth": 4,
+              "People": 8,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 17
+          },
+          "archetype": "faction",
+          "imageUrl": "https://store.swipeverse.app/art/business/faction.webp"
+        },
+        {
+          "prompt": "A vendor offers a fully autonomous agent. It would remove the human checkpoint.",
+          "leftChoice": {
+            "text": "Deploy it",
+            "effects": {
+              "Power": 8,
+              "Wealth": -8,
+              "People": -4,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 18
+          },
+          "rightChoice": {
+            "text": "Keep the human in the loop",
+            "effects": {
+              "Power": -4,
+              "Wealth": 8,
+              "People": 6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 18
+          },
+          "archetype": "gamble",
+          "imageUrl": "https://store.swipeverse.app/art/business/gamble.webp"
+        },
+        {
+          "prompt": "The board asks for a three-year AI strategy.",
+          "leftChoice": {
+            "text": "Promise a fixed roadmap",
+            "effects": {
+              "Power": 6,
+              "Wealth": -4,
+              "People": -6,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 19
+          },
+          "rightChoice": {
+            "text": "Present scenarios and assumptions",
+            "effects": {
+              "Power": -4,
+              "Wealth": 6,
+              "People": 8,
+              "Knowledge": 0
+            },
+            "nextCardIndex": 19
+          },
+          "archetype": "judgement",
+          "imageUrl": "https://store.swipeverse.app/art/business/judgement.webp"
+        },
+        {
+          "prompt": "The board meeting ends. The strategy is not certain, but the assumptions are named, the risks are owned, and the organisation can adapt. That balance is the job.",
+          "leftChoice": {
+            "text": "Leave with the decision and the assumptions",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "rightChoice": {
+            "text": "Stay to write the risk register",
+            "effects": {
+              "Power": 0,
+              "Wealth": 0,
+              "People": 0,
+              "Knowledge": 0
+            }
+          },
+          "archetype": "terminal",
+          "imageUrl": "https://store.swipeverse.app/art/business/terminal.webp"
         }
       ]
     }
